@@ -1,4 +1,4 @@
 \ACRO{total-barriers}{1}
-\ACRO{usage}{ai=={2}||ml=={1}||dl=={1}||nn=={1}||cnn=={1}||rnn=={1}}
-\ACRO{pages}{ml=={7@1@1}||nn=={7@1@1}||dl=={7@1@1}||cnn=={7@1@1}||rnn=={7@1@1}||ai=={7@1@1}}
+\ACRO{usage}{ai=={2}||ml=={2}||dl=={0}||nn=={0}||cnn=={0}||rnn=={0}}
+\ACRO{pages}{ml=={9@1@2}||ai=={9@1@2}}
 \ACRO{barriers}{}

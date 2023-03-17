@@ -1,14 +1,19 @@
-\documentclass{article}
+\documentclass[16pt,a4paper]{report}
 \usepackage{graphicx}
 \usepackage{hyperref}
-\usepackage[utf8]{inputenc}
+\usepackage{inputenc}
 \usepackage{acro}
 
-\graphicspath{{ images}}
+\graphicspath{{ /images}}
+\renewcommand*\thesection{\arabic{section}}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\renewcommand{\bibname}{References}
 
 \title{Takalem : A deep learning approach for Algerian sign language recognition}
 \author{Fathi Abdelmalek}
 \date{\today}
+
 
 
 \begin{document}
@@ -16,10 +21,10 @@
 	\input{includes/title.tex}
 	\makeatother
 	\pagenumbering{roman}
-	\include{includes/dedication.tex}
-	\include{includes/abbreviations.tex}
+	\input{includes/dedication.tex}
+	\input{includes/abbreviations.tex}
 	\printacronyms
-	\include{includes/abstract.tex}
+	\input{includes/abstract.tex}
 	\tableofcontents
 	\clearpage
 	\listoffigures
@@ -28,17 +33,9 @@
 	\clearpage
 	\pagenumbering{arabic}
 	\clearpage
-	\part{State of the art}
-	\section{Section 1}
-	\subsection{Sub Section}
-	\subsubsection{Sub Sub Section}
-	\paragraph{paragraph}
-	\ac{ai} contains \ac{ml} which contains \ac{nn} and \ac{dl} which contains \ac{cnn} and \ac{rnn}
-	\subparagraph{sub paragraph}
-	The field of \ac{ai} has made significant advances in recent years.
-	\section{Section 2}
-	\part{Contribution}
-	\section{Section 3}
+	\input{includes/part1.tex}
+	\setcounter{chapter}{0}
+	\input{includes/part2.tex}
 	\newpage
 	\bibliographystyle{abbrv}
 	\bibliography{includes/references}

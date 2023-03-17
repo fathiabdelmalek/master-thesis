@@ -1,10 +1,21 @@
 \acswitchoff 
 \contentsline {part}{I\hspace {1em}State of the art}{1}{part.1}%
-\contentsline {section}{\numberline {1}Section 1}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Sub Section}{1}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}Sub Sub Section}{1}{subsubsection.1.1.1}%
-\contentsline {paragraph}{paragraph}{1}{section*.6}%
-\contentsline {subparagraph}{sub paragraph}{1}{section*.7}%
-\contentsline {section}{\numberline {2}Section 2}{1}{section.2}%
-\contentsline {part}{II\hspace {1em}Contribution}{1}{part.2}%
-\contentsline {section}{\numberline {3}Section 3}{1}{section.3}%
+\contentsline {chapter}{\numberline {1}Sign Language Recognition}{2}{chapter.1}%
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1}sub 1}{2}{subsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}sub sub 1.1}{2}{subsubsection.1.1.1.1}%
+\contentsline {paragraph}{}{2}{section*.6}%
+\contentsline {paragraph}{}{2}{section*.7}%
+\contentsline {subsubsection}{\numberline {1.1.2}sub sub 1.2}{2}{subsubsection.1.1.1.2}%
+\contentsline {subsection}{\numberline {1.2}sub 2}{2}{subsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}sub sub 2.1}{2}{subsubsection.1.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}sub sub 2.2}{2}{subsubsection.1.1.2.2}%
+\contentsline {chapter}{\numberline {2}Related works}{3}{chapter.2}%
+\contentsline {section}{\numberline {1}Old works}{3}{section.2.1}%
+\contentsline {part}{II\hspace {1em}Contribution}{4}{part.2}%
+\contentsline {chapter}{\numberline {1}Programs used}{5}{chapter.1}%
+\contentsline {section}{\numberline {1}Introduction}{5}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1}sub 1}{5}{subsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}sub sub 1.1}{5}{subsubsection.1.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}sub sub 1.2}{5}{subsubsection.1.1.1.2}%
+\contentsline {chapter}{\numberline {2}Results}{6}{chapter.2}%

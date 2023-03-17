@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.9.28)  16 MAR 2023 20:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.9.28)  17 MAR 2023 21:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,19 +6,20 @@ entering extended mode
 (./main.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-05-07>
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count179
-\c@section=\count180
-\c@subsection=\count181
-\c@subsubsection=\count182
-\c@paragraph=\count183
-\c@subparagraph=\count184
-\c@figure=\count185
-\c@table=\count186
+\c@chapter=\count180
+\c@section=\count181
+\c@subsection=\count182
+\c@subsubsection=\count183
+\c@paragraph=\count184
+\c@subparagraph=\count185
+\c@figure=\count186
+\c@table=\count187
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
@@ -89,8 +90,8 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen141
-\Hy@linkcounter=\count187
-\Hy@pagecounter=\count188
+\Hy@linkcounter=\count188
+\Hy@pagecounter=\count189
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
@@ -107,7 +108,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count189
+\Hy@SavedSpaceFactor=\count190
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
@@ -121,7 +122,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count190
+\c@Hy@tempcnt=\count191
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
@@ -137,7 +138,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count191
+\Fld@menulength=\count192
 \Field@Width=\dimen143
 \Fld@charsize=\dimen144
 Package hyperref Info: Hyper figures OFF on input line 6075.
@@ -155,9 +156,9 @@ Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count192
-\c@Item=\count193
-\c@Hfootnote=\count194
+\Hy@abspage=\count193
+\c@Item=\count194
+\c@Hfootnote=\count195
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -169,8 +170,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count195
-\c@bookmark@seq@number=\count196
+\Fld@listcount=\count196
+\c@bookmark@seq@number=\count197
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -195,17 +196,17 @@ Package: expl3 2021-05-07 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count197
+\l__color_backend_stack_int=\count198
 \l__pdf_internal_box=\box47
 ))
 Package: l3keys2e 2021-05-07 LaTeX2e option processing using LaTeX3 keys
 )
 Package: acro 2021/01/16 v3.5 typeset acronyms and other abbreviations (CN)
-\g__acro_version_int=\count198
-\l__acro_tmpa_int=\count199
-\l__acro_tmpb_int=\count266
-\l__acro_tmpc_int=\count267
-\l__acro_tmpd_int=\count268
+\g__acro_version_int=\count199
+\l__acro_tmpa_int=\count266
+\l__acro_tmpb_int=\count267
+\l__acro_tmpc_int=\count268
+\l__acro_tmpd_int=\count269
 
 LaTeX3 Info: Defining command \AcroStyle with sig. 'smO{}' on line 442.
 
@@ -544,10 +545,10 @@ Loading module `acronyms' ...
 Loading module `formatting' ...
 Loading module `ppfixes' ...
 Loading module `tools' ...
-\l__acro_minimal_usage_int=\count269
-\l__acro_nest_int=\count270
-\g_acro_barrier_int=\count271
-\g_acro_barrier_total_int=\count272
+\l__acro_minimal_usage_int=\count270
+\l__acro_nest_int=\count271
+\g_acro_barrier_int=\count272
+\g_acro_barrier_total_int=\count273
 Loading module `commands' ...
 
 LaTeX3 Info: Defining command \NewAcroCommand with sig. 'mm+m' on line 3333.
@@ -566,7 +567,7 @@ LaTeX3 Info: Defining command \ProvideAcroCommand with sig. 'mm+m' on line
 Loading module `templates' ...
 Loading module `list' ...
 Loading module `pages' ...
-\l__acro_pages_seq_threshold_int=\count273
+\l__acro_pages_seq_threshold_int=\count274
 Loading module `locale' ...
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
@@ -575,7 +576,7 @@ s (CN)
 
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count274
+\etb@tempcnta=\count275
 ))
 Loading module `pdfsupport' ...
 Loading module `patch' ...
@@ -778,43 +779,46 @@ LaTeX3 Info: Defining command \nospace with sig. '' on line 5188.
 Loading module `upgrade' ...
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 14.
- (./main.aux
-(./includes/dedication.aux) (./includes/abbreviations.aux)
-(./includes/abstract.aux) (./main.acr))
+h' as default language. on input line 19.
+
+
+LaTeX Warning: Unused global option(s):
+    [16pt].
+
+(./main.aux (./main.acr))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count275
+\scratchcounter=\count276
 \scratchdimen=\dimen145
 \scratchbox=\box48
-\nofMPsegments=\count276
-\nofMParguments=\count277
+\nofMPsegments=\count277
+\nofMParguments=\count278
 \everyMPshowfont=\toks18
-\MPscratchCnt=\count278
+\MPscratchCnt=\count279
 \MPscratchDim=\dimen146
-\MPnumerator=\count279
-\makeMPintoPDFobject=\count280
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
 \everyMPtoPDFconversion=\toks19
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -825,7 +829,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 14.
+Package hyperref Info: Link coloring OFF on input line 19.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -836,11 +840,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count281
+\c@section@level=\count282
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
@@ -856,9 +860,9 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 14.
+or `english'. on input line 19.
  (./includes/title.tex
-<./images/univ-tebessa.jpg, id=32, 183.68625pt x 277.035pt>
+<./images/univ-tebessa.jpg, id=70, 183.68625pt x 277.035pt>
 File: ./images/univ-tebessa.jpg Graphic file (type jpg)
 <use ./images/univ-tebessa.jpg>
 Package pdftex.def Info: ./images/univ-tebessa.jpg  used on input line 6.
@@ -875,10 +879,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/uni
-v-tebessa.jpg>])
-\openout2 = `includes/dedication.aux'.
-
- (./includes/dedication.tex
+v-tebessa.jpg>]) (./includes/dedication.tex
 LaTeX Font Info:    Trying to load font information for T1+LobsterTwo-LF on inp
 ut line 35.
 LaTeX Font Info:    No file T1LobsterTwo-LF.fd. on input line 35.
@@ -887,32 +888,27 @@ LaTeX Font Info:    No file T1LobsterTwo-LF.fd. on input line 35.
 LaTeX Font Warning: Font shape `T1/LobsterTwo-LF/bx/it' undefined
 (Font)              using `T1/cmr/m/n' instead on input line 35.
 
-[1
-
-])
-\openout2 = `includes/abbreviations.aux'.
-
- (./includes/abbreviations.tex
-\g__acro_ai_int=\count282
-\g__acro_ml_int=\count283
-\g__acro_dl_int=\count284
-\g__acro_nn_int=\count285
-\g__acro_cnn_int=\count286
-\g__acro_rnn_int=\count287
-) [2
+[1]) (./includes/abbreviations.tex
+\g__acro_ai_int=\count283
+\g__acro_ml_int=\count284
+\g__acro_dl_int=\count285
+\g__acro_nn_int=\count286
+\g__acro_cnn_int=\count287
+\g__acro_rnn_int=\count288
+) (./includes/abstract.tex [2
 
 
-
-
-
-
-]
-\openout2 = `includes/abstract.aux'.
-
- (./includes/abstract.tex) [3
-
-]
-(./main.toc
+]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \end{abstract}
+                   [1])pdfTeX warning (ext4): destination with the same identif
+ier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 	\tableofcontents
+                       [1] (./main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -921,55 +917,109 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [4
-
+pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.29 	\clearpage
+                 [2
 
 ] (./main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [5
+ [3
+
 
 ] (./main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [6
+ [4
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
+
+] (./includes/part1.texpdfTeX warning (ext4): destination with the same identif
+ier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42 	\newpage
-               [1
+l.1 \part{State of the art}
+                            [1
 
 
-] (./main.bbl
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
+] (./includes/part1/chapter1.tex
+Chapter 1.
+(./includes/part1/chapter1/section1.tex)) (./includes/part1/chapter2.tex
+[2
 
-)
+]
+Chapter 2.
+)) (./includes/part2.tex [3
+
+] [4
+
+] (./includes/part2/chapter1.texpdfTeX warning (ext4): destination with the sam
+e identifier (name{chapter.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter{Programs used}
+                           
+Chapter 1.
+pdfTeX warning (ext4): destination with the same identifier (name{section.1.1})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 \section{Introduction}
+                          pdfTeX warning (ext4): destination with the same iden
+tifier (name{subsection.1.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \subsection{sub 1}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{subsubsection.1.1.1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \subsubsection{sub sub 1.1}
+                               pdfTeX warning (ext4): destination with the same
+ identifier (name{subsubsection.1.1.1.2}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.5 \subsubsection{sub sub 1.2}
+                               ) (./includes/part2/chapter2.tex [5
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter{Results}
+                     
+Chapter 2.
+)) [6
+
+] (./main.bbl)
 
 Package acro Warning: Empty acronym list. If you have used acronyms then
 (acro)                re-compile to get the list filled. Otherwise remove
 (acro)                \printacronyms
 
-[2] (./main.aux (./includes/dedication.aux) (./includes/abbreviations.aux)
-(./includes/abstract.aux) (./main.acr))
+[7
+
+] (./main.aux (./main.acr))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A7178B97BEDA3D9F120BDB05B01AB69F;814.
+(rerunfilecheck)             Checksum: 136751D7396DAC7460641E8B3A9081DC;2158.
  ) 
 Here is how much of TeX's memory you used:
- 12572 strings out of 480806
- 249181 string characters out of 5905151
- 526637 words of memory out of 6000000
- 29784 multiletter control sequences out of 15000+600000
- 410117 words of font info for 47 fonts, out of 8000000 for 9000
+ 12607 strings out of 480806
+ 249657 string characters out of 5905151
+ 528065 words of memory out of 6000000
+ 29799 multiletter control sequences out of 15000+600000
+ 411028 words of font info for 50 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 68i,4n,77p,221b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,4n,77p,264b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texli
@@ -980,10 +1030,10 @@ nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-s
 uper/sfrm1000.pfb>
-Output written on main.pdf (9 pages, 130870 bytes).
+Output written on main.pdf (15 pages, 137370 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 110 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 208 PDF objects out of 1000 (max. 8388607)
+ 179 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 150 words of extra memory for PDF output out of 10000 (max. 10000000)
 
