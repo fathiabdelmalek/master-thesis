@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.9.28)  17 MAR 2023 21:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.9.28)  27 MAR 2023 23:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -902,9 +902,9 @@ LaTeX Font Warning: Font shape `T1/LobsterTwo-LF/bx/it' undefined
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3 \end{abstract}
-                   [1])pdfTeX warning (ext4): destination with the same identif
-ier (name{page.i}) has been already used, duplicate ignored
+l.10 \end{abstract}
+                    [1])pdfTeX warning (ext4): destination with the same identi
+fier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.28 	\tableofcontents
@@ -1013,13 +1013,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 136751D7396DAC7460641E8B3A9081DC;2158.
  ) 
 Here is how much of TeX's memory you used:
- 12607 strings out of 480806
- 249657 string characters out of 5905151
- 528065 words of memory out of 6000000
- 29799 multiletter control sequences out of 15000+600000
+ 12603 strings out of 480806
+ 249499 string characters out of 5905151
+ 528016 words of memory out of 6000000
+ 29795 multiletter control sequences out of 15000+600000
  411028 words of font info for 50 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 68i,4n,77p,264b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,4n,77p,688b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texli
@@ -1030,7 +1030,7 @@ nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-s
 uper/sfrm1000.pfb>
-Output written on main.pdf (15 pages, 137370 bytes).
+Output written on main.pdf (15 pages, 143802 bytes).
 PDF statistics:
  208 PDF objects out of 1000 (max. 8388607)
  179 compressed objects within 2 object streams
