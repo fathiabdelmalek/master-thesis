@@ -28,11 +28,11 @@ def merge_csv_files(folder_path, output_path):
 #     if os.path.isdir(os.path.join('data/labeled-all', sub_folder_name)):
 #         merge_csv_files(os.path.join('data/labeled-all', sub_folder_name), f'data/all/all/{sub_folder_name}.csv')
 
-merge_csv_files('data/all/characters', 'data/all/all-characters.csv')
-merge_csv_files('data/all/words', 'data/all/all-words.csv')
+merge_csv_files('data/all/characters', 'data/all/characters.csv')
+merge_csv_files('data/all/words', 'data/all/words.csv')
 merge_csv_files('data/all/dynamic', 'data/all/all-dynamic.csv')
-merge_csv_files('data/all/static', 'data/all/all-static.csv')
-merge_csv_files('data/all/all', 'data/all/all-all.csv')
+merge_csv_files('data/all/static', 'data/all/static.csv')
+merge_csv_files('data/all/all', 'data/all/all.csv')
 
 merge_csv_files('data/train/characters', 'data/train/train-characters.csv')
 merge_csv_files('data/train/words', 'data/train/train-words.csv')
