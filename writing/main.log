@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.9.28)  27 MAR 2023 23:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.9.28)  15 APR 2023 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -862,7 +862,7 @@ nslations-basic-dictionary')
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 19.
  (./includes/title.tex
-<./images/univ-tebessa.jpg, id=70, 183.68625pt x 277.035pt>
+<./images/univ-tebessa.jpg, id=134, 183.68625pt x 277.035pt>
 File: ./images/univ-tebessa.jpg Graphic file (type jpg)
 <use ./images/univ-tebessa.jpg>
 Package pdftex.def Info: ./images/univ-tebessa.jpg  used on input line 6.
@@ -902,9 +902,9 @@ LaTeX Font Warning: Font shape `T1/LobsterTwo-LF/bx/it' undefined
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.10 \end{abstract}
-                    [1])pdfTeX warning (ext4): destination with the same identi
-fier (name{page.i}) has been already used, duplicate ignored
+l.4 \end{abstract}
+                   [1])pdfTeX warning (ext4): destination with the same identif
+ier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.28 	\tableofcontents
@@ -949,77 +949,123 @@ l.1 \part{State of the art}
 
 ] (./includes/part1/chapter1.tex
 Chapter 1.
-(./includes/part1/chapter1/section1.tex)) (./includes/part1/chapter2.tex
-[2
+(./includes/part1/chapter1/section1.tex)
+(./includes/part1/chapter1/section2.tex)
+(./includes/part1/chapter1/section3.tex [2
+
+])
+(./includes/part1/chapter1/section4.tex)) (./includes/part1/chapter2.tex
+[3]
+Chapter 2.
+(./includes/part1/chapter2/section1.tex)
+(./includes/part1/chapter2/section2.tex [4
+
+])
+(./includes/part1/chapter2/section3.tex [5])
+(./includes/part1/chapter2/section4.tex)) (./includes/part1/chapter3.tex
+[6]
+Chapter 3.
+(./includes/part1/chapter3/section1.tex)
+(./includes/part1/chapter3/section2.tex [7
+
+])
+(./includes/part1/chapter3/section3.tex))) (./includes/part2.tex [8] [9
 
 ]
-Chapter 2.
-)) (./includes/part2.tex [3
-
-] [4
-
-] (./includes/part2/chapter1.texpdfTeX warning (ext4): destination with the sam
-e identifier (name{chapter.1}) has been already used, duplicate ignored
+(./includes/part2/chapter1.texpdfTeX warning (ext4): destination with the same 
+identifier (name{chapter.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter{Programs used}
-                           
+l.1 \chapter{Conception of Takalem gloves}
+                                          
 Chapter 1.
-pdfTeX warning (ext4): destination with the same identifier (name{section.1.1})
- has been already used, duplicate ignored
+(./includes/part2/chapter1/section1.texpdfTeX warning (ext4): destination with 
+the same identifier (name{section.1.1}) has been already used, duplicate ignore
+d
 <to be read again> 
                    \relax 
-l.2 \section{Introduction}
-                          pdfTeX warning (ext4): destination with the same iden
-tifier (name{subsection.1.1.1}) has been already used, duplicate ignored
+l.1 \section{Introduction}
+                          ) (./includes/part2/chapter1/section2.texpdfTeX warni
+ng (ext4): destination with the same identifier (name{section.1.2}) has been al
+ready used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3 \subsection{sub 1}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{subsubsection.1.1.1.1}) has been already used, duplicate ignored
+l.1 ...on{Hardware architecture and configuration}
+                                                  )
+(./includes/part2/chapter1/section3.texpdfTeX warning (ext4): destination with 
+the same identifier (name{section.1.3}) has been already used, duplicate ignore
+d
 <to be read again> 
                    \relax 
-l.4 \subsubsection{sub sub 1.1}
-                               pdfTeX warning (ext4): destination with the same
- identifier (name{subsubsection.1.1.1.2}) has been already used, duplicate igno
-red
+l.1 \section{Dataset collection and preprocessing}
+                                                  )
+(./includes/part2/chapter1/section4.texpdfTeX warning (ext4): destination with 
+the same identifier (name{section.1.4}) has been already used, duplicate ignore
+d
 <to be read again> 
                    \relax 
-l.5 \subsubsection{sub sub 1.2}
-                               ) (./includes/part2/chapter2.tex [5
+l.1 \section{Proposed deep learning architecture}
+                                                 )
+(./includes/part2/chapter1/section5.tex)) (./includes/part2/chapter2.tex
+[10
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter{Results}
-                     
+l.1 \chapter{Results and discussion}
+                                    
 Chapter 2.
-)) [6
+(./includes/part2/chapter2/section1.texpdfTeX warning (ext4): destination with 
+the same identifier (name{section.2.1}) has been already used, duplicate ignore
+d
+<to be read again> 
+                   \relax 
+l.1 \section{Introduction}
+                          ) (./includes/part2/chapter2/section2.texpdfTeX warni
+ng (ext4): destination with the same identifier (name{section.2.2}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \section{Evaluation criteria}
+                                 ) (./includes/part2/chapter2/section3.texpdfTe
+X warning (ext4): destination with the same identifier (name{section.2.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \section{Experiments}
+                         ) (./includes/part2/chapter2/section4.texpdfTeX warnin
+g (ext4): destination with the same identifier (name{section.2.4}) has been alr
+eady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \section{Discussion}
+                        ) (./includes/part2/chapter2/section5.tex))) [11
 
-] (./main.bbl)
+]
+(./main.bbl)
 
 Package acro Warning: Empty acronym list. If you have used acronyms then
 (acro)                re-compile to get the list filled. Otherwise remove
 (acro)                \printacronyms
 
-[7
+[12
 
 ] (./main.aux (./main.acr))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 136751D7396DAC7460641E8B3A9081DC;2158.
+(rerunfilecheck)             Checksum: C272F5CAF5EF9E9185F6A7D44CDA092F;5585.
  ) 
 Here is how much of TeX's memory you used:
- 12603 strings out of 480806
- 249499 string characters out of 5905151
- 528016 words of memory out of 6000000
- 29795 multiletter control sequences out of 15000+600000
- 411028 words of font info for 50 fonts, out of 8000000 for 9000
+ 12717 strings out of 480806
+ 252968 string characters out of 5905151
+ 535017 words of memory out of 6000000
+ 29842 multiletter control sequences out of 15000+600000
+ 411033 words of font info for 50 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 68i,4n,77p,688b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,4n,77p,864b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texli
@@ -1030,10 +1076,10 @@ nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-s
 uper/sfrm1000.pfb>
-Output written on main.pdf (15 pages, 143802 bytes).
+Output written on main.pdf (20 pages, 168565 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 179 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 313 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 286 words of extra memory for PDF output out of 10000 (max. 10000000)
 

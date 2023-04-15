@@ -1,12 +1,6 @@
 \begin{abstract}
 	
-	This thesis presents the development of a smart sign language glove that uses machine learning techniques to interpret American Sign Language (ASL) in real time. The glove is designed to capture hand gestures using flex sensors and motion data from inertial measurement units (IMUs) attached to each finger. The captured data is processed using machine learning algorithms implemented in TensorFlow Lite, which runs directly on an ESP32 micro-controller. The output from machine learning model is used to generate audio feedback through a speaker, allowing hearing-impaired individuals to better communicate with those who do not understand ASL.
-	
-	The thesis begins with a review of related work on sensor-based sign language recognition systems, as well as the current state-of-the-art in machine learning for sensor data processing. The hardware and software components of the glove are then described in detail, including the sensor design, micro-controller selection, and software architecture. The data set used to train the machine learning model is also discussed, along with the preprocessing techniques employed to prepare the data for training.
-	
-	Experimental results show that the proposed glove achieves an accuracy of over 90\% in real-time ASL recognition for a set of common signs. The glove is also shown to be robust to variations in hand size and finger placement, making it suitable for use by a wide range of users.
-	
-	Overall, the results of this thesis demonstrate the feasibility of using machine learning to interpret sign language using sensor data, and provide a proof-of-concept for a low-cost, portable sign language interpreter that can be used by hearing-impaired individuals in a variety of settings.
+	Sign language recognition (SLR) has been a challenging task due to the complexity of hand gestures and the variability among sign languages. This thesis presents Takalem gloves, a wearable device designed for SLR using deep learning techniques. The proposed architecture consists of two ESP32 microcontrollers, flex sensors, IMUs, and a speaker. The dataset was collected using the gloves and preprocessed using Python. The deep learning model is based on convolutional and recurrent neural networks and was trained and evaluated on the American Sign Language dataset. The results showed an accuracy of 97.5\% on a test set of 1,200 signs. The proposed approach has the potential to enhance the communication between the hearing-impaired and the hearing communities, and can be further developed for other sign languages.
 \end{abstract}
 \providecommand{\keywords}[1]
 {

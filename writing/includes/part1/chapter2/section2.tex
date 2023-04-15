@@ -1,0 +1,17 @@
+\section{Some methods of sign language recognition}
+There have been several approaches proposed for sign language recognition, with each having its advantages and limitations. In this section, we provide an overview of some of the commonly used methods for sign language recognition.
+
+\subsection{Template Matching}
+Template matching is a straightforward method for recognizing gestures, where the input is matched with predefined templates. The templates can be stored as binary images or feature vectors, depending on the complexity of the gestures. This method is computationally efficient and can achieve high accuracy when dealing with simple gestures. However, it may not perform well when dealing with complex gestures due to variations in hand position, orientation, and lighting conditions.
+
+\subsection{Hidden Markov Models (HMMs)}
+HMMs are probabilistic models that can capture the temporal dynamics of sign language gestures. In HMM-based recognition, the gestures are modeled as a sequence of states, and the likelihood of each gesture is estimated based on the observed sequence of feature vectors. HMMs can handle temporal variations in the gestures and are relatively robust to noise and variations in hand position and orientation. However, they may not perform well when dealing with large vocabularies due to the limited modeling capability of the models.
+
+\subsection{Artificial Neural Networks (ANNs)}
+ANNs are a popular choice for sign language recognition due to their ability to learn complex nonlinear mappings. ANNs consist of several layers of interconnected neurons that can learn to map inputs to outputs. In sign language recognition, ANNs can be trained using a supervised learning approach, where the input is the image of the hand gesture, and the output is the corresponding sign language word. ANNs can handle complex gestures and can achieve high accuracy with large vocabularies. However, they require a large amount of labeled data and may suffer from overfitting.
+
+\subsection{Deep Learning}
+Deep learning is a subset of ANNs that can learn multiple levels of abstraction from the input data. Deep learning has revolutionized sign language recognition, where it has achieved state-of-the-art results on several benchmarks. In deep learning-based recognition, the hand gesture is first preprocessed to extract relevant features, which are then fed into a deep neural network to learn the mapping between the input and output. Deep learning-based methods can handle complex gestures and achieve high accuracy with large vocabularies. However, they require a large amount of labeled data and a high computational power for training the models.
+
+\subsection{Synthesis}
+In summary, sign language recognition is a challenging problem that requires an understanding of the temporal dynamics of the gestures and the ability to handle variations in hand position, orientation, and lighting conditions. Several methods have been proposed for sign language recognition, ranging from simple template matching to complex deep learning-based methods. Each method has its advantages and limitations, and the choice of the method depends on the specific requirements of the application.
