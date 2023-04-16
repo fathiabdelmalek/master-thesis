@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.9.28)  15 APR 2023 12:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.9.28)  15 APR 2023 22:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1056,7 +1056,7 @@ Package acro Warning: Empty acronym list. If you have used acronyms then
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C272F5CAF5EF9E9185F6A7D44CDA092F;5585.
+(rerunfilecheck)             Checksum: 27BC110384ED4953A2F18C362296EFB8;5557.
  ) 
 Here is how much of TeX's memory you used:
  12717 strings out of 480806
@@ -1076,7 +1076,7 @@ nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-s
 uper/sfrm1000.pfb>
-Output written on main.pdf (20 pages, 168565 bytes).
+Output written on main.pdf (20 pages, 168545 bytes).
 PDF statistics:
  313 PDF objects out of 1000 (max. 8388607)
  278 compressed objects within 3 object streams

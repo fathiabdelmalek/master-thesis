@@ -7,7 +7,7 @@
 \contentsline {section}{\numberline {4}Conclusion}{3}{section.1.4}%
 \contentsline {chapter}{\numberline {2}Related works}{4}{chapter.2}%
 \contentsline {section}{\numberline {1}Introduction}{4}{section.2.1}%
-\contentsline {section}{\numberline {2}Some methods of sign language recognition}{4}{section.2.2}%
+\contentsline {section}{\numberline {2}Methods of sign language recognition}{4}{section.2.2}%
 \contentsline {subsection}{\numberline {2.1}Template Matching}{4}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2}Hidden Markov Models (HMMs)}{4}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.3}Artificial Neural Networks (ANNs)}{5}{subsection.2.2.3}%
