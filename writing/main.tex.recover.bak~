@@ -1,0 +1,43 @@
+\documentclass[16pt,a4paper]{report}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{inputenc}
+\usepackage{acro}
+
+\graphicspath{{ /images}}
+\renewcommand*\thesection{\arabic{section}}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\renewcommand{\bibname}{References}
+	
+
+\title{Takalem : A deep learning approach for Algerian sign language recognition}
+\author{Fathi Abdelmalek}
+\date{\today}
+
+
+
+\begin{document}
+	\makeatletter
+	\input{includes/title.tex}
+	\makeatother
+	\pagenumbering{roman}
+	\input{includes/dedication.tex}
+	\input{includes/abbreviations.tex}
+	\printacronyms
+	\input{includes/abstract.tex}
+	\tableofcontents
+	\clearpage
+	\listoffigures
+	\clearpage
+	\listoftables
+	\clearpage
+	\pagenumbering{arabic}
+	\clearpage
+	\input{includes/part1.tex}
+	\setcounter{chapter}{0}
+	\input{includes/part2.tex}
+	\newpage
+	\bibliographystyle{abbrv}
+	\bibliography{includes/references}
+\end{document}

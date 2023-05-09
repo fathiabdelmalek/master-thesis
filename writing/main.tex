@@ -9,10 +9,62 @@
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
 \renewcommand{\bibname}{References}
-
+	
 \title{Takalem : A deep learning approach for Algerian sign language recognition}
 \author{Fathi Abdelmalek}
 \date{\today}
+
+
+
+\DeclareAcronym{sl}{
+	short={SL},
+	long={Sign language}
+}
+\DeclareAcronym{asp}{
+	short={ASP},
+	long={Algerian sign language}
+}
+\DeclareAcronym{ajs}{
+	short={AJSL},
+	long={Algerian jewish sign language}
+}
+\DeclareAcronym{fsl}{
+	short={FSL},
+	long={French sign language}
+}
+\DeclareAcronym{slr}{
+	short={SLR},
+	long={Sign language recognition}
+}
+\DeclareAcronym{ai}{
+	short={AI},
+	long={Artificial Intelligence},
+}
+\DeclareAcronym{ml}{
+	short={ML},
+	long={Machine Learning},
+}
+\DeclareAcronym{dl}{
+	short={DL},
+	long={Deep Learning},
+}
+\DeclareAcronym{ann}{
+	short={ANN},
+	long={Artificial Neural Network}
+}
+\DeclareAcronym{cnn}{
+	short={CNN},
+	long={Convolutional Neural Network},
+}
+\DeclareAcronym{rnn}{
+	short={RNN},
+	long={Recurrent Neural Network},
+}
+\DeclareAcronym{hmm}{
+	short={HMM},
+	long={Hidden Markov Model}
+}
+
 
 
 
@@ -22,7 +74,7 @@
 	\makeatother
 	\pagenumbering{roman}
 	\input{includes/dedication.tex}
-	\input{includes/abbreviations.tex}
+	%\input{includes/abbreviations.tex}
 	\printacronyms
 	\input{includes/abstract.tex}
 	\tableofcontents
@@ -37,6 +89,6 @@
 	\setcounter{chapter}{0}
 	\input{includes/part2.tex}
 	\newpage
-	\bibliographystyle{abbrv}
+	\bibliographystyle{ieeetr}
 	\bibliography{includes/references}
 \end{document}

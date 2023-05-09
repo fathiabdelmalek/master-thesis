@@ -1,61 +1,61 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.9.28)  15 APR 2023 22:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.5.7)  8 MAY 2023 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
-LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-05-07>
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-12-17>
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count179
-\c@chapter=\count180
-\c@section=\count181
-\c@subsection=\count182
-\c@subsubsection=\count183
-\c@paragraph=\count184
-\c@subparagraph=\count185
-\c@figure=\count186
-\c@table=\count187
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen138
+\bibindent=\dimen140
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen139
-\Gin@req@width=\dimen140
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
@@ -68,8 +68,8 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
@@ -86,21 +86,28 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-\@linkdim=\dimen141
-\Hy@linkcounter=\count188
-\Hy@pagecounter=\count189
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count194
+)
+\@linkdim=\dimen143
+\Hy@linkcounter=\count195
+\Hy@pagecounter=\count196
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
-File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
-nguages
 )
 (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
@@ -108,28 +115,28 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count190
+\Hy@SavedSpaceFactor=\count197
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4192.
-Package hyperref Info: Link nesting OFF on input line 4197.
-Package hyperref Info: Hyper index ON on input line 4200.
-Package hyperref Info: Plain pages OFF on input line 4207.
-Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count191
+Package hyperref Info: Bookmarks ON on input line 4410.
+\c@Hy@tempcnt=\count198
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen142
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen144
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -138,688 +145,157 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count192
-\Field@Width=\dimen143
-\Fld@charsize=\dimen144
-Package hyperref Info: Hyper figures OFF on input line 6075.
-Package hyperref Info: Link nesting OFF on input line 6080.
-Package hyperref Info: Hyper index ON on input line 6083.
-Package hyperref Info: backreferencing OFF on input line 6090.
-Package hyperref Info: Link coloring OFF on input line 6095.
-Package hyperref Info: Link coloring with OCG OFF on input line 6100.
-Package hyperref Info: PDF/A mode OFF on input line 6105.
-LaTeX Info: Redefining \ref on input line 6145.
-LaTeX Info: Redefining \pageref on input line 6149.
+\Fld@menulength=\count199
+\Field@Width=\dimen145
+\Fld@charsize=\dimen146
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
-ge
-with kernel methods
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
 )
-\Hy@abspage=\count193
-\c@Item=\count194
-\c@Hfootnote=\count195
+\Hy@abspage=\count266
+\c@Item=\count267
+\c@Hfootnote=\count268
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+File: hpdftex.def 2022-11-13 v7.00u Hyperref driver for pdfTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
-e
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
 with kernel methods
 )
-\Fld@listcount=\count196
-\c@bookmark@seq@number=\count197
+\Fld@listcount=\count269
+\c@bookmark@seq@number=\count270
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
+85.
 )
 \Hy@SectionHShift=\skip49
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2020/08/01 v1.3d Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
 )
 (/usr/share/texlive/texmf-dist/tex/latex/acro/acro.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-05-07 L3 programming layer (loader) 
+Package: expl3 2022-12-17 L3 programming layer (loader) 
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count198
-\l__pdf_internal_box=\box47
+File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count271
+\l__pdf_internal_box=\box51
 ))
-Package: l3keys2e 2021-05-07 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2022-12-17 LaTeX2e option processing using LaTeX3 keys
 )
-Package: acro 2021/01/16 v3.5 typeset acronyms and other abbreviations (CN)
-\g__acro_version_int=\count199
-\l__acro_tmpa_int=\count266
-\l__acro_tmpb_int=\count267
-\l__acro_tmpc_int=\count268
-\l__acro_tmpd_int=\count269
-
-LaTeX3 Info: Defining command \AcroStyle with sig. 'smO{}' on line 442.
-
+Package: acro 2022/04/01 v3.8 typeset acronyms and other abbreviations (CN)
+\l__acro_tmpa_int=\count272
+\l__acro_tmpb_int=\count273
+\l__acro_tmpc_int=\count274
+\l__acro_tmpd_int=\count275
 Loading module `base' ...
 Loading module `interface' ...
-
-LaTeX3 Info: Defining command \AcroAddRow with sig. '+m' on line 644.
-
-
-LaTeX3 Info: Defining command \AcroRerun with sig. '' on line 647.
-
-
-LaTeX3 Info: Defining command \AcroPropertiesMap with sig. '+m' on line 650.
-
-
-LaTeX3 Info: Defining command \AcroAcronymsMap with sig. '+m' on line 653.
-
-
-LaTeX3 Info: Defining command \AcroMapBreak with sig. '' on line 655.
-
-
-LaTeX3 Info: Defining command \AcroPropertiesSet with sig. 'm+m' on line 658.
-
-
-LaTeX3 Info: Defining command \AcroMap with sig. 'm+m' on line 661.
-
-
-LaTeX3 Info: Defining command \AcroNeedPackage with sig. 'm' on line 670.
-
-
-LaTeX3 Info: Defining command \acsetup with sig. '+m' on line 675.
-
-
-LaTeX3 Info: Defining command \acroloadstyle with sig. 'm' on line 678.
-
-
-LaTeX3 Info: Defining command \acroifstarredTF with sig. '' on line 681.
-
-
-LaTeX3 Info: Defining command \acroifstarredT with sig. '' on line 684.
-
-
-LaTeX3 Info: Defining command \acroifstarredF with sig. '' on line 687.
-
-
-LaTeX3 Info: Defining command \acroifusedTF with sig. 'm' on line 690.
-
-
-LaTeX3 Info: Defining command \acroifusedT with sig. 'm' on line 693.
-
-
-LaTeX3 Info: Defining command \acroifusedF with sig. 'm' on line 696.
-
-
-LaTeX3 Info: Defining command \acuse with sig. 'm' on line 699.
-
-
-LaTeX3 Info: Defining command \acuseall with sig. '' on line 702.
-
-
-LaTeX3 Info: Defining command \acreset with sig. 'm' on line 705.
-
-
-LaTeX3 Info: Defining command \acresetall with sig. '' on line 708.
-
-
-LaTeX3 Info: Defining command \acsimple with sig. 'mm' on line 711.
-
-
-LaTeX3 Info: Defining command \acbarrier with sig. '' on line 714.
-
-
-LaTeX3 Info: Defining command \acswitchoff with sig. '' on line 717.
-
-
-LaTeX3 Info: Defining command \acswitchon with sig. '' on line 720.
-
-
-LaTeX3 Info: Defining command \DeclareAcroProperty with sig. 'st?t!t|t>m' on
-(LaTeX3)     line 734.
-
-
-LaTeX3 Info: Defining command \DeclareAcroPropertyAlias with sig.
-(LaTeX3)     'st?t!t|t>mm' on line 748.
-
-
-LaTeX3 Info: Defining command \MakeAcroPropertyAlias with sig. 'mm' on line
-(LaTeX3)     751.
-
-
-LaTeX3 Info: Defining command \NewAcroPreset with sig. 'm+m' on line 754.
-
-
-LaTeX3 Info: Defining command \RenewAcroPreset with sig. 'm+m' on line 757.
-
-
-LaTeX3 Info: Defining command \DeclareAcroPreset with sig. 'm+m' on line 760.
-
-
-LaTeX3 Info: Defining command \UseAcroTemplate with sig. 'O{acronym}mO{1}' on
-(LaTeX3)     line 764.
-
-
-LaTeX3 Info: Defining command \NewAcroTemplate with sig. 'O{acronym}m+m' on
-(LaTeX3)     line 767.
-
-
-LaTeX3 Info: Defining command \RenewAcroTemplate with sig. 'O{acronym}m+m' on
-(LaTeX3)     line 770.
-
-
-LaTeX3 Info: Defining command \SetupAcroTemplate with sig. 'O{acronym}m+m' on
-(LaTeX3)     line 773.
-
-
-LaTeX3 Info: Defining command \SetupNextAcroTemplate with sig. 'O{acronym}m+m'
-(LaTeX3)     on line 776.
-
-
-LaTeX3 Info: Defining command \DeclareAcronym with sig. 'm+m' on line 779.
-
-
-LaTeX3 Info: Defining command \DeclareAcroEnding with sig. 'mmm' on line 782.
-
-
-LaTeX3 Info: Defining command \DeclareAcroArticle with sig. 'mm' on line 785.
-
-
-LaTeX3 Info: Defining command \DeclareAcroTranslation with sig. 'm+m' on line
-(LaTeX3)     788.
-
-
-LaTeX3 Info: Defining command \AddAcroTranslations with sig. 'm+m' on line
-(LaTeX3)     791.
-
-
-LaTeX3 Info: Defining command \acrotranslate with sig. 'm' on line 794.
-
-
-LaTeX3 Info: Defining command \aciftrailing with sig. '' on line 797.
-
-
-LaTeX3 Info: Defining command \acfootnote with sig. 'm' on line 800.
-
-
-LaTeX3 Info: Defining command \acgobbletrail with sig. '' on line 803.
-
-
-LaTeX3 Info: Defining command \acdot with sig. '' on line 805.
-
-
-LaTeX3 Info: Defining command \acspace with sig. '' on line 806.
-
-
-LaTeX3 Info: Defining command \abbrdot with sig. '' on line 807.
-
-
-LaTeX3 Info: Defining command \acroupper with sig. '' on line 809.
-
-
-LaTeX3 Info: Defining command \acrofull with sig. '' on line 810.
-
-
-LaTeX3 Info: Defining command \printacronyms with sig. 'o' on line 819.
-
-
-LaTeX3 Info: Defining command \acroheading with sig. '' on line 823.
-
-
-LaTeX3 Info: Defining command \acropreamble with sig. '' on line 824.
-
-
-LaTeX3 Info: Defining command \acropostamble with sig. '' on line 825.
-
-
-LaTeX3 Info: Defining command \acrolistname with sig. '' on line 828.
-
-
-LaTeX3 Info: Defining command \acronymsmapTF with sig. '+m+m+m' on line 841.
-
-
-LaTeX3 Info: Defining command \acronymsmapT with sig. '+m+m' on line 844.
-
-
-LaTeX3 Info: Defining command \acronymsmapF with sig. '+m+m' on line 847.
-
-
-LaTeX3 Info: Defining command \acronymsmap with sig. '+m' on line 850.
-
-
-LaTeX3 Info: Defining command \acrofield with sig. 'mm' on line 853.
-
-
-LaTeX3 Info: Defining command \acroprintfield with sig. 'mm' on line 863.
-
-
-LaTeX3 Info: Defining command \acroiffieldTF with sig. '+m+m+m+m' on line 866.
-
-
-LaTeX3 Info: Defining command \acroifanyfieldTF with sig. 'mm+m+m' on line
-(LaTeX3)     869.
-
-
-LaTeX3 Info: Defining command \acroifallfieldsTF with sig. 'mm+m+m' on line
-(LaTeX3)     872.
-
-
-LaTeX3 Info: Defining command \acroifpagefieldTF with sig. 'm' on line 875.
-
-
-LaTeX3 Info: Defining command \acrowrite with sig. 'm' on line 878.
-
-
-LaTeX3 Info: Defining command \acroshow with sig. 'm' on line 881.
-
-
-LaTeX3 Info: Defining command \acrodonotuse with sig. '' on line 884.
-
-
-LaTeX3 Info: Defining command \acroformat with sig. 'mm' on line 887.
-
-
-LaTeX3 Info: Defining command \acrogroupcite with sig. '' on line 898.
-
-
-LaTeX3 Info: Defining command \acrocite with sig. '' on line 901.
-
-
-LaTeX3 Info: Defining command \acroifpropertyTF with sig. 'm' on line 904.
-
-
-LaTeX3 Info: Defining command \acroifpropertyT with sig. 'm' on line 907.
-
-
-LaTeX3 Info: Defining command \acroifpropertyF with sig. 'm' on line 910.
-
-
-LaTeX3 Info: Defining command \acroifbooleanTF with sig. 'm' on line 913.
-
-
-LaTeX3 Info: Defining command \acroifbooleanT with sig. 'm' on line 916.
-
-
-LaTeX3 Info: Defining command \acroifbooleanF with sig. 'm' on line 919.
-
-
-LaTeX3 Info: Defining command \acroifTF with sig. 'm' on line 922.
-
-
-LaTeX3 Info: Defining command \acroifT with sig. 'm' on line 924.
-
-
-LaTeX3 Info: Defining command \acroifF with sig. 'm' on line 926.
-
-
-LaTeX3 Info: Defining command \acroifanyTF with sig. 'm+m+m' on line 929.
-
-
-LaTeX3 Info: Defining command \acroifanyT with sig. 'm+m' on line 931.
-
-
-LaTeX3 Info: Defining command \acroifanyF with sig. 'm+m' on line 933.
-
-
-LaTeX3 Info: Defining command \acroifallTF with sig. 'm+m+m' on line 936.
-
-
-LaTeX3 Info: Defining command \acroifallT with sig. 'm+m' on line 938.
-
-
-LaTeX3 Info: Defining command \acroifallF with sig. 'm+m' on line 940.
-
-
-LaTeX3 Info: Defining command \acroifsingleTF with sig. '+m+m' on line 943.
-
-
-LaTeX3 Info: Defining command \acroifsingleT with sig. '+m' on line 945.
-
-
-LaTeX3 Info: Defining command \acroifsingleF with sig. '+m' on line 947.
-
-
-LaTeX3 Info: Defining command \acroiffirstTF with sig. '+m+m' on line 950.
-
-
-LaTeX3 Info: Defining command \acroiffirstT with sig. '+m' on line 952.
-
-
-LaTeX3 Info: Defining command \acroiffirstF with sig. '+m' on line 954.
-
-
-LaTeX3 Info: Defining command \acroiftagTF with sig. 'm+m+m' on line 957.
-
-
-LaTeX3 Info: Defining command \acroiftagT with sig. 'm+m' on line 959.
-
-
-LaTeX3 Info: Defining command \acroiftagF with sig. 'm+m' on line 961.
-
-
-LaTeX3 Info: Defining command \acropages with sig. 'mm' on line 964.
-
-
-LaTeX3 Info: Defining command \acronopagerange with sig. '' on line 967.
-
-
-LaTeX3 Info: Defining command \acroneedpages with sig. '' on line 970.
-
-
-LaTeX3 Info: Defining command \acropagefill with sig. '' on line 973.
-
-
-LaTeX3 Info: Defining command \acrodotfill with sig. '' on line 975.
-
-
-LaTeX3 Info: Defining command \acroifpagesTF with sig. '' on line 978.
-
-
-LaTeX3 Info: Defining command \acroifpagesT with sig. '' on line 981.
-
-
-LaTeX3 Info: Defining command \acroifpagesF with sig. '' on line 984.
-
-
-LaTeX3 Info: Defining command \acroifchapterTF with sig. '' on line 987.
-
-
-LaTeX3 Info: Defining command \acroifchapterT with sig. '' on line 990.
-
-
-LaTeX3 Info: Defining command \acroifchapterF with sig. '' on line 993.
-
 Loading module `aux' ...
 Loading module `properties' ...
 Loading module `acronyms' ...
 Loading module `formatting' ...
 Loading module `ppfixes' ...
 Loading module `tools' ...
-\l__acro_minimal_usage_int=\count270
-\l__acro_nest_int=\count271
-\g_acro_barrier_int=\count272
-\g_acro_barrier_total_int=\count273
+\l__acro_minimal_usage_int=\count276
+\l__acro_nest_int=\count277
+\g_acro_barrier_int=\count278
+\g_acro_barrier_total_int=\count279
 Loading module `commands' ...
-
-LaTeX3 Info: Defining command \NewAcroCommand with sig. 'mm+m' on line 3333.
-
-
-LaTeX3 Info: Defining command \RenewAcroCommand with sig. 'mm+m' on line 3338.
-
-
-LaTeX3 Info: Defining command \DeclareAcroCommand with sig. 'mm+m' on line
-(LaTeX3)     3343.
-
-
-LaTeX3 Info: Defining command \ProvideAcroCommand with sig. 'mm+m' on line
-(LaTeX3)     3348.
-
+\l_acro_nest_level_int=\count280
 Loading module `templates' ...
 Loading module `list' ...
 Loading module `pages' ...
-\l__acro_pages_seq_threshold_int=\count274
+\l__acro_pages_seq_threshold_int=\count281
 Loading module `locale' ...
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
-Package: translations 2021/01/17 v1.10a internationalization of LaTeX2e package
-s (CN)
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
 
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count275
+\etb@tempcnta=\count282
 ))
 Loading module `pdfsupport' ...
 Loading module `patch' ...
 Loading module `definitions' ...
-
-LaTeX3 Info: Defining command \baseac with sig. 'm' on line 5116.
-
-
-LaTeX3 Info: Defining command \ac with sig. 'so' on line 5116.
-
-
-LaTeX3 Info: Defining command \baseacp with sig. 'm' on line 5118.
-
-
-LaTeX3 Info: Defining command \acp with sig. 'so' on line 5118.
-
-
-LaTeX3 Info: Defining command \baseiac with sig. 'm' on line 5120.
-
-
-LaTeX3 Info: Defining command \iac with sig. 'so' on line 5120.
-
-
-LaTeX3 Info: Defining command \baseAc with sig. 'm' on line 5122.
-
-
-LaTeX3 Info: Defining command \Ac with sig. 'so' on line 5122.
-
-
-LaTeX3 Info: Defining command \baseAcp with sig. 'm' on line 5124.
-
-
-LaTeX3 Info: Defining command \Acp with sig. 'so' on line 5124.
-
-
-LaTeX3 Info: Defining command \baseIac with sig. 'm' on line 5126.
-
-
-LaTeX3 Info: Defining command \Iac with sig. 'so' on line 5126.
-
-
-LaTeX3 Info: Defining command \baseacs with sig. 'm' on line 5129.
-
-
-LaTeX3 Info: Defining command \acs with sig. 'so' on line 5129.
-
-
-LaTeX3 Info: Defining command \baseacsp with sig. 'm' on line 5131.
-
-
-LaTeX3 Info: Defining command \acsp with sig. 'so' on line 5131.
-
-
-LaTeX3 Info: Defining command \baseiacs with sig. 'm' on line 5133.
-
-
-LaTeX3 Info: Defining command \iacs with sig. 'so' on line 5133.
-
-
-LaTeX3 Info: Defining command \baseAcs with sig. 'm' on line 5135.
-
-
-LaTeX3 Info: Defining command \Acs with sig. 'so' on line 5135.
-
-
-LaTeX3 Info: Defining command \baseAcsp with sig. 'm' on line 5137.
-
-
-LaTeX3 Info: Defining command \Acsp with sig. 'so' on line 5137.
-
-
-LaTeX3 Info: Defining command \baseIacs with sig. 'm' on line 5139.
-
-
-LaTeX3 Info: Defining command \Iacs with sig. 'so' on line 5139.
-
-
-LaTeX3 Info: Defining command \baseacl with sig. 'm' on line 5142.
-
-
-LaTeX3 Info: Defining command \acl with sig. 'so' on line 5142.
-
-
-LaTeX3 Info: Defining command \baseaclp with sig. 'm' on line 5144.
-
-
-LaTeX3 Info: Defining command \aclp with sig. 'so' on line 5144.
-
-
-LaTeX3 Info: Defining command \baseiacl with sig. 'm' on line 5146.
-
-
-LaTeX3 Info: Defining command \iacl with sig. 'so' on line 5146.
-
-
-LaTeX3 Info: Defining command \baseAcl with sig. 'm' on line 5148.
-
-
-LaTeX3 Info: Defining command \Acl with sig. 'so' on line 5148.
-
-
-LaTeX3 Info: Defining command \baseAclp with sig. 'm' on line 5150.
-
-
-LaTeX3 Info: Defining command \Aclp with sig. 'so' on line 5150.
-
-
-LaTeX3 Info: Defining command \baseIacl with sig. 'm' on line 5152.
-
-
-LaTeX3 Info: Defining command \Iacl with sig. 'so' on line 5152.
-
-
-LaTeX3 Info: Defining command \baseaca with sig. 'm' on line 5155.
-
-
-LaTeX3 Info: Defining command \aca with sig. 'so' on line 5155.
-
-
-LaTeX3 Info: Defining command \baseacap with sig. 'm' on line 5157.
-
-
-LaTeX3 Info: Defining command \acap with sig. 'so' on line 5157.
-
-
-LaTeX3 Info: Defining command \baseiaca with sig. 'm' on line 5159.
-
-
-LaTeX3 Info: Defining command \iaca with sig. 'so' on line 5159.
-
-
-LaTeX3 Info: Defining command \baseAca with sig. 'm' on line 5161.
-
-
-LaTeX3 Info: Defining command \Aca with sig. 'so' on line 5161.
-
-
-LaTeX3 Info: Defining command \baseAcap with sig. 'm' on line 5163.
-
-
-LaTeX3 Info: Defining command \Acap with sig. 'so' on line 5163.
-
-
-LaTeX3 Info: Defining command \baseIaca with sig. 'm' on line 5165.
-
-
-LaTeX3 Info: Defining command \Iaca with sig. 'so' on line 5165.
-
-
-LaTeX3 Info: Defining command \baseacf with sig. 'm' on line 5168.
-
-
-LaTeX3 Info: Defining command \acf with sig. 'so' on line 5168.
-
-
-LaTeX3 Info: Defining command \baseacfp with sig. 'm' on line 5170.
-
-
-LaTeX3 Info: Defining command \acfp with sig. 'so' on line 5170.
-
-
-LaTeX3 Info: Defining command \baseiacf with sig. 'm' on line 5172.
-
-
-LaTeX3 Info: Defining command \iacf with sig. 'so' on line 5172.
-
-
-LaTeX3 Info: Defining command \baseAcf with sig. 'm' on line 5174.
-
-
-LaTeX3 Info: Defining command \Acf with sig. 'so' on line 5174.
-
-
-LaTeX3 Info: Defining command \baseAcfp with sig. 'm' on line 5176.
-
-
-LaTeX3 Info: Defining command \Acfp with sig. 'so' on line 5176.
-
-
-LaTeX3 Info: Defining command \baseIacf with sig. 'm' on line 5178.
-
-
-LaTeX3 Info: Defining command \Iacf with sig. 'so' on line 5178.
-
-
-LaTeX3 Info: Defining command \baseacshow with sig. 'm' on line 5181.
-
-
-LaTeX3 Info: Defining command \acshow with sig. 'so' on line 5181.
-
-
-LaTeX3 Info: Defining command \acroplural with sig. '' on line 5184.
-
-
-LaTeX3 Info: Defining command \acroindefinite with sig. '' on line 5186.
-
-
-LaTeX3 Info: Defining command \nospace with sig. '' on line 5188.
-
 Loading module `upgrade' ...
 )
+\c@g@acro@sl@int=\count283
+\c@g@acro@asp@int=\count284
+\c@g@acro@ajs@int=\count285
+\c@g@acro@fsl@int=\count286
+\c@g@acro@slr@int=\count287
+\c@g@acro@ai@int=\count288
+\c@g@acro@ml@int=\count289
+\c@g@acro@dl@int=\count290
+\c@g@acro@ann@int=\count291
+\c@g@acro@cnn@int=\count292
+\c@g@acro@rnn@int=\count293
+\c@g@acro@hmm@int=\count294
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 19.
+h' as default language. on input line 71.
 
 
 LaTeX Warning: Unused global option(s):
     [16pt].
 
-(./main.aux (./main.acr))
+(./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count276
-\scratchdimen=\dimen145
-\scratchbox=\box48
-\nofMPsegments=\count277
-\nofMParguments=\count278
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count279
-\MPscratchDim=\dimen146
-\MPnumerator=\count280
-\makeMPintoPDFobject=\count281
-\everyMPtoPDFconversion=\toks19
+\scratchcounter=\count295
+\scratchdimen=\dimen147
+\scratchbox=\box52
+\nofMPsegments=\count296
+\nofMParguments=\count297
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count298
+\MPscratchDim=\dimen148
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
+\everyMPtoPDFconversion=\toks20
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -829,29 +305,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 19.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
-
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count282
-)
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+Package hyperref Info: Link coloring OFF on input line 71.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
-
-\l__acro_aux_file_iow=\write4
-\openout4 = `main.acr'.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
@@ -860,9 +318,9 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 19.
+or `english'. on input line 71.
  (./includes/title.tex
-<./images/univ-tebessa.jpg, id=134, 183.68625pt x 277.035pt>
+<./images/univ-tebessa.jpg, id=114, 183.68625pt x 277.035pt>
 File: ./images/univ-tebessa.jpg Graphic file (type jpg)
 <use ./images/univ-tebessa.jpg>
 Package pdftex.def Info: ./images/univ-tebessa.jpg  used on input line 6.
@@ -888,58 +346,55 @@ LaTeX Font Info:    No file T1LobsterTwo-LF.fd. on input line 35.
 LaTeX Font Warning: Font shape `T1/LobsterTwo-LF/bx/it' undefined
 (Font)              using `T1/cmr/m/n' instead on input line 35.
 
-[1]) (./includes/abbreviations.tex
-\g__acro_ai_int=\count283
-\g__acro_ml_int=\count284
-\g__acro_dl_int=\count285
-\g__acro_nn_int=\count286
-\g__acro_cnn_int=\count287
-\g__acro_rnn_int=\count288
-) (./includes/abstract.tex [2
+[1]) (./includes/abstract.tex [2
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
- been already used, duplicate ignored
+]
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4 \end{abstract}
-                   [1])pdfTeX warning (ext4): destination with the same identif
-ier (name{page.i}) has been already used, duplicate ignored
+l.3 \end{abstract}
+                   [1])
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 	\tableofcontents
+l.80 	\tableofcontents
                        [1] (./main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 4.
 )
-\tf@toc=\write5
-\openout5 = `main.toc'.
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.29 	\clearpage
+l.81 	\clearpage
                  [2
 
 ] (./main.lof)
-\tf@lof=\write6
-\openout6 = `main.lof'.
+\tf@lof=\write5
+\openout5 = `main.lof'.
 
  [3
 
 
 ] (./main.lot)
-\tf@lot=\write7
-\openout7 = `main.lot'.
+\tf@lot=\write6
+\openout6 = `main.lot'.
 
  [4
 
 
-] (./includes/part1.texpdfTeX warning (ext4): destination with the same identif
-ier (name{page.1}) has been already used, duplicate ignored
+] (./includes/part1.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \part{State of the art}
@@ -950,122 +405,111 @@ l.1 \part{State of the art}
 ] (./includes/part1/chapter1.tex
 Chapter 1.
 (./includes/part1/chapter1/section1.tex)
-(./includes/part1/chapter1/section2.tex)
-(./includes/part1/chapter1/section3.tex [2
+(./includes/part1/chapter1/section2.tex [2
 
 ])
-(./includes/part1/chapter1/section4.tex)) (./includes/part1/chapter2.tex
-[3]
+(./includes/part1/chapter1/section3.tex)
+(./includes/part1/chapter1/section4.tex [3])) (./includes/part1/chapter2.tex
+[4]
 Chapter 2.
-(./includes/part1/chapter2/section1.tex)
-(./includes/part1/chapter2/section2.tex [4
+(./includes/part1/chapter2/section1.tex [5
 
 ])
-(./includes/part1/chapter2/section3.tex [5])
-(./includes/part1/chapter2/section4.tex)) (./includes/part1/chapter3.tex
-[6]
-Chapter 3.
-(./includes/part1/chapter3/section1.tex)
-(./includes/part1/chapter3/section2.tex [7
-
-])
-(./includes/part1/chapter3/section3.tex))) (./includes/part2.tex [8] [9
+(./includes/part1/chapter2/section2.tex)
+(./includes/part1/chapter2/section3.tex)
+(./includes/part1/chapter2/section4.tex))) (./includes/part2.tex [6] [7
 
 ]
-(./includes/part2/chapter1.texpdfTeX warning (ext4): destination with the same 
-identifier (name{chapter.1}) has been already used, duplicate ignored
+(./includes/part2/chapter1.tex
+pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) h
+as been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter{Conception of Takalem gloves}
                                           
 Chapter 1.
-(./includes/part2/chapter1/section1.texpdfTeX warning (ext4): destination with 
-the same identifier (name{section.1.1}) has been already used, duplicate ignore
-d
+(./includes/part2/chapter1/section1.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.1.1})
+ has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \section{Introduction}
-                          ) (./includes/part2/chapter1/section2.texpdfTeX warni
-ng (ext4): destination with the same identifier (name{section.1.2}) has been al
-ready used, duplicate ignored
+                          ) (./includes/part2/chapter1/section2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.1.2})
+ has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 ...on{Hardware architecture and configuration}
                                                   )
-(./includes/part2/chapter1/section3.texpdfTeX warning (ext4): destination with 
-the same identifier (name{section.1.3}) has been already used, duplicate ignore
-d
+(./includes/part2/chapter1/section3.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.1.3})
+ has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \section{Dataset collection and preprocessing}
                                                   )
-(./includes/part2/chapter1/section4.texpdfTeX warning (ext4): destination with 
-the same identifier (name{section.1.4}) has been already used, duplicate ignore
-d
+(./includes/part2/chapter1/section4.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.1.4})
+ has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \section{Proposed deep learning architecture}
                                                  )
 (./includes/part2/chapter1/section5.tex)) (./includes/part2/chapter2.tex
-[10
+[8
 
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) 
-has been already used, duplicate ignored
+]
+pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) h
+as been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter{Results and discussion}
                                     
 Chapter 2.
-(./includes/part2/chapter2/section1.texpdfTeX warning (ext4): destination with 
-the same identifier (name{section.2.1}) has been already used, duplicate ignore
-d
+(./includes/part2/chapter2/section1.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.2.1})
+ has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \section{Introduction}
-                          ) (./includes/part2/chapter2/section2.texpdfTeX warni
-ng (ext4): destination with the same identifier (name{section.2.2}) has been al
-ready used, duplicate ignored
+                          ) (./includes/part2/chapter2/section2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.2.2})
+ has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \section{Evaluation criteria}
-                                 ) (./includes/part2/chapter2/section3.texpdfTe
-X warning (ext4): destination with the same identifier (name{section.2.3}) has 
-been already used, duplicate ignored
+                                 ) (./includes/part2/chapter2/section3.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.2.3})
+ has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \section{Experiments}
-                         ) (./includes/part2/chapter2/section4.texpdfTeX warnin
-g (ext4): destination with the same identifier (name{section.2.4}) has been alr
-eady used, duplicate ignored
+                         ) (./includes/part2/chapter2/section4.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.2.4})
+ has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \section{Discussion}
-                        ) (./includes/part2/chapter2/section5.tex))) [11
+                        ) (./includes/part2/chapter2/section5.tex))) [9
 
 ]
-(./main.bbl)
+(./main.bbl) [10
 
-Package acro Warning: Empty acronym list. If you have used acronyms then
-(acro)                re-compile to get the list filled. Otherwise remove
-(acro)                \printacronyms
-
-[12
-
-] (./main.aux (./main.acr))
+] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 27BC110384ED4953A2F18C362296EFB8;5557.
+(rerunfilecheck)             Checksum: 8BA31ED962723734C16E0F3DC6EF5970;4570.
  ) 
 Here is how much of TeX's memory you used:
- 12717 strings out of 480806
- 252968 string characters out of 5905151
- 535017 words of memory out of 6000000
- 29842 multiletter control sequences out of 15000+600000
- 411033 words of font info for 50 fonts, out of 8000000 for 9000
+ 13576 strings out of 478126
+ 286546 string characters out of 5842811
+ 1860793 words of memory out of 6000000
+ 33375 multiletter control sequences out of 15000+600000
+ 523845 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 68i,4n,77p,864b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,5n,77p,885b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texli
@@ -1074,12 +518,13 @@ f-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-s
-uper/sfrm1000.pfb>
-Output written on main.pdf (20 pages, 168545 bytes).
+c/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sf
+rm1000.pfb>
+Output written on main.pdf (18 pages, 181274 bytes).
 PDF statistics:
- 313 PDF objects out of 1000 (max. 8388607)
- 278 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
- 286 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 327 PDF objects out of 1000 (max. 8388607)
+ 283 compressed objects within 3 object streams
+ 68 named destinations out of 1000 (max. 500000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
 

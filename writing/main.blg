@@ -1,46 +1,55 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
-The style file: abbrv.bst
+The style file: ieeetr.bst
 Database file #1: includes/references.bib
-You've used 1 entry,
-            2118 wiz_defined-function locations,
-            502 strings with 3819 characters,
-and the built_in function-call counts, 214 in all, are:
-= -- 21
-> -- 7
+Warning--entry type for "teaching" isn't style-file defined
+--line 1 of file includes/references.bib
+Warning--entry type for "chalenges" isn't style-file defined
+--line 8 of file includes/references.bib
+Warning--entry type for "wiki" isn't style-file defined
+--line 25 of file includes/references.bib
+Warning--empty publisher in sara
+Warning--empty year in sara
+You've used 4 entries,
+            1876 wiz_defined-function locations,
+            493 strings with 3836 characters,
+and the built_in function-call counts, 500 in all, are:
+= -- 34
+> -- 17
 < -- 0
-+ -- 3
-- -- 2
-* -- 9
-:= -- 49
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 4
++ -- 8
+- -- 4
+* -- 21
+:= -- 69
+add.period$ -- 1
+call.type$ -- 4
+change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 8
-empty$ -- 15
-format.name$ -- 2
-if$ -- 39
+cite$ -- 6
+duplicate$ -- 21
+empty$ -- 74
+format.name$ -- 4
+if$ -- 123
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 3
+int.to.str$ -- 4
+missing$ -- 2
+newline$ -- 15
+num.names$ -- 3
+pop$ -- 24
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 0
 quote$ -- 0
-skip$ -- 6
+skip$ -- 26
 stack$ -- 0
-substring$ -- 5
-swap$ -- 0
+substring$ -- 0
+swap$ -- 1
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
-warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 13
+type$ -- 0
+warning$ -- 2
+while$ -- 3
+width$ -- 5
+write$ -- 25
+(There were 5 warnings)
