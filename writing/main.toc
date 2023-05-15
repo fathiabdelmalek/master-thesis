@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {2}Sign languages}{2}{section.1.2}%
 \contentsline {paragraph}{}{2}{section*.9}%
 \contentsline {paragraph}{}{2}{section*.10}%
-\contentsline {paragraph}{}{2}{section*.11}%
+\contentsline {paragraph}{}{3}{section*.11}%
 \contentsline {subsection}{\numberline {2.1}Sign languages in Algeria}{3}{subsection.1.2.1}%
 \contentsline {paragraph}{}{3}{section*.12}%
 \contentsline {paragraph}{}{3}{section*.13}%
@@ -16,39 +16,75 @@
 \contentsline {paragraph}{}{3}{section*.14}%
 \contentsline {paragraph}{}{3}{section*.15}%
 \contentsline {section}{\numberline {3}Sign language recognition}{3}{section.1.3}%
+\contentsline {subsection}{\numberline {3.1}Definition}{3}{subsection.1.3.1}%
 \contentsline {paragraph}{}{3}{section*.16}%
-\contentsline {paragraph}{}{3}{section*.17}%
-\contentsline {paragraph}{}{3}{section*.18}%
+\contentsline {paragraph}{}{4}{section*.17}%
+\contentsline {paragraph}{}{4}{section*.18}%
 \contentsline {paragraph}{}{4}{section*.19}%
-\contentsline {section}{\numberline {4}Conclusion}{4}{section.1.4}%
+\contentsline {subsection}{\numberline {3.2}\ac {slr} applications and use}{4}{subsection.1.3.2}%
 \contentsline {paragraph}{}{4}{section*.20}%
+\contentsline {subsubsection}{\numberline {3.2.1}\ac {sl} translation}{4}{subsubsection.1.3.2.1}%
 \contentsline {paragraph}{}{4}{section*.21}%
+\contentsline {subsubsection}{\numberline {3.2.2}Virtual and augmented reality}{4}{subsubsection.1.3.2.2}%
 \contentsline {paragraph}{}{4}{section*.22}%
-\contentsline {chapter}{\numberline {2}Related works}{5}{chapter.2}%
-\contentsline {section}{\numberline {1}Introduction}{5}{section.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.3}Research and linguistics}{5}{subsubsection.1.3.2.3}%
 \contentsline {paragraph}{}{5}{section*.23}%
-\contentsline {subsection}{\numberline {1.1}Background}{5}{subsection.2.1.1}%
+\contentsline {section}{\numberline {4}Deep Learning}{5}{section.1.4}%
 \contentsline {paragraph}{}{5}{section*.24}%
-\contentsline {subsection}{\numberline {1.2}Motivation}{5}{subsection.2.1.2}%
 \contentsline {paragraph}{}{5}{section*.25}%
-\contentsline {subsection}{\numberline {1.3}Objectives}{5}{subsection.2.1.3}%
 \contentsline {paragraph}{}{5}{section*.26}%
-\contentsline {subsection}{\numberline {1.4}Overview of the Chapter}{6}{subsection.2.1.4}%
-\contentsline {paragraph}{}{6}{section*.27}%
+\contentsline {paragraph}{}{5}{section*.27}%
 \contentsline {paragraph}{}{6}{section*.28}%
-\contentsline {section}{\numberline {2}Methods of sign language recognition}{6}{section.2.2}%
-\contentsline {section}{\numberline {3}Synthesis}{6}{section.2.3}%
-\contentsline {section}{\numberline {4}Conclusion}{6}{section.2.4}%
-\contentsline {part}{II\hspace {1em}Contribution}{7}{part.2}%
-\contentsline {chapter}{\numberline {1}Conception of Takalem gloves}{8}{chapter.1}%
-\contentsline {section}{\numberline {1}Introduction}{8}{section.1.1}%
-\contentsline {section}{\numberline {2}Hardware architecture and configuration}{8}{section.1.2}%
-\contentsline {section}{\numberline {3}Dataset collection and preprocessing}{8}{section.1.3}%
-\contentsline {section}{\numberline {4}Proposed deep learning architecture}{8}{section.1.4}%
-\contentsline {section}{\numberline {5}Conclusion}{8}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Results and discussion}{9}{chapter.2}%
-\contentsline {section}{\numberline {1}Introduction}{9}{section.2.1}%
-\contentsline {section}{\numberline {2}Evaluation criteria}{9}{section.2.2}%
-\contentsline {section}{\numberline {3}Experiments}{9}{section.2.3}%
-\contentsline {section}{\numberline {4}Discussion}{9}{section.2.4}%
-\contentsline {section}{\numberline {5}Conclusion}{9}{section.2.5}%
+\contentsline {paragraph}{}{6}{section*.29}%
+\contentsline {paragraph}{}{6}{section*.30}%
+\contentsline {paragraph}{}{6}{section*.31}%
+\contentsline {section}{\numberline {5}Conclusion}{6}{section.1.5}%
+\contentsline {paragraph}{}{6}{section*.32}%
+\contentsline {paragraph}{}{6}{section*.33}%
+\contentsline {paragraph}{}{6}{section*.34}%
+\contentsline {chapter}{\numberline {2}Related works}{7}{chapter.2}%
+\contentsline {section}{\numberline {1}Introduction}{7}{section.2.1}%
+\contentsline {paragraph}{}{7}{section*.35}%
+\contentsline {subsection}{\numberline {1.1}Background}{7}{subsection.2.1.1}%
+\contentsline {paragraph}{}{7}{section*.36}%
+\contentsline {subsection}{\numberline {1.2}Motivation}{7}{subsection.2.1.2}%
+\contentsline {paragraph}{}{7}{section*.37}%
+\contentsline {subsection}{\numberline {1.3}Objectives}{7}{subsection.2.1.3}%
+\contentsline {paragraph}{}{7}{section*.38}%
+\contentsline {subsection}{\numberline {1.4}Overview of the Chapter}{8}{subsection.2.1.4}%
+\contentsline {paragraph}{}{8}{section*.39}%
+\contentsline {paragraph}{}{8}{section*.40}%
+\contentsline {section}{\numberline {2}Methods of sign language recognition}{8}{section.2.2}%
+\contentsline {paragraph}{}{8}{section*.41}%
+\contentsline {subsection}{\numberline {2.1}Computer vision based approaches}{8}{subsection.2.2.1}%
+\contentsline {paragraph}{}{8}{section*.42}%
+\contentsline {subsection}{\numberline {2.2}Sensors based approaches}{8}{subsection.2.2.2}%
+\contentsline {paragraph}{}{8}{section*.43}%
+\contentsline {subsection}{\numberline {2.3}Summary}{8}{subsection.2.2.3}%
+\contentsline {paragraph}{}{8}{section*.44}%
+\contentsline {section}{\numberline {3}Synthesis}{8}{section.2.3}%
+\contentsline {paragraph}{}{8}{section*.45}%
+\contentsline {paragraph}{}{8}{section*.46}%
+\contentsline {paragraph}{}{9}{section*.47}%
+\contentsline {paragraph}{}{9}{section*.48}%
+\contentsline {paragraph}{}{9}{section*.49}%
+\contentsline {paragraph}{}{9}{section*.50}%
+\contentsline {paragraph}{}{9}{section*.51}%
+\contentsline {paragraph}{}{9}{section*.52}%
+\contentsline {paragraph}{}{9}{section*.53}%
+\contentsline {paragraph}{}{10}{section*.54}%
+\contentsline {section}{\numberline {4}Conclusion}{10}{section.2.4}%
+\contentsline {paragraph}{}{10}{section*.55}%
+\contentsline {part}{II\hspace {1em}Contribution}{11}{part.2}%
+\contentsline {chapter}{\numberline {1}Conception of Takalem gloves}{12}{chapter.1}%
+\contentsline {section}{\numberline {1}Introduction}{12}{section.1.1}%
+\contentsline {section}{\numberline {2}Hardware architecture and configuration}{12}{section.1.2}%
+\contentsline {section}{\numberline {3}Dataset collection and preprocessing}{12}{section.1.3}%
+\contentsline {section}{\numberline {4}Proposed deep learning architecture}{12}{section.1.4}%
+\contentsline {section}{\numberline {5}Conclusion}{12}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Results and discussion}{13}{chapter.2}%
+\contentsline {section}{\numberline {1}Introduction}{13}{section.2.1}%
+\contentsline {section}{\numberline {2}Evaluation criteria}{13}{section.2.2}%
+\contentsline {section}{\numberline {3}Experiments}{13}{section.2.3}%
+\contentsline {section}{\numberline {4}Discussion}{13}{section.2.4}%
+\contentsline {section}{\numberline {5}Conclusion}{13}{section.2.5}%
