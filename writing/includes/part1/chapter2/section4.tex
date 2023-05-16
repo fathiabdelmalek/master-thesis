@@ -1,3 +1,20 @@
-\section{Conclusion}
+\section{Methods of sign language recognition}
 \paragraph{}
-In conclusion, the analysis and synthesis of related works provide a comprehensive overview of the state of the art in \ac{slr}. The advancements in computer vision, \ac{ml}, and \ac{dl} techniques have paved the way for more accurate and efficient recognition of \ac{sl} gestures. However, there are still challenges to overcome, and further research is needed to address the limitations and improve the usability of \ac{slr} systems.
+\ac{slr} methods encompass a range of techniques and approaches used to interpret and understand \ac{sl} gestures. These methods can be categorized into several broad categories, including vision-based methods, data glove-based methods, and hybrid approaches that combine multiple modalities for improved accuracy and robustness.
+\subsection{Vision-Based Sign Language Recognition Methods}
+\paragraph{}
+Vision-based \ac{slr} methods rely on computer vision techniques to analyze and interpret \ac{sl} gestures captured by video cameras or depth sensors. These methods typically involve extracting relevant features from the visual data and mapping them to corresponding signs in a predefined \ac{sl} vocabulary.
+\paragraph{}
+Various techniques have been employed in vision-based approaches, including hand shape analysis, motion analysis, and spatiotemporal modeling. Hand shape analysis focuses on extracting information related to hand shape and configuration, such as fingertip positions, hand contours, and hand landmarks. Motion analysis techniques capture the dynamics of hand movements, including trajectory, speed, and acceleration. Spatiotemporal modeling methods aim to capture the spatial and temporal relationships between different hand movements and gestures.
+\subsection{Data Glove-Based Sign Language Recognition Methods}
+\paragraph{}
+Data glove-based \ac{slr} methods involve the use of sensor-equipped gloves to capture and analyze hand movements during \ac{sl} production. These gloves are equipped with sensors, such as flex sensors or \ac{imu}, which measure the bending angles of fingers or capture hand orientation and motion.
+\paragraph{}
+Flex sensor-based methods utilize the bending angles of individual fingers to recognize \ac{sl} gestures. These sensors provide information about the flexion and extension of each finger, which can be used to distinguish different signs based on finger configurations.
+\paragraph{}
+\ac{imu}-based methods utilize inertial sensors, such as accelerometers and gyroscopes, to capture hand motion and orientation. These sensors provide data on the acceleration, angular velocity, and orientation of the hand, which can be used to infer \ac{sl} gestures.
+\subsection{Hybrid Approaches in Sign Language Recognition}
+\paragraph{}
+Hybrid approaches combine multiple modalities, such as vision and data glove sensors, to enhance the accuracy and robustness of \ac{slr} systems. By integrating visual information with data from sensors, these methods can capture both fine-grained hand movements and global hand positions, leading to more comprehensive representations of \ac{sl} gestures.
+\paragraph{}
+Hybrid approaches often involve fusing the data from different modalities at different levels, such as feature fusion, decision-level fusion, or early fusion. Feature fusion combines the extracted features from vision and sensor data to create a unified feature representation. Decision-level fusion combines the decisions made by individual classifiers trained on different modalities to make a final decision. Early fusion combines the raw data from different modalities at the input level to create a joint representation for further processing.

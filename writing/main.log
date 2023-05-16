@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.5.7)  15 MAY 2023 11:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.5.7)  16 MAY 2023 12:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -252,15 +252,18 @@ Loading module `upgrade' ...
 \c@g@acro@ml@int=\count289
 \c@g@acro@dl@int=\count290
 \c@g@acro@ann@int=\count291
-\c@g@acro@cnn@int=\count292
-\c@g@acro@rnn@int=\count293
-\c@g@acro@lstm@int=\count294
-\c@g@acro@svm@int=\count295
-\c@g@acro@hmm@int=\count296
-\c@g@acro@vr@int=\count297
-\c@g@acro@ar@int=\count298
+\c@g@acro@dnn@int=\count292
+\c@g@acro@cnn@int=\count293
+\c@g@acro@rnn@int=\count294
+\c@g@acro@lstm@int=\count295
+\c@g@acro@svm@int=\count296
+\c@g@acro@hmm@int=\count297
+\c@g@acro@crf@int=\count298
+\c@g@acro@vr@int=\count299
+\c@g@acro@ar@int=\count300
+\c@g@acro@imu@int=\count301
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 87.
+h' as default language. on input line 96.
 
 
 LaTeX Warning: Unused global option(s):
@@ -269,36 +272,36 @@ LaTeX Warning: Unused global option(s):
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count299
+\scratchcounter=\count302
 \scratchdimen=\dimen147
 \scratchbox=\box52
-\nofMPsegments=\count300
-\nofMParguments=\count301
+\nofMPsegments=\count303
+\nofMParguments=\count304
 \everyMPshowfont=\toks19
-\MPscratchCnt=\count302
+\MPscratchCnt=\count305
 \MPscratchDim=\dimen148
-\MPnumerator=\count303
-\makeMPintoPDFobject=\count304
+\MPnumerator=\count306
+\makeMPintoPDFobject=\count307
 \everyMPtoPDFconversion=\toks20
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -309,7 +312,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 87.
+Package hyperref Info: Link coloring OFF on input line 96.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
@@ -322,9 +325,9 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 87.
+or `english'. on input line 96.
  (./includes/title.tex
-<./images/univ-tebessa.jpg, id=149, 183.68625pt x 277.035pt>
+<./images/univ-tebessa.jpg, id=180, 183.68625pt x 277.035pt>
 File: ./images/univ-tebessa.jpg Graphic file (type jpg)
 <use ./images/univ-tebessa.jpg>
 Package pdftex.def Info: ./images/univ-tebessa.jpg  used on input line 6.
@@ -358,13 +361,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.13 \end{abstract}
+l.14 \end{abstract}
                     [1]) (./main.toc
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.85 ... {2}Results and discussion}{13}{chapter.2}
+l.110 ...ception of Takalem gloves}{14}{chapter.1}
                                                   % [1
 
 ])
@@ -376,8 +379,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.97 	\clearpage
-                 [2] (./main.lof)
+l.106 	\clearpage
+                  [2] (./main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
@@ -415,12 +418,19 @@ Chapter 2.
 (./includes/part1/chapter2/section1.tex [7
 
 ])
-(./includes/part1/chapter2/section2.tex)
-(./includes/part1/chapter2/section3.tex [8])
-(./includes/part1/chapter2/section4.tex [9]))) (./includes/part2.tex [10]
-[11
+(./includes/part1/chapter2/section2.tex
+Overfull \hbox (1.1951pt too wide) in paragraph at lines 30--1
+ [][] \OT1/cmr/m/n/10 By an-a-lyz-ing re-lated works, the chap-ter aims to iden
+-tify ad-vance-ments, trends,
+ []
 
-] (./includes/part2/chapter1.tex
+[8] [9]) (./includes/part1/chapter2/section3.tex)
+(./includes/part1/chapter2/section4.tex [10])
+(./includes/part1/chapter2/section5.tex [11])
+(./includes/part1/chapter2/section6.tex))) (./includes/part2.tex [12] [13
+
+]
+(./includes/part2/chapter1.tex
 pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) h
 as been already used, duplicate ignored
 <to be read again> 
@@ -461,7 +471,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.1.5})
 <to be read again> 
                    \relax 
 l.1 \section{Conclusion}
-                        )) (./includes/part2/chapter2.tex [12
+                        )) (./includes/part2/chapter2.tex [14
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) h
@@ -495,39 +505,62 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.2.4})
 <to be read again> 
                    \relax 
 l.1 \section{Discussion}
-                        ) (./includes/part2/chapter2/section5.tex))) [13
+                        ) (./includes/part2/chapter2/section5.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.2.5})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \section{Conclusion}
+                        ))) [15
 
-]
-(./main.bbl) [14
+] (./main.bbl) [16
 
 ] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DEF31C45839C2358F63823BEF3E8CFDD;6081.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 46D2936B0D7DC6F05C49421C89C1A7BE;9095
+(rerunfilecheck)             After:  6D845028043D9C9ED70D9149628F268B;9095.
  ) 
 Here is how much of TeX's memory you used:
- 13995 strings out of 478126
- 302355 string characters out of 5842811
- 1861793 words of memory out of 6000000
- 33759 multiletter control sequences out of 15000+600000
- 523184 words of font info for 66 fonts, out of 8000000 for 9000
+ 14334 strings out of 478126
+ 314725 string characters out of 5842811
+ 1862793 words of memory out of 6000000
+ 34058 multiletter control sequences out of 15000+600000
+ 524089 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,5n,77p,1186b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/cm-super/sfrm1000.pfb>
-Output written on main.pdf (22 pages, 168796 bytes).
+ 72i,5n,77p,1186b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{subsection.2.3.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.2.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.2.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/cm-super/sfrm1000.pfb>
+Output written on main.pdf (24 pages, 179644 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
- 368 compressed objects within 4 object streams
- 107 named destinations out of 1000 (max. 500000)
- 318 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 494 PDF objects out of 1000 (max. 8388607)
+ 446 compressed objects within 5 object streams
+ 142 named destinations out of 1000 (max. 500000)
+ 382 words of extra memory for PDF output out of 10000 (max. 10000000)
 

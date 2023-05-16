@@ -1,10 +1,24 @@
-\section{Methods of sign language recognition}
+\section{Datasets for Training and Evaluation}
 \paragraph{}
-In this section, we explore various methods and techniques that have been employed in the field of \ac{slr}. We provide an overview of different approaches, highlighting their strengths, weaknesses, and suitability for real-time recognition systems. The objective is to review the existing literature and gain insights into the state-of-the-art methods used for \ac{slr}.
-\subsection{Computer vision based approaches}
+In the context of \ac{slr}, synthesis refers to the process of generating natural and expressive \ac{sl} gestures from textual or spoken input. Synthesis plays a vital role in bridging the communication gap between \ac{sl} users and non-signers by providing a means for converting spoken or written language into \ac{sl}.
+\subsection{Text-to-Sign Synthesis Methods}
 \paragraph{}
-\subsection{Sensors based approaches}
+Text-to-sign synthesis methods focus on converting written text into \ac{sl} gestures. These methods involve linguistic analysis of the input text to determine the appropriate sign vocabulary and grammatical structure. Various techniques, such as rule-based systems, statistical models, and \ac{ml} algorithms, have been employed in text-to-sign synthesis.
 \paragraph{}
-\subsection{Summary}
+Rule-based systems utilize predefined rules and linguistic knowledge to map words or phrases to corresponding signs. These systems typically rely on manually crafted linguistic resources, such as sign dictionaries and grammatical rules, to generate \ac{sl} sequences.
 \paragraph{}
-In summary, we highlighted the strengths and weaknesses of different \ac{slr} methods, setting the stage for the subsequent section where we synthesize the literature and identify research gaps.
+Statistical models, such as \ac{hmm} and \ac{crf}, have been used to learn the statistical relationships between textual input and \ac{sl} output. These models are trained on annotated corpora of text-sign pairs, allowing them to capture the patterns and dependencies between words and signs.
+\paragraph{}
+\ac{ml} algorithms, including \ac{ann} and \ac{dl} models, have shown promising results in text-to-sign synthesis. These models can learn the mapping between text and \ac{sl} directly from data, leveraging large-scale annotated datasets to improve the quality and naturalness of generated \ac{sl} gestures.
+\subsection{Speech-to-Sign Synthesis Methods}
+\paragraph{}
+Speech-to-sign synthesis methods aim to convert spoken language into \ac{sl} gestures. These methods involve audio analysis and processing techniques to extract relevant features from the input speech signals. The extracted features are then mapped to corresponding \ac{sl} gestures using statistical models or \ac{ml} algorithms.
+\paragraph{}
+Speech recognition algorithms, such as hidden \ac{hmm}s and \ac{dnn}s, are often used to transcribe spoken language into textual representations. The resulting text can then be processed using text-to-sign synthesis methods to generate \ac{sl} gestures.
+\paragraph{}
+Multimodal approaches, combining audio and visual information, have also been explored in speech-to-sign synthesis. These approaches leverage audiovisual recordings of \ac{sl} performances to learn the mapping between speech and \ac{sl} gestures. By incorporating both acoustic and visual features, these methods can capture the nuances of spoken language and produce more accurate and natural \ac{sl} outputs.
+\subsection{Challenges and Future Directions in Synthesis}
+\paragraph{}
+Despite significant advancements in text-to-sign and speech-to-sign synthesis, several challenges persist in achieving high-quality and expressive \ac{sl} generation. Some of these challenges include the variability in \ac{sl} dialects, the lack of standardized linguistic resources, and the need for large-scale annotated datasets for training \ac{ml} models.
+\paragraph{}
+Future research directions in \ac{sl} synthesis include improving the naturalness and expressiveness of generated \ac{sl} gestures, developing domain-specific synthesis models for different \ac{sl}s, and integrating real-time feedback mechanisms to enable interactive and adaptive synthesis.
