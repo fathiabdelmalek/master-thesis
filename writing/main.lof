@@ -1,5 +1,12 @@
 \acswitchoff 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Algerian Sign Language "\cite {asp_img}}}{5}{figure.1.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces TAKALEM Gloves components architecture}}{18}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces ESP32 WROOM}}{18}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Flex sensor}}{19}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Flex sensor cases "\cite {flex}}}{19}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Flex sensor pin out}}{20}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces MPU6050}}{20}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces MPU6050 pin out}}{21}{figure.3.7}%

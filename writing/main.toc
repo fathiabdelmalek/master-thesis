@@ -1,121 +1,158 @@
 \acswitchoff 
-\contentsline {paragraph}{}{i}{section*.3}%
-\contentsline {part}{I\hspace {1em}State of the art}{1}{part.1}%
-\contentsline {chapter}{\numberline {1}Sign languages and sign language recognition}{2}{chapter.1}%
-\contentsline {section}{\numberline {1}Introduction}{2}{section.1.1}%
-\contentsline {paragraph}{}{2}{section*.7}%
-\contentsline {paragraph}{}{2}{section*.8}%
-\contentsline {paragraph}{}{2}{section*.9}%
-\contentsline {section}{\numberline {2}Sign languages}{2}{section.1.2}%
-\contentsline {paragraph}{}{2}{section*.10}%
-\contentsline {paragraph}{}{2}{section*.11}%
-\contentsline {paragraph}{}{3}{section*.12}%
-\contentsline {subsection}{\numberline {2.1}Sign languages in Algeria}{3}{subsection.1.2.1}%
-\contentsline {paragraph}{}{3}{section*.13}%
-\contentsline {paragraph}{}{3}{section*.14}%
-\contentsline {subsection}{\numberline {2.2}Algerian Sign Language}{3}{subsection.1.2.2}%
-\contentsline {paragraph}{}{3}{section*.15}%
-\contentsline {paragraph}{}{3}{section*.16}%
-\contentsline {section}{\numberline {3}Sign language recognition}{3}{section.1.3}%
-\contentsline {subsection}{\numberline {3.1}Definition}{3}{subsection.1.3.1}%
-\contentsline {paragraph}{}{3}{section*.17}%
-\contentsline {paragraph}{}{4}{section*.18}%
-\contentsline {paragraph}{}{4}{section*.19}%
-\contentsline {paragraph}{}{4}{section*.20}%
-\contentsline {subsection}{\numberline {3.2}\ac {slr} applications and use}{4}{subsection.1.3.2}%
-\contentsline {paragraph}{}{4}{section*.21}%
-\contentsline {subsubsection}{\numberline {3.2.1}\ac {sl} translation}{4}{subsubsection.1.3.2.1}%
-\contentsline {paragraph}{}{4}{section*.22}%
-\contentsline {subsubsection}{\numberline {3.2.2}Virtual and augmented reality}{4}{subsubsection.1.3.2.2}%
-\contentsline {paragraph}{}{4}{section*.23}%
-\contentsline {subsubsection}{\numberline {3.2.3}Research and linguistics}{5}{subsubsection.1.3.2.3}%
-\contentsline {paragraph}{}{5}{section*.24}%
-\contentsline {section}{\numberline {4}Deep Learning}{5}{section.1.4}%
-\contentsline {paragraph}{}{5}{section*.25}%
-\contentsline {paragraph}{}{5}{section*.26}%
-\contentsline {paragraph}{}{5}{section*.27}%
-\contentsline {paragraph}{}{5}{section*.28}%
-\contentsline {paragraph}{}{6}{section*.29}%
-\contentsline {paragraph}{}{6}{section*.30}%
-\contentsline {paragraph}{}{6}{section*.31}%
-\contentsline {paragraph}{}{6}{section*.32}%
-\contentsline {section}{\numberline {5}Conclusion}{6}{section.1.5}%
-\contentsline {paragraph}{}{6}{section*.33}%
-\contentsline {paragraph}{}{6}{section*.34}%
-\contentsline {paragraph}{}{6}{section*.35}%
-\contentsline {chapter}{\numberline {2}Related works}{7}{chapter.2}%
-\contentsline {section}{\numberline {1}Introduction}{7}{section.2.1}%
-\contentsline {subsection}{\numberline {1.1}Sign Language Recognition: An Overview}{7}{subsection.2.1.1}%
-\contentsline {paragraph}{}{7}{section*.36}%
-\contentsline {paragraph}{}{7}{section*.37}%
-\contentsline {subsection}{\numberline {1.2}Motivation for Exploring Related Works}{7}{subsection.2.1.2}%
-\contentsline {paragraph}{}{7}{section*.38}%
-\contentsline {paragraph}{}{7}{section*.39}%
-\contentsline {paragraph}{}{7}{section*.40}%
-\contentsline {paragraph}{}{8}{section*.41}%
-\contentsline {subsection}{\numberline {1.3}Objectives of the Chapter}{8}{subsection.2.1.3}%
-\contentsline {paragraph}{}{8}{section*.42}%
-\contentsline {subsubsection}{\numberline {1.3.1}Review and Analyze Existing Methodologies}{8}{subsubsection.2.1.3.1}%
-\contentsline {paragraph}{}{8}{section*.43}%
-\contentsline {subsubsection}{\numberline {1.3.2}Explore Datasets for Training and Evaluation}{8}{subsubsection.2.1.3.2}%
-\contentsline {paragraph}{}{8}{section*.44}%
-\contentsline {subsubsection}{\numberline {1.3.3}Evaluate Performance Metrics}{8}{subsubsection.2.1.3.3}%
-\contentsline {paragraph}{}{8}{section*.45}%
-\contentsline {subsubsection}{\numberline {1.3.4}Identify Advancements and Future Directions}{8}{subsubsection.2.1.3.4}%
-\contentsline {paragraph}{}{8}{section*.46}%
-\contentsline {section}{\numberline {2}Datasets for Training and Evaluation}{9}{section.2.2}%
-\contentsline {paragraph}{}{9}{section*.47}%
-\contentsline {subsection}{\numberline {2.1}Text-to-Sign Synthesis Methods}{9}{subsection.2.2.1}%
-\contentsline {paragraph}{}{9}{section*.48}%
-\contentsline {paragraph}{}{9}{section*.49}%
-\contentsline {paragraph}{}{9}{section*.50}%
-\contentsline {paragraph}{}{9}{section*.51}%
-\contentsline {subsection}{\numberline {2.2}Speech-to-Sign Synthesis Methods}{9}{subsection.2.2.2}%
-\contentsline {paragraph}{}{9}{section*.52}%
-\contentsline {paragraph}{}{9}{section*.53}%
-\contentsline {paragraph}{}{9}{section*.54}%
-\contentsline {subsection}{\numberline {2.3}Challenges and Future Directions in Synthesis}{10}{subsection.2.2.3}%
-\contentsline {paragraph}{}{10}{section*.55}%
-\contentsline {paragraph}{}{10}{section*.56}%
-\contentsline {section}{\numberline {3}Evaluation Metrics and Performance Analysis}{10}{section.2.3}%
-\contentsline {paragraph}{}{10}{section*.57}%
-\contentsline {paragraph}{}{10}{section*.58}%
-\contentsline {paragraph}{}{10}{section*.59}%
-\contentsline {paragraph}{}{10}{section*.60}%
-\contentsline {paragraph}{}{10}{section*.61}%
-\contentsline {section}{\numberline {4}Methods of sign language recognition}{10}{section.2.4}%
-\contentsline {paragraph}{}{10}{section*.62}%
-\contentsline {subsection}{\numberline {4.1}Vision-Based Sign Language Recognition Methods}{11}{subsection.2.4.1}%
-\contentsline {paragraph}{}{11}{section*.63}%
-\contentsline {paragraph}{}{11}{section*.64}%
-\contentsline {subsection}{\numberline {4.2}Data Glove-Based Sign Language Recognition Methods}{11}{subsection.2.4.2}%
-\contentsline {paragraph}{}{11}{section*.65}%
-\contentsline {paragraph}{}{11}{section*.66}%
-\contentsline {paragraph}{}{11}{section*.67}%
-\contentsline {subsection}{\numberline {4.3}Hybrid Approaches in Sign Language Recognition}{11}{subsection.2.4.3}%
-\contentsline {paragraph}{}{11}{section*.68}%
-\contentsline {paragraph}{}{11}{section*.69}%
-\contentsline {section}{\numberline {5}Synthesis}{12}{section.2.5}%
-\contentsline {paragraph}{}{12}{section*.70}%
-\contentsline {paragraph}{}{12}{section*.71}%
-\contentsline {paragraph}{}{12}{section*.72}%
-\contentsline {paragraph}{}{12}{section*.73}%
-\contentsline {paragraph}{}{12}{section*.74}%
-\contentsline {section}{\numberline {6}Conclusion}{12}{section.2.6}%
-\contentsline {paragraph}{}{12}{section*.75}%
-\contentsline {paragraph}{}{12}{section*.76}%
-\contentsline {paragraph}{}{12}{section*.77}%
-\contentsline {paragraph}{}{12}{section*.78}%
-\contentsline {part}{II\hspace {1em}Contribution}{13}{part.2}%
-\contentsline {chapter}{\numberline {1}Conception of Takalem gloves}{14}{chapter.1}%
-\contentsline {section}{\numberline {1}Introduction}{14}{section.1.1}%
-\contentsline {section}{\numberline {2}Hardware architecture and configuration}{14}{section.1.2}%
-\contentsline {section}{\numberline {3}Dataset collection and preprocessing}{14}{section.1.3}%
-\contentsline {section}{\numberline {4}Proposed deep learning architecture}{14}{section.1.4}%
-\contentsline {section}{\numberline {5}Conclusion}{14}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Results and discussion}{15}{chapter.2}%
-\contentsline {section}{\numberline {1}Introduction}{15}{section.2.1}%
-\contentsline {section}{\numberline {2}Evaluation criteria}{15}{section.2.2}%
-\contentsline {section}{\numberline {3}Experiments}{15}{section.2.3}%
-\contentsline {section}{\numberline {4}Discussion}{15}{section.2.4}%
-\contentsline {section}{\numberline {5}Conclusion}{15}{section.2.5}%
+\contentsline {paragraph}{}{i}{chapter*.1}%
+\contentsline {paragraph}{}{1}{chapter*.5}%
+\contentsline {part}{I\hspace {1em}State of the art}{2}{part.1}%
+\contentsline {chapter}{\numberline {1}Sign languages and sign language recognition}{3}{chapter.1}%
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1.1}%
+\contentsline {paragraph}{}{3}{section.1.1}%
+\contentsline {paragraph}{}{3}{section.1.1}%
+\contentsline {paragraph}{}{3}{section.1.1}%
+\contentsline {section}{\numberline {2}Sign languages}{3}{section.1.2}%
+\contentsline {paragraph}{}{3}{section.1.2}%
+\contentsline {paragraph}{}{3}{section.1.2}%
+\contentsline {paragraph}{}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {2.1}Most sign languages used in the world}{4}{subsection.1.2.1}%
+\contentsline {paragraph}{}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {2.2}Sign languages in Algeria}{4}{subsection.1.2.2}%
+\contentsline {paragraph}{}{4}{subsection.1.2.2}%
+\contentsline {paragraph}{}{4}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {2.3}Algerian Sign Language}{4}{subsection.1.2.3}%
+\contentsline {paragraph}{}{4}{subsection.1.2.3}%
+\contentsline {paragraph}{}{5}{subsection.1.2.3}%
+\contentsline {section}{\numberline {3}Sign language recognition}{6}{section.1.3}%
+\contentsline {subsection}{\numberline {3.1}Definition}{6}{subsection.1.3.1}%
+\contentsline {paragraph}{}{6}{subsection.1.3.1}%
+\contentsline {paragraph}{}{6}{subsection.1.3.1}%
+\contentsline {paragraph}{}{6}{subsection.1.3.1}%
+\contentsline {paragraph}{}{6}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {3.2}\ac {slr} applications and fields of use}{6}{subsection.1.3.2}%
+\contentsline {paragraph}{}{6}{subsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}\ac {sl} translation}{6}{subsubsection.1.3.2.1}%
+\contentsline {paragraph}{}{6}{subsubsection.1.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Virtual and augmented reality}{7}{subsubsection.1.3.2.2}%
+\contentsline {paragraph}{}{7}{subsubsection.1.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Research and linguistics}{7}{subsubsection.1.3.2.3}%
+\contentsline {paragraph}{}{7}{subsubsection.1.3.2.3}%
+\contentsline {section}{\numberline {4}Deep Learning for \ac {slr}}{7}{section.1.4}%
+\contentsline {paragraph}{}{7}{section.1.4}%
+\contentsline {paragraph}{}{7}{section.1.4}%
+\contentsline {paragraph}{}{7}{section.1.4}%
+\contentsline {paragraph}{}{8}{section.1.4}%
+\contentsline {paragraph}{}{8}{section.1.4}%
+\contentsline {paragraph}{}{8}{section.1.4}%
+\contentsline {paragraph}{}{8}{section.1.4}%
+\contentsline {paragraph}{}{8}{section.1.4}%
+\contentsline {section}{\numberline {5}Conclusion}{8}{section.1.5}%
+\contentsline {paragraph}{}{8}{section.1.5}%
+\contentsline {paragraph}{}{8}{section.1.5}%
+\contentsline {paragraph}{}{9}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Related works}{10}{chapter.2}%
+\contentsline {section}{\numberline {1}Introduction}{10}{section.2.1}%
+\contentsline {paragraph}{}{10}{section.2.1}%
+\contentsline {paragraph}{}{10}{section.2.1}%
+\contentsline {subsection}{\numberline {1.1}Motivation for Exploring Related Works}{10}{subsection.2.1.1}%
+\contentsline {paragraph}{}{10}{subsection.2.1.1}%
+\contentsline {paragraph}{}{10}{subsection.2.1.1}%
+\contentsline {paragraph}{}{10}{subsection.2.1.1}%
+\contentsline {paragraph}{}{11}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {1.2}Objectives of the Chapter}{11}{subsection.2.1.2}%
+\contentsline {paragraph}{}{11}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Explore Datasets for Training and Evaluation}{11}{subsubsection.2.1.2.1}%
+\contentsline {paragraph}{}{11}{subsubsection.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Review and Analyze Existing Methodologies}{11}{subsubsection.2.1.2.2}%
+\contentsline {paragraph}{}{11}{subsubsection.2.1.2.2}%
+\contentsline {section}{\numberline {2}Datasets for Training and Evaluation}{11}{section.2.2}%
+\contentsline {paragraph}{}{11}{section.2.2}%
+\contentsline {subsection}{\numberline {2.1}Text-to-Sign Synthesis Methods}{11}{subsection.2.2.1}%
+\contentsline {paragraph}{}{11}{subsection.2.2.1}%
+\contentsline {paragraph}{}{12}{subsection.2.2.1}%
+\contentsline {paragraph}{}{12}{subsection.2.2.1}%
+\contentsline {paragraph}{}{12}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2}Speech-to-Sign Synthesis Methods}{12}{subsection.2.2.2}%
+\contentsline {paragraph}{}{12}{subsection.2.2.2}%
+\contentsline {paragraph}{}{12}{subsection.2.2.2}%
+\contentsline {paragraph}{}{12}{subsection.2.2.2}%
+\contentsline {section}{\numberline {3}Methods of sign language recognition}{12}{section.2.3}%
+\contentsline {paragraph}{}{12}{section.2.3}%
+\contentsline {subsection}{\numberline {3.1}Vision-Based Sign Language Recognition Methods}{12}{subsection.2.3.1}%
+\contentsline {paragraph}{}{12}{subsection.2.3.1}%
+\contentsline {paragraph}{}{13}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {3.2}Data Glove-Based Sign Language Recognition Methods}{13}{subsection.2.3.2}%
+\contentsline {paragraph}{}{13}{subsection.2.3.2}%
+\contentsline {paragraph}{}{13}{subsection.2.3.2}%
+\contentsline {paragraph}{}{13}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {3.3}Hybrid Approaches in Sign Language Recognition}{13}{subsection.2.3.3}%
+\contentsline {paragraph}{}{13}{subsection.2.3.3}%
+\contentsline {paragraph}{}{13}{subsection.2.3.3}%
+\contentsline {section}{\numberline {4}Synthesis}{13}{section.2.4}%
+\contentsline {paragraph}{}{13}{section.2.4}%
+\contentsline {paragraph}{}{14}{section.2.4}%
+\contentsline {paragraph}{}{14}{section.2.4}%
+\contentsline {paragraph}{}{14}{section.2.4}%
+\contentsline {paragraph}{}{14}{section.2.4}%
+\contentsline {section}{\numberline {5}Conclusion}{14}{section.2.5}%
+\contentsline {paragraph}{}{14}{section.2.5}%
+\contentsline {paragraph}{}{14}{section.2.5}%
+\contentsline {paragraph}{}{14}{section.2.5}%
+\contentsline {paragraph}{}{14}{section.2.5}%
+\contentsline {part}{II\hspace {1em}Contribution}{15}{part.2}%
+\contentsline {chapter}{\numberline {3}Conception of TAKALEM gloves}{16}{chapter.3}%
+\contentsline {section}{\numberline {1}Introduction}{16}{section.3.1}%
+\contentsline {paragraph}{}{16}{section.3.1}%
+\contentsline {paragraph}{}{16}{section.3.1}%
+\contentsline {paragraph}{}{16}{section.3.1}%
+\contentsline {paragraph}{}{16}{section.3.1}%
+\contentsline {paragraph}{}{16}{section.3.1}%
+\contentsline {paragraph}{}{17}{section.3.1}%
+\contentsline {section}{\numberline {2}Hardware architecture and configuration}{17}{section.3.2}%
+\contentsline {paragraph}{}{17}{section.3.2}%
+\contentsline {paragraph}{}{17}{section.3.2}%
+\contentsline {paragraph}{}{17}{section.3.2}%
+\contentsline {paragraph}{}{17}{section.3.2}%
+\contentsline {paragraph}{}{17}{section.3.2}%
+\contentsline {paragraph}{}{17}{section.3.2}%
+\contentsline {paragraph}{}{18}{section.3.2}%
+\contentsline {subsection}{\numberline {2.1}ESP32 WROOM}{18}{subsection.3.2.1}%
+\contentsline {paragraph}{}{18}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {2.2}Flex sensor}{19}{subsection.3.2.2}%
+\contentsline {paragraph}{}{19}{subsection.3.2.2}%
+\contentsline {paragraph}{How flex sensor work}{19}{figure.3.3}%
+\contentsline {paragraph}{Flex sensor pinout}{19}{figure.3.4}%
+\contentsline {subsection}{\numberline {2.3}MPU6050}{19}{subsection.3.2.3}%
+\contentsline {paragraph}{}{19}{subsection.3.2.3}%
+\contentsline {paragraph}{MPU6050 pinout}{20}{figure.3.6}%
+\contentsline {section}{\numberline {3}Dataset collection and preprocessing}{20}{section.3.3}%
+\contentsline {paragraph}{}{20}{section.3.3}%
+\contentsline {paragraph}{}{21}{section.3.3}%
+\contentsline {paragraph}{}{21}{section.3.3}%
+\contentsline {paragraph}{}{21}{section.3.3}%
+\contentsline {paragraph}{}{21}{section.3.3}%
+\contentsline {paragraph}{}{22}{table.3.2}%
+\contentsline {paragraph}{}{22}{table.3.2}%
+\contentsline {section}{\numberline {4}Proposed deep learning architecture}{22}{section.3.4}%
+\contentsline {paragraph}{}{22}{section.3.4}%
+\contentsline {paragraph}{}{22}{section.3.4}%
+\contentsline {paragraph}{}{22}{section.3.4}%
+\contentsline {paragraph}{}{22}{section.3.4}%
+\contentsline {paragraph}{}{23}{section.3.4}%
+\contentsline {paragraph}{}{23}{section.3.4}%
+\contentsline {paragraph}{}{23}{section.3.4}%
+\contentsline {paragraph}{}{23}{section.3.4}%
+\contentsline {section}{\numberline {5}Evaluation criteria}{23}{section.3.5}%
+\contentsline {paragraph}{}{23}{section.3.5}%
+\contentsline {subsection}{\numberline {5.1}Accuracy}{23}{subsection.3.5.1}%
+\contentsline {paragraph}{}{23}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {5.2}Precision and macro-average precision}{24}{subsection.3.5.2}%
+\contentsline {paragraph}{}{24}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {5.3}Recall and macro-average recall}{24}{subsection.3.5.3}%
+\contentsline {paragraph}{}{24}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {5.4}F1 score and macro-average f1 score}{24}{subsection.3.5.4}%
+\contentsline {paragraph}{}{24}{subsection.3.5.4}%
+\contentsline {paragraph}{}{24}{equation.3.5.7}%
+\contentsline {section}{\numberline {6}Discussion}{25}{section.3.6}%
+\contentsline {paragraph}{}{25}{section.3.6}%
+\contentsline {section}{\numberline {7}Conclusion}{25}{section.3.7}%
+\contentsline {paragraph}{}{25}{section.3.7}%
+\contentsline {paragraph}{}{25}{section.3.7}%
+\contentsline {paragraph}{}{26}{chapter*.6}%
+\contentsline {paragraph}{}{26}{chapter*.6}%

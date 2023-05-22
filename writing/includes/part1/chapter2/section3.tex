@@ -1,11 +1,20 @@
-\section{Evaluation Metrics and Performance Analysis}
+\section{Methods of sign language recognition}
 \paragraph{}
-Evaluation metrics play a crucial role in measuring the performance of \ac{slr} systems. There are various evaluation metrics used for this purpose, including accuracy, precision, recall, F1-score, and confusion matrix.
+\ac{slr} methods encompass a range of techniques and approaches used to interpret and understand \ac{sl} gestures. These methods can be categorized into several broad categories, including vision-based methods, data glove-based methods, and hybrid approaches that combine multiple modalities for improved accuracy and robustness.
+\subsection{Vision-Based Sign Language Recognition Methods}
 \paragraph{}
-Accuracy is the most commonly used metric that measures the percentage of correctly classified signs by the model. Precision measures how many of all predicted signs were correct while Recall measures how many actual signs were recognized correctly.
+Vision-based \ac{slr} methods rely on computer vision techniques to analyze and interpret \ac{sl} gestures captured by video cameras or depth sensors. These methods typically involve extracting relevant features from the visual data and mapping them to corresponding signs in a predefined \ac{sl} vocabulary.
 \paragraph{}
-F1-score evaluates both precision and recall simultaneously to provide a more comprehensive understanding of model performance. It considers false positives and false negatives as well.
+Various techniques have been employed in vision-based approaches, including hand shape analysis, motion analysis, and spatiotemporal modeling. Hand shape analysis focuses on extracting information related to hand shape and configuration, such as fingertip positions, hand contours, and hand landmarks. Motion analysis techniques capture the dynamics of hand movements, including trajectory, speed, and acceleration. Spatiotemporal modeling methods aim to capture the spatial and temporal relationships between different hand movements and gestures.
+\subsection{Data Glove-Based Sign Language Recognition Methods}
 \paragraph{}
-The Confusion Matrix is another effective way to evaluate \ac{slr} models. It provides information about true positive (correctly recognized) and false negative (incorrectly not-recognized) rates.
+Data glove-based \ac{slr} methods involve the use of sensor-equipped gloves to capture and analyze hand movements during \ac{sl} production. These gloves are equipped with sensors, such as flex sensors or \ac{imu}, which measure the bending angles of fingers or capture hand orientation and motion.
 \paragraph{}
-It's important to note that selecting appropriate evaluation metrics depends on the specific requirements of each application or dataset being used for training/testing purposes. Therefore choosing an optimal metric should be done with caution based on its suitability for application-specific goals
+Flex sensor-based methods utilize the bending angles of individual fingers to recognize \ac{sl} gestures. These sensors provide information about the flexion and extension of each finger, which can be used to distinguish different signs based on finger configurations.
+\paragraph{}
+\ac{imu}-based methods utilize inertial sensors, such as accelerometers and gyroscopes, to capture hand motion and orientation. These sensors provide data on the acceleration, angular velocity, and orientation of the hand, which can be used to infer \ac{sl} gestures.
+\subsection{Hybrid Approaches in Sign Language Recognition}
+\paragraph{}
+Hybrid approaches combine multiple modalities, such as vision and data glove sensors, to enhance the accuracy and robustness of \ac{slr} systems. By integrating visual information with data from sensors, these methods can capture both fine-grained hand movements and global hand positions, leading to more comprehensive representations of \ac{sl} gestures.
+\paragraph{}
+Hybrid approaches often involve fusing the data from different modalities at different levels, such as feature fusion, decision-level fusion, or early fusion. Feature fusion combines the extracted features from vision and sensor data to create a unified feature representation. Decision-level fusion combines the decisions made by individual classifiers trained on different modalities to make a final decision. Early fusion combines the raw data from different modalities at the input level to create a joint representation for further processing.

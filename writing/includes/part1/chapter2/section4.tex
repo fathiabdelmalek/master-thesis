@@ -1,20 +1,11 @@
-\section{Methods of sign language recognition}
+\section{Synthesis}
 \paragraph{}
-\ac{slr} methods encompass a range of techniques and approaches used to interpret and understand \ac{sl} gestures. These methods can be categorized into several broad categories, including vision-based methods, data glove-based methods, and hybrid approaches that combine multiple modalities for improved accuracy and robustness.
-\subsection{Vision-Based Sign Language Recognition Methods}
+Synthesis in \ac{slr} refers to the process of combining different approaches and techniques to achieve better results. With the increasing interest in \ac{dl}, researchers have incorporated \ac{ann} models such as \ac{lstm} into \ac{slr} systems.
 \paragraph{}
-Vision-based \ac{slr} methods rely on computer vision techniques to analyze and interpret \ac{sl} gestures captured by video cameras or depth sensors. These methods typically involve extracting relevant features from the visual data and mapping them to corresponding signs in a predefined \ac{sl} vocabulary.
+In addition to using \ac{lstm}, researchers also employ other methods such as \ac{hmm}, \ac{svm}, and \ac{cnn}. By combining these various techniques, it is possible to improve accuracy rates and reduce error rates in sign language recognition.
 \paragraph{}
-Various techniques have been employed in vision-based approaches, including hand shape analysis, motion analysis, and spatiotemporal modeling. Hand shape analysis focuses on extracting information related to hand shape and configuration, such as fingertip positions, hand contours, and hand landmarks. Motion analysis techniques capture the dynamics of hand movements, including trajectory, speed, and acceleration. Spatiotemporal modeling methods aim to capture the spatial and temporal relationships between different hand movements and gestures.
-\subsection{Data Glove-Based Sign Language Recognition Methods}
+Moreover, datasets play a crucial role in synthesis since they provide a means for training and testing models. Researchers use publicly available datasets or create their own annotated corpus of data for specific purposes.
 \paragraph{}
-Data glove-based \ac{slr} methods involve the use of sensor-equipped gloves to capture and analyze hand movements during \ac{sl} production. These gloves are equipped with sensors, such as flex sensors or \ac{imu}, which measure the bending angles of fingers or capture hand orientation and motion.
+Evaluation metrics are used to measure the performance of synthesized systems. Metrics like precision, recall and F1-score help researchers assess the effectiveness of their approach.
 \paragraph{}
-Flex sensor-based methods utilize the bending angles of individual fingers to recognize \ac{sl} gestures. These sensors provide information about the flexion and extension of each finger, which can be used to distinguish different signs based on finger configurations.
-\paragraph{}
-\ac{imu}-based methods utilize inertial sensors, such as accelerometers and gyroscopes, to capture hand motion and orientation. These sensors provide data on the acceleration, angular velocity, and orientation of the hand, which can be used to infer \ac{sl} gestures.
-\subsection{Hybrid Approaches in Sign Language Recognition}
-\paragraph{}
-Hybrid approaches combine multiple modalities, such as vision and data glove sensors, to enhance the accuracy and robustness of \ac{slr} systems. By integrating visual information with data from sensors, these methods can capture both fine-grained hand movements and global hand positions, leading to more comprehensive representations of \ac{sl} gestures.
-\paragraph{}
-Hybrid approaches often involve fusing the data from different modalities at different levels, such as feature fusion, decision-level fusion, or early fusion. Feature fusion combines the extracted features from vision and sensor data to create a unified feature representation. Decision-level fusion combines the decisions made by individual classifiers trained on different modalities to make a final decision. Early fusion combines the raw data from different modalities at the input level to create a joint representation for further processing.
+The development of synthesized systems has great potential for improving communication between hearing-impaired individuals and those who do not know \ac{sl}. Future research studies on this topic will continue exploring new ways of integrating different techniques that enable accurate recognition algorithms with faster processing times than current state-of-the-art solutions can offer.

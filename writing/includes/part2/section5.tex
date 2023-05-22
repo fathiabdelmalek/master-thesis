@@ -1,0 +1,45 @@
+\section{Evaluation criteria}
+\paragraph{}
+In this section, we discuss the evaluation criteria used to assess the performance and effectiveness of the TAKALEM Gloves system for \ac{slr}. Evaluating the system's performance is crucial to understanding its strengths, limitations, and areas for improvement.
+\subsection{Accuracy}
+\paragraph{}
+Accuracy is a fundamental metric used to evaluate the performance of sign language recognition systems. It measures the system's ability to correctly classify and interpret sign language gestures. In the context of the Takalem Gloves system, accuracy refers to the percentage of correctly recognized signs out of the total number of signs in the dataset. It can be calculated as in Eq. \ref{eq:accuracy}:
+\begin{equation}
+	Accuracy = \frac{TP + TN}{TP + TN + FP + FN} \label{eq:accuracy}
+\end{equation}
+Where:
+\begin{itemize}
+	\item TP represents true positive, the number of correctly recognized signs.
+	\item TN represents true negative, the number of correctly rejected non-target signs.
+	\item FP represents false positive, the number of incorrectly recognized signs.
+	\item FN represents false negative, the number of incorrectly rejected target signs.
+\end{itemize}
+\subsection{Precision and macro-average precision}
+\paragraph{}
+Precision and recall are commonly used metrics to assess the performance of classification models. In the context of \ac{slr}, precision refers to the proportion of correctly classified signs for a specific class (e.g., individual letters or words) out of all the signs predicted as that class. Recall measures the proportion of correctly classified signs for a specific class out of all the signs that actually belong to that class. They can be calculated as in Eq. \ref{eq:precision} and Eq. \ref{eq:recall}:
+\begin{equation}
+	Precision = \frac{TP}{TP + FP} \label{eq:precision}
+\end{equation}
+\begin{equation}
+	Recall = \frac{TP}{TP + FN} \label{eq:precision-macro}
+\end{equation}
+\subsection{Recall and macro-average recall}
+\paragraph{}
+Precision and recall are commonly used metrics to assess the performance of classification models. In the context of \ac{slr}, precision refers to the proportion of correctly classified signs for a specific class (e.g., individual letters or words) out of all the signs predicted as that class. Recall measures the proportion of correctly classified signs for a specific class out of all the signs that actually belong to that class. They can be calculated as in Eq. \ref{eq:precision} and Eq. \ref{eq:recall}:
+\begin{equation}
+	Precision = \frac{TP}{TP + FP} \label{eq:recall}
+\end{equation}
+\begin{equation}
+	Recall = \frac{TP}{TP + FN} \label{eq:recall-macro}
+\end{equation}
+\subsection{F1 score and macro-average f1 score}
+\paragraph{}
+Precision and recall are commonly used metrics to assess the performance of classification models. In the context of \ac{slr}, precision refers to the proportion of correctly classified signs for a specific class (e.g., individual letters or words) out of all the signs predicted as that class. Recall measures the proportion of correctly classified signs for a specific class out of all the signs that actually belong to that class. They can be calculated as in Eq. \ref{eq:precision} and Eq. \ref{eq:recall}:
+\begin{equation}
+	Precision = \frac{TP}{TP + FP} \label{eq:f1}
+\end{equation}
+\begin{equation}
+	Recall = \frac{TP}{TP + FN} \label{eq:f1-macro}
+\end{equation}
+\paragraph{}
+By employing these evaluation criteria, including accuracy, precision, recall, F1 score, we can comprehensively assess the performance and capabilities of the TAKALEM Gloves system for \ac{slr}. The combination of these metrics enables us to gain a holistic understanding of the system's effectiveness, identify areas for improvement, and guide future enhancements in the field of \ac{slr} technology.

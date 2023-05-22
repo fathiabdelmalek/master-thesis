@@ -1,0 +1,17 @@
+\section{Proposed deep learning architecture}
+\paragraph{}
+In this section, we present the \ac{dl} architecture used for \ac{slr} using the TAKALEM Gloves. The architecture consists of an input layer, an LSTM layer, and an output layer, and it is designed for both words and characters classification.
+\paragraph{}
+Input Layer: The input layer receives the sensor data collected from the TAKALEM Gloves. The dataset is reshaped to have a shape of (3360, 150, 11), where 3360 represents the number of gestures used for training, 150 represents the number of rows for each gesture, and 11 represents the number of features. The features include the flex sensor readings, gyro data, and raw acceleration values.
+\paragraph{}
+LSTM Layer: The LSTM layer is a crucial component of the architecture as it captures the sequential information and temporal dependencies present in the \ac{sl} gestures. It is responsible for learning the patterns and dynamics of hand movements and finger positions. The LSTM layer processes the input sequence and retains information over extended time periods, mitigating the vanishing gradient problem.
+\paragraph{}
+Output Layer: The output layer is the final layer of the architecture and is responsible for generating predictions. For the words classification model, the output layer has 14 nodes, representing the 14 different words in the dataset. For the characters classification model, the output layer has 26 nodes, representing the 26 letters of the alphabet. The output layer applies a softmax activation function to produce a probability distribution over the classes, with the highest probability indicating the predicted sign.
+\paragraph{}
+The proposed architecture is trained using the reshaped dataset, with appropriate training, validation, and testing splits. The model's parameters are adjusted during the training process using Adam as optimization algorithm, and "categorical cross-entropy" is chosen for loss function.
+\paragraph{}
+The performance of the architecture is evaluated using various evaluation metrics, including accuracy, precision, recall. These metrics assess the model's ability to correctly classify \ac{sl} gestures and provide insights into its overall effectiveness.
+\paragraph{}
+The architecture is implemented using TensorFlow python library, which provide efficient tools for constructing and training \ac{ann}s like \ac{lstm}. The training process can benefit from powerful computing resources, such as GPUs, to accelerate the training time and handle the large-scale nature of the dataset .
+\paragraph{}
+By utilizing the proposed deep learning architecture, the Takalem Gloves demonstrate promising results in sign language recognition. The model's ability to accurately classify both words and characters is a significant step towards enabling effective communication for individuals using \ac{sl}.

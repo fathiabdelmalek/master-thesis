@@ -1,8 +1,14 @@
 \documentclass[16pt,a4paper]{report}
+\linespread{1.5}
+\usepackage[left=1.2in,right=0.8in,top=1.2in,bottom=0.8in]{geometry}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{inputenc}
 \usepackage{acro}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
 
 \graphicspath{{ /images}}
 \renewcommand*\thesection{\arabic{section}}
@@ -10,7 +16,7 @@
 \setcounter{tocdepth}{3}
 \renewcommand{\bibname}{References}
 	
-\title{Takalem : A deep learning approach for Algerian sign language recognition}
+\title{TAKALEM : A deep learning approach for Algerian sign language recognition}
 \author{Fathi Abdelmalek}
 \date{\today}
 
@@ -30,6 +36,18 @@
 \DeclareAcronym{fsl}{
 	short={FSL},
 	long={French sign language}
+}
+\DeclareAcronym{asl}{
+	short={ASL},
+	long={American sign language}
+}
+\DeclareAcronym{bsl}{
+	short={BSL},
+	long={British sign language}
+}
+\DeclareAcronym{jsl}{
+	short={JSL},
+	long={Japanese sign language}
 }
 \DeclareAcronym{slr}{
 	short={SLR},
@@ -75,9 +93,13 @@
 	short={HMM},
 	long={Hidden Markov Model}
 }
+\DeclareAcronym{nlp}{
+	short={NLP},
+	long={Natural Language Processing}
+}
 \DeclareAcronym{crf}{
 	short={CRF},
-	long={conditional random field},
+	long={Conditional Random Field},
 }
 \DeclareAcronym{vr}{
 	short={VR},
@@ -91,7 +113,22 @@
 	short={IMU},
 	long={Inertial Measurement Unit},
 }
-
+\DeclareAcronym{mems}{
+	short={MEMS},
+	long={Micro Electro-Mechanical Systems},
+}
+\DeclareAcronym{dmp}{
+	short={DMP},
+	long={Digital Motion Processor},
+}
+\DeclareAcronym{soc}{
+	short={SoC},
+	long={system-on-a-chip},
+}
+\DeclareAcronym{iot}{
+	short={IoT},
+	long={Internet of Things},
+}
 
 \begin{document}
 	\makeatletter
@@ -99,9 +136,11 @@
 	\makeatother
 	\pagenumbering{roman}
 	\input{includes/dedication.tex}
-	%\input{includes/abbreviations.tex}
+	\clearpage
 	\printacronyms
+	\clearpage
 	\input{includes/abstract.tex}
+	\clearpage
 	\tableofcontents
 	\clearpage
 	\listoffigures
@@ -109,11 +148,14 @@
 	\listoftables
 	\clearpage
 	\pagenumbering{arabic}
+	\input{includes/general-introduction.tex}
 	\clearpage
 	\input{includes/part1.tex}
-	\setcounter{chapter}{0}
+	\clearpage
 	\input{includes/part2.tex}
-	\newpage
+	\clearpage
+	\input{includes/general-conclusion.tex}
+	\clearpage
 	\bibliographystyle{ieeetr}
 	\bibliography{includes/references}
 \end{document}

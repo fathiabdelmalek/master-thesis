@@ -1,16 +1,40 @@
 \begin{thebibliography}{1}
 
+\bibitem{asp_img}
+``African sign lnaguages resource center - algeria.''
+\newblock
+  \url{https://africansignlanguagesresourcecenter.com/profiles-of-african-sign-languages-and-deaf-culture-54-countries/algeria/}.
+
+\bibitem{5perc}
+A.~Sahoo, G.~Mishra, and K.~Ravulakollu, ``Sign language recognition: State of
+  the art,'' {\em ARPN Journal of Engineering and Applied Sciences}, vol.~9, 02
+  2014.
+
+\bibitem{ethnologue}
+``Algerian sign language - ethnologue.''
+\newblock \url{https://www.ethnologue.com/25/language/asp/}.
+
 \bibitem{teaching}
 H.~Abdelouafi and M.~Omari, ``Teaching sign language to the deaf children in
   adrar, algeria.''
 
-\bibitem{chalenges}
-H.~Abdelouafi, ``Challenges of deaf education in algeria.''
+\bibitem{wiki}
+``Algerian sign language - wikipedia.''
+\newblock \url{https://en.wikipedia.org/wiki/Algerian_Sign_Language}.
 
 \bibitem{sara}
 S.~Lanesman, {\em Algerian Jewish Sign Language: its emergence and survival}.
 
-\bibitem{wiki}
-``Algerian sign language - wikipedia.''
+\bibitem{chalenges}
+H.~Abdelouafi, ``Challenges of deaf education in algeria.''
+
+\bibitem{flex}
+``Flex-sensor-components101.''
+\newblock
+  \url{https://components101.com/sensors/flex-sensor-working-circuit-datasheet}.
+
+\bibitem{mpu}
+``Mpu6050-components101.''
+\newblock \url{https://components101.com/sensors/mpu6050-module}.
 
 \end{thebibliography}
