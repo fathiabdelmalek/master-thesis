@@ -1,2 +1,54 @@
-\section{Discussion}
+\section{Results}
 \paragraph{}
+In this section, we present the evaluation results for the word and character recognition models. The purpose is to assess the performance of each model and gain insights into their effectiveness.
+\subsection{Word Recognition Results}
+\paragraph{}
+The word recognition model was evaluated using a comprehensive set of word samples. The model achieved an accuracy of 94.63\% on the test dataset. The confusion matrix, depicted in Figure \ref{fig:words_confusion_matrix}, shows the distribution of predicted labels versus the true labels for each word class.
+\paragraph{}
+From the confusion matrix, we can observe that the model performs remarkably well, with most of the samples being correctly classified. There are only slight errors in some cases. However, overall, the model demonstrates high accuracy and precision.
+\paragraph{}
+To gain a comprehensive understanding of the word recognition model's performance, we present the classification report in Figure \ref{fig:words_classification_report}.
+\paragraph{}
+The classification report provides insights into the precision, recall, and F1 score for each word class. The macro average precision, recall, and F1 score for the word recognition model are 94\%, 95\%, and 95\%, respectively. These results indicate the model's strong performance in correctly recognizing the majority of the word classes.
+ \ref{fig:words_classification_report}.
+\subsection{Character Recognition Results}
+\paragraph{}
+Moving on to character recognition, the model achieved an accuracy of 95.03\% on the test dataset. The confusion matrix, shown in Figure \ref{fig:characters_confusion_matrix}, illustrates the predicted labels versus the true labels for each character class.
+\paragraph{}
+Similar to the word recognition model, the confusion matrix for the character recognition model demonstrates excellent performance, with minimal errors. The model accurately recognizes the majority of the characters, with only slight confusion between similar characters like "u" and "v".
+\paragraph{}
+To gain a comprehensive understanding of the character recognition model's performance, we present the classification report in Figure \ref{fig:characters_classification_report}.
+\paragraph{}
+The classification report presents the precision, recall, and F1 score for each character class. The average precision, recall, and F1 score for the character recognition model are 95\% for all of them. These results indicate the model's high accuracy in correctly identifying the majority of the character classes.
+\paragraph{}
+In summary, both the word and character recognition models demonstrate excellent performance with an accuracy of 94.63\% and 95.03\% respectively. The confusion matrices reveal minimal errors, while the classification reports confirm the models' precision, recall, and F1 score across various word and character classes. These results indicate the effectiveness and reliability of the implemented models in \ac{slr}.
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{0.6\textwidth}
+		\includegraphics[width=\textwidth]{images/confusion_matrix_words}
+		\caption{Confusion matrix for the word recognition model.}
+		\label{fig:words_confusion_matrix}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.6\textwidth}
+		\includegraphics[width=\textwidth]{images/confusion_matrix_characters}
+		\caption{Confusion matrix for character recognition model}
+		\label{fig:characters_confusion_matrix}
+	\end{subfigure}
+	\caption{Confusion matrices}
+	\label{fig:confusion_matrices}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{0.7\textwidth}
+		\includegraphics[width=\linewidth]{images/classification_report_words}
+		\caption{Classification report for word recognition model}
+		\label{fig:words_classification_report}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.7\textwidth}
+		\includegraphics[width=\linewidth]{images/classification_report_characters}
+		\caption{Classification report for character recognition model}
+		\label{fig:characters_classification_report}
+	\end{subfigure}
+	\caption{Classification reports}
+	\label{fig:classification_reports}
+\end{figure}

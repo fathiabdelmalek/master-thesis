@@ -3,7 +3,7 @@
 In this section, we discuss the evaluation criteria used to assess the performance and effectiveness of the TAKALEM Gloves system for \ac{slr}. Evaluating the system's performance is crucial to understanding its strengths, limitations, and areas for improvement.
 \subsection{Accuracy}
 \paragraph{}
-Accuracy is a fundamental metric used to evaluate the performance of sign language recognition systems. It measures the system's ability to correctly classify and interpret sign language gestures. In the context of the Takalem Gloves system, accuracy refers to the percentage of correctly recognized signs out of the total number of signs in the dataset. It can be calculated as in Eq. \ref{eq:accuracy}:
+Accuracy is a fundamental metric used to evaluate the performance of \ac{slr} systems. It measures the system's ability to correctly classify and interpret \ac{sl} gestures. In the context of the TAKALEM Gloves system, accuracy refers to the percentage of correctly recognized signs out of the total number of signs in the dataset. It can be calculated as in Eq. \ref{eq:accuracy}:
 \begin{equation}
 	Accuracy = \frac{TP + TN}{TP + TN + FP + FN} \label{eq:accuracy}
 \end{equation}
@@ -16,30 +16,36 @@ Where:
 \end{itemize}
 \subsection{Precision and macro-average precision}
 \paragraph{}
-Precision and recall are commonly used metrics to assess the performance of classification models. In the context of \ac{slr}, precision refers to the proportion of correctly classified signs for a specific class (e.g., individual letters or words) out of all the signs predicted as that class. Recall measures the proportion of correctly classified signs for a specific class out of all the signs that actually belong to that class. They can be calculated as in Eq. \ref{eq:precision} and Eq. \ref{eq:recall}:
+Precision refers to the measure of how accurate a model's predictions are, specifically the proportion of true positive predictions out of all positive predictions made by the model. It focuses on the correctness of the predicted positive instances. Macro-average precision, on the other hand, is a way to calculate the average precision across multiple classes or categories in a classification problem. It involves calculating precision for each class independently and then averaging them without considering the class imbalance. Macro-average precision gives equal weight to each class, regardless of their size, providing a balanced evaluation metric for multi-class problems. They can be calculated as in Eq. \ref{eq:precision} and Eq. \ref{eq:precision-macro}:
 \begin{equation}
-	Precision = \frac{TP}{TP + FP} \label{eq:precision}
+	Precision_i = \frac{TP_i}{TP_i + FP_i}
+	\label{eq:precision}
 \end{equation}
 \begin{equation}
-	Recall = \frac{TP}{TP + FN} \label{eq:precision-macro}
+	Precision_{macro-avg} = \frac{1}{N}  \sum_{i=0}^{N} Precision_i 
+	\label{eq:precision-macro}
 \end{equation}
 \subsection{Recall and macro-average recall}
 \paragraph{}
-Precision and recall are commonly used metrics to assess the performance of classification models. In the context of \ac{slr}, precision refers to the proportion of correctly classified signs for a specific class (e.g., individual letters or words) out of all the signs predicted as that class. Recall measures the proportion of correctly classified signs for a specific class out of all the signs that actually belong to that class. They can be calculated as in Eq. \ref{eq:precision} and Eq. \ref{eq:recall}:
+Recall, also known as sensitivity or true positive rate, is a measure of how effectively a model identifies all relevant instances in a dataset. It calculates the proportion of true positive predictions out of all actual positive instances. Recall focuses on the ability of the model to correctly identify positive instances and avoid false negatives. Macro-average recall, similar to macro-average precision, is a method to compute the average recall across multiple classes or categories in a classification problem. It involves calculating recall for each class independently and then averaging them without considering the class imbalance. Macro-average recall provides an unbiased evaluation metric by giving equal weight to each class, regardless of their size or prevalence in the dataset. They can be calculated as in Eq. \ref{eq:recall} and Eq. \ref{eq:recall-macro}:
 \begin{equation}
-	Precision = \frac{TP}{TP + FP} \label{eq:recall}
+	Recall_i = \frac{TP_i}{TP_i + FN_i}
+	\label{eq:recall}
 \end{equation}
 \begin{equation}
-	Recall = \frac{TP}{TP + FN} \label{eq:recall-macro}
+	Recall_{macro-avg} = \frac{1}{N}  \sum_{i=0}^{N} Recall_i
+	\label{eq:recall-macro}
 \end{equation}
 \subsection{F1 score and macro-average f1 score}
 \paragraph{}
-Precision and recall are commonly used metrics to assess the performance of classification models. In the context of \ac{slr}, precision refers to the proportion of correctly classified signs for a specific class (e.g., individual letters or words) out of all the signs predicted as that class. Recall measures the proportion of correctly classified signs for a specific class out of all the signs that actually belong to that class. They can be calculated as in Eq. \ref{eq:precision} and Eq. \ref{eq:recall}:
+F1 score is a single metric that combines precision and recall into a single value, providing a balanced evaluation of a model's performance. It is the harmonic mean of precision and recall and is often used in situations where both precision and recall are important. Macro-average F1 score is a way to calculate the average F1 score across multiple classes or categories in a classification problem. It involves calculating the F1 score for each class independently and then averaging them without considering the class imbalance. Similar to macro-average precision and recall, macro-average F1 score gives equal weight to each class, providing a balanced evaluation metric that accounts for the performance across all classes, regardless of their size or prevalence in the dataset. They can be calculated as in Eq. \ref{eq:f1} and Eq. \ref{eq:f1-macro}:
 \begin{equation}
-	Precision = \frac{TP}{TP + FP} \label{eq:f1}
+	F1_i = 2 \times \frac{Precision_i \times Recall_i}{Precision_i + Recall_i}
+	\label{eq:f1}
 \end{equation}
 \begin{equation}
-	Recall = \frac{TP}{TP + FN} \label{eq:f1-macro}
+	F1_{macro-avg} = \frac{1}{N}  \sum_{i=0}^{N} F1_i
+	\label{eq:f1-macro}
 \end{equation}
 \paragraph{}
 By employing these evaluation criteria, including accuracy, precision, recall, F1 score, we can comprehensively assess the performance and capabilities of the TAKALEM Gloves system for \ac{slr}. The combination of these metrics enables us to gain a holistic understanding of the system's effectiveness, identify areas for improvement, and guide future enhancements in the field of \ac{slr} technology.

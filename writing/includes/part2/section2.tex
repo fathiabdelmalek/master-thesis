@@ -15,7 +15,7 @@ To ensure optimal performance and reliable data transmission, the hardware compo
 As a visual representation of the TAKALEM Gloves, \ref{fig:prototype} showcases the prototype of the gloves, highlighting the positioning of the flex sensors and the MPU6050 sensor. This prototype serves as a physical embodiment of the hardware architecture described in this section.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.7\linewidth]{images/prototype}
+	\includegraphics[width=0.8\linewidth]{images/prototype}
 	\caption{TAKALEM Gloves components architecture}
 	\label{fig:prototype}
 \end{figure}
@@ -24,7 +24,7 @@ As a visual representation of the TAKALEM Gloves, \ref{fig:prototype} showcases 
 ESP32 is a highly versatile and powerful microcontroller \ac{soc} developed by Espressif Systems. It combines Wi-Fi and Bluetooth connectivity with a dual-core processor, making it ideal for various \ac{iot} applications.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.5\linewidth]{images/flex-sensor}
+	\includegraphics[width=0.6\linewidth]{images/esp32}
 	\caption{ESP32 WROOM}
 	\label{fig:esp32}
 \end{figure}
@@ -33,7 +33,7 @@ ESP32 is a highly versatile and powerful microcontroller \ac{soc} developed by E
 Flex sensor is basically a variable resistor whose terminal resistance increases when the sensor is bent. So this sensor resistance increases depends on surface linearity. So it is usually used to sense the changes in linearity "\cite{flex}.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.5\linewidth]{images/flex-sensor}
+	\includegraphics[width=0.6\linewidth]{images/flex-sensor}
 	\caption{Flex sensor}
 	\label{fig:flex-sensor}
 \end{figure}
@@ -41,7 +41,7 @@ Flex sensor is basically a variable resistor whose terminal resistance increases
 As shown in figure \ref{fig:flex-cases}, when the surface of the flex sensor is completely linear it will be having its nominal resistance. When it is bent 45º angle the flex sensor resistance increases to twice as before. And when the bent is 90º the resistance could go as high as four times the nominal resistance. So the resistance across the terminals rises linearly with bent angle. So in a sense the flex sensor converts flex angle to resistance parameter "\cite{flex}.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.5\linewidth]{images/flex-cases}
+	\includegraphics[width=0.6\linewidth]{images/flex-cases}
 	\caption{Flex sensor cases "\cite{flex}}
 	\label{fig:flex-cases}
 \end{figure}
@@ -49,7 +49,7 @@ As shown in figure \ref{fig:flex-cases}, when the surface of the flex sensor is 
 The flex sensor is a two-way variable resistor with two pins, one for GND and the other for VCC. We wire one pin directly to the GND, the second pin is used to read the flex resistance via two wires, one is connected to the output pin in the esp32 and the other is connected to a constant resistance connected to the VCC.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.5\linewidth]{images/flex-pinout}
+	\includegraphics[width=0.6\linewidth]{images/flex-pinout}
 	\caption{Flex sensor pin out}
 	\label{fig:flex-pinout}
 \end{figure}
@@ -58,7 +58,7 @@ The flex sensor is a two-way variable resistor with two pins, one for GND and th
 The MPU6050 is a \ac{mems} which consists of a 3-axis Accelerometer and 3-axis Gyroscope inside it. This helps us to measure acceleration, velocity, orientation, displacement and many other motion related parameter of a system or object. This module also has a \ac{dmp} inside it which is powerful enough to perform complex calculation and thus free up the work for microcontrollers "\cite{mpu}.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.5\linewidth]{images/mpu6050}
+	\includegraphics[width=0.6\linewidth]{images/mpu6050}
 	\caption{MPU6050}
 	\label{fig:mpu6050}
 \end{figure}
@@ -66,7 +66,7 @@ The MPU6050 is a \ac{mems} which consists of a 3-axis Accelerometer and 3-axis G
 The MPU6050 sensor module and ESP32 have specific pinouts that need to be connected correctly. The MPU6050 typically has four important pins: VCC, GND, SDA, and SCL. The VCC pin is connected to a 3.3V or 5V output on the ESP32 to power the sensor. The GND pin of the MPU6050 is connected to a ground pin on the ESP32 to establish a common ground. The SDA pin of the MPU6050 is connected to the SDA pin on the ESP32 (pin D23), which handles the data line for I2C communication. Similarly, the SCL pin of the MPU6050 is connected to the SCL pin on the ESP32 (pin D21), which handles the clock line for I2C communication. It's important to make sure the correct pins are connected to establish proper communication between the MPU6050 and ESP32.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.5\linewidth]{images/mpu6050}
-	\caption{MPU6050 pin out}
+	\includegraphics[width=0.6\linewidth]{images/mpu6050-pinout}
+	\caption{MPU6050 pin out "\cite{mpu-pinout}}
 	\label{fig:mpu6050-pinout}
 \end{figure}

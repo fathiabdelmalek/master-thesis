@@ -1,12 +1,16 @@
 \acswitchoff 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Algerian Sign Language "\cite {asp_img}}}{5}{figure.1.1}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Algerian Sign Language "\cite {asp_img}\relax }}{5}{figure.caption.7}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces TAKALEM Gloves components architecture}}{18}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces ESP32 WROOM}}{18}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Flex sensor}}{19}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Flex sensor cases "\cite {flex}}}{19}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Flex sensor pin out}}{20}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces MPU6050}}{20}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces MPU6050 pin out}}{21}{figure.3.7}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces TAKALEM Gloves components architecture\relax }}{17}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces ESP32 WROOM\relax }}{18}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Flex sensor\relax }}{18}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Flex sensor cases "\cite {flex}\relax }}{19}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Flex sensor pin out\relax }}{19}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces MPU6050\relax }}{20}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces MPU6050 pin out "\cite {mpu-pinout}\relax }}{20}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces The trained model\relax }}{22}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces The trained model after converted to tflite model\relax }}{23}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Confusion matrices\relax }}{27}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Classification reports\relax }}{28}{figure.caption.20}%

@@ -1,6 +1,6 @@
-\documentclass[16pt,a4paper]{report}
+\documentclass[twoside]{report}
+\usepackage[a4paper,left=1.2in,right=0.8in,top=1.2in,bottom=0.8in]{geometry}
 \linespread{1.5}
-\usepackage[left=1.2in,right=0.8in,top=1.2in,bottom=0.8in]{geometry}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{inputenc}
@@ -9,14 +9,20 @@
 \usepackage{setspace}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+
+\fancyhf{}
+\fancyhead[LE,RO]{\nouppercase{\leftmark\hfill\rightmark}}
+\fancyfoot[C]{\thepage}
 
 \graphicspath{{ /images}}
 \renewcommand*\thesection{\arabic{section}}
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
 \renewcommand{\bibname}{References}
-	
-\title{TAKALEM : A deep learning approach for Algerian sign language recognition}
+
+\title{TAKALEM : Deep learning approach for Algerian sign language recognition}
 \author{Fathi Abdelmalek}
 \date{\today}
 
@@ -64,6 +70,10 @@
 \DeclareAcronym{dl}{
 	short={DL},
 	long={Deep Learning},
+}
+\DeclareAcronym{nn}{
+	short={NN},
+	long={Neural Network}
 }
 \DeclareAcronym{ann}{
 	short={ANN},
@@ -131,9 +141,14 @@
 }
 
 \begin{document}
+	\pagestyle{plain}
 	\makeatletter
 	\input{includes/title.tex}
 	\makeatother
+	\newpage
+	\thispagestyle{empty}
+	\mbox{}
+	\newpage
 	\pagenumbering{roman}
 	\input{includes/dedication.tex}
 	\clearpage
@@ -148,6 +163,7 @@
 	\listoftables
 	\clearpage
 	\pagenumbering{arabic}
+	\pagestyle{fancy}
 	\input{includes/general-introduction.tex}
 	\clearpage
 	\input{includes/part1.tex}

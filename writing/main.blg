@@ -9,36 +9,36 @@ Warning--entry type for "chalenges" isn't style-file defined
 --line 25 of file includes/references.bib
 Warning--empty publisher in sara
 Warning--empty year in sara
-You've used 9 entries,
+You've used 10 entries,
             1876 wiz_defined-function locations,
-            512 strings with 4503 characters,
-and the built_in function-call counts, 1110 in all, are:
-= -- 100
-> -- 32
+            515 strings with 4628 characters,
+and the built_in function-call counts, 1220 in all, are:
+= -- 112
+> -- 33
 < -- 0
-+ -- 16
++ -- 17
 - -- 7
-* -- 45
-:= -- 136
-add.period$ -- 7
-call.type$ -- 9
-change.case$ -- 8
+* -- 47
+:= -- 147
+add.period$ -- 8
+call.type$ -- 10
+change.case$ -- 9
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 45
-empty$ -- 161
+cite$ -- 12
+duplicate$ -- 49
+empty$ -- 179
 format.name$ -- 7
-if$ -- 292
+if$ -- 324
 int.to.chr$ -- 0
-int.to.str$ -- 9
+int.to.str$ -- 10
 missing$ -- 3
-newline$ -- 35
+newline$ -- 39
 num.names$ -- 4
-pop$ -- 65
+pop$ -- 74
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 35
+skip$ -- 37
 stack$ -- 0
 substring$ -- 0
 swap$ -- 2
@@ -48,6 +48,6 @@ top$ -- 0
 type$ -- 0
 warning$ -- 2
 while$ -- 4
-width$ -- 10
-write$ -- 64
+width$ -- 12
+write$ -- 71
 (There were 4 warnings)

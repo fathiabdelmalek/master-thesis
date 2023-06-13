@@ -1,9 +1,19 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{asp_img}
 ``African sign lnaguages resource center - algeria.''
 \newblock
   \url{https://africansignlanguagesresourcecenter.com/profiles-of-african-sign-languages-and-deaf-culture-54-countries/algeria/}.
+
+\bibitem{flex}
+``Flex-sensor-components101.''
+\newblock
+  \url{https://components101.com/sensors/flex-sensor-working-circuit-datasheet}.
+
+\bibitem{mpu-pinout}
+``Interfacing esp32 with mpu6050.''
+\newblock
+  \url{https://www.tutorialspoint.com/esp32_for_iot/interfacing_esp32_with_mpu6050.htm}.
 
 \bibitem{5perc}
 A.~Sahoo, G.~Mishra, and K.~Ravulakollu, ``Sign language recognition: State of
@@ -27,11 +37,6 @@ S.~Lanesman, {\em Algerian Jewish Sign Language: its emergence and survival}.
 
 \bibitem{chalenges}
 H.~Abdelouafi, ``Challenges of deaf education in algeria.''
-
-\bibitem{flex}
-``Flex-sensor-components101.''
-\newblock
-  \url{https://components101.com/sensors/flex-sensor-working-circuit-datasheet}.
 
 \bibitem{mpu}
 ``Mpu6050-components101.''
