@@ -1,22 +1,46 @@
 \chapter*{General Introduction}
+\section{Context of Work}
 \paragraph{}
-This report presents the results and findings of our research on \ac{slr}. The objective of our study is to develop a \ac{dl} model that can accurately interpret and recognize \ac{sl} gestures. The ultimate goal is to bridge the communication gap between individuals who are fluent in \ac{sl} and those who are not, thereby fostering inclusivity and accessibility for the deaf community.
+\ac{slr} is a rapidly evolving field that aims to enable effective communication between individuals with hearing impairments who use \ac{sl} and those who do not. \ac{sl}, including \ac{asp}, are visual languages that rely on hand gestures, facial expressions, and body movements to convey meaning. Recognizing and interpreting \ac{sl} gestures accurately is essential for facilitating inclusive communication and ensuring equal access to information and services for the deaf community.
 \paragraph{}
-In this report, we provide a comprehensive overview of our research methodology, experiments, and results. The report is structured as follows:
+In recent years, advancements in \ac{dl} have revolutionized \ac{slr}. \ac{dl} models, particularly \ac{cnn} and \ac{rnn}, have shown remarkable success in analyzing and understanding complex visual data, making them well-suited for \ac{slr} tasks. By training \ac{dl} models on large \ac{sl} datasets, researchers have achieved significant improvements in accuracy and real-time recognition.
+\paragraph{}
+However, the development of accurate and robust \ac{slr} systems, especially for less-studied \ac{sl}s like \ac{asp}, remains a challenge. \ac{asp} has its unique vocabulary, grammar, and cultural aspects, which necessitate specific recognition models tailored to its characteristics. Additionally, limited resources, such as annotated \ac{asp} datasets, pose obstacles in building effective recognition systems.
+\paragraph{}
+To address these challenges, our research focuses on developing a \ac{dl} model specifically designed for \ac{asl} recognition. Leveraging the advancements in \ac{dl} and the availability of sensor-based \ac{asl} datasets, we aim to adapt and optimize these techniques for \ac{asp} recognition. By doing so, we contribute to bridging the communication gap and empowering the Algerian deaf community.
+\paragraph{}
+Furthermore, we aim to implement the developed \ac{dl} model on the ESP32 microcontroller, which is widely used in embedded systems. By deploying the model on a low-power and portable device, we enable real-time \ac{slr}, making it accessible in various settings, including smartphones and wearable devices like smart gloves, and this is our objective. This implementation on microcontrollers opens up possibilities for ubiquitous and on-the-go \ac{slr}, further enhancing the integration and inclusion of the deaf community in everyday life.
+\paragraph{}
+In the following sections of this report, we present the state of the art in \ac{slr}, related works in the field, the conception of the TAKALEM gloves, the development of the \ac{dl} model, and the evaluation of its performance. Through our research, we strive to contribute to the advancement of \ac{asp} recognition technology and promote inclusivity and accessibility for individuals with hearing impairments.
+
+\section{Problematic}
+\paragraph{}
+The lack of existing approaches for \ac{sl} recognition necessitates starting from scratch in the development of this systems. Furthermore, the limited availability of the needed materials to construct our own dataset and the time constraints we faced led us to leverage a sensor-based \ac{asl} dataset. Although this dataset differs from \ac{asp}, it serves as a foundation for our research and enables us to explore the effectiveness of \ac{dl} techniques in interpreting and recognizing \ac{sl} gestures.
+
+\section{Objectives}
+\paragraph{}
+The main objectives of our research are as follows:
 \begin{itemize}
-	\item \textbf{Chapter 1: Introduction} - This chapter provides an introduction to the research topic, outlines the objectives of the study, and explains the organization of the report.
-	
-	\item \textbf{Chapter 2: Dataset and Preprocessing} - Here, we present the ASL dataset used in our study, along with the preprocessing steps undertaken to prepare the data for model training. We describe the data collection process, the composition of the dataset, and any data cleaning or augmentation techniques employed.
-	
-	\item \textbf{Chapter 3: Methodology} - In this chapter, we detail the architecture and implementation of our deep learning models for both word and character recognition. We explain the choice of model architecture, the training procedure, and any optimization techniques utilized.
-	
-	\item \textbf{Chapter 4: Experimental Results} - Here, we present the evaluation results of our models. We analyze the performance metrics, including accuracy, precision, recall, and F1 score, and provide visual representations of the confusion matrices and classification reports.
-	
-	\item \textbf{Chapter 5: Discussion} - This chapter discusses the insights gained from the experimental results. We interpret the findings, identify strengths and limitations of our approach, and suggest potential areas for improvement and future research.
-	
-	\item \textbf{Chapter 6: Conclusion} - Finally, we summarize the key findings and contributions of our study. We reflect on the achievements and limitations of our research and outline the potential applications and impact of SLR systems for Arabic sign language.
+	\item Develop a \ac{dl} model for \ac{asl} recognition.
+	\item Investigate the effectiveness of \ac{dl} techniques in interpreting and recognizing the gestures.
+	\item Evaluate the performance of the developed model using appropriate metrics and validate its accuracy and robustness.
+	\item Implement the developed model on the ESP32 microcontroller to enable real-time \ac{slr}.
+	\item Contribute to the advancement of \ac{asp} recognition technology and facilitate effective communication between \ac{sl} users and the wider community.
 \end{itemize}
+
+\section{Structure of the Report}
 \paragraph{}
-By following this structured approach, we aim to provide a comprehensive understanding of our research process and outcomes. The subsequent chapters delve into the details of the dataset, methodology, and experimental results, offering insights into the effectiveness and applicability of our deep learning models for Arabic sign language recognition.
-\paragraph{}
-Through this report, we aim to contribute to the existing body of knowledge on SLR and advocate for the development of robust and accurate SLR systems that cater to the specific needs of the Arabic sign language community. We believe that our research findings have the potential to facilitate communication and promote inclusivity for individuals with hearing impairments.
+The report is structured as follows:
+
+\begin{itemize}
+	\item \textbf{Part 1: State of the Art}
+	\begin{itemize}
+		\item Chapter 1: Sign Languages and Sign Language Recognition.
+		\item Chapter 2: Related Works.
+	\end{itemize}
+	
+	\item \textbf{Part 2: Contribution}
+	\begin{itemize}
+		\item Chapter 3: Conception of TAKALEM Gloves.
+	\end{itemize}
+\end{itemize}
