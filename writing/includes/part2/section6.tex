@@ -10,14 +10,14 @@ From the confusion matrix, we can observe that the model performs remarkably wel
 To gain a comprehensive understanding of the word recognition model's performance, we present the classification report in Figure \ref{fig:words_classification_report}.
 \paragraph{}
 The classification report provides insights into the precision, recall, and F1 score for each word class. The macro average precision, recall, and F1 score for the word recognition model are 94\%, 95\%, and 95\%, respectively. These results indicate the model's strong performance in correctly recognizing the majority of the word classes.
- \ref{fig:words_classification_report}.
+ \ref{tab:words_classification_report}.
 \subsection{Character Recognition Results}
 \paragraph{}
 Moving on to character recognition, the model achieved an accuracy of 95.03\% on the test dataset. The confusion matrix, shown in Figure \ref{fig:characters_confusion_matrix}, illustrates the predicted labels versus the true labels for each character class.
 \paragraph{}
 Similar to the word recognition model, the confusion matrix for the character recognition model demonstrates excellent performance, with minimal errors. The model accurately recognizes the majority of the characters, with only slight confusion between similar characters like "u" and "v".
 \paragraph{}
-To gain a comprehensive understanding of the character recognition model's performance, we present the classification report in Figure \ref{fig:characters_classification_report}.
+To gain a comprehensive understanding of the character recognition model's performance, we present the classification report in Figure \ref{tab:characters_classification_report}.
 \paragraph{}
 The classification report presents the precision, recall, and F1 score for each character class. The average precision, recall, and F1 score for the character recognition model are 95\% for all of them. These results indicate the model's high accuracy in correctly identifying the majority of the character classes.
 \paragraph{}
@@ -37,18 +37,111 @@ In summary, both the word and character recognition models demonstrate excellent
 	\caption{Confusion matrices}
 	\label{fig:confusion_matrices}
 \end{figure}
-\begin{figure}[h]
+\begin{table}[h]
 	\centering
-	\begin{subfigure}[b]{0.7\textwidth}
-		\includegraphics[width=\linewidth]{images/classification_report_words}
-		\caption{Classification report for word recognition model}
-		\label{fig:words_classification_report}
-	\end{subfigure}
-	\begin{subfigure}[b]{0.7\textwidth}
-		\includegraphics[width=\linewidth]{images/classification_report_characters}
-		\caption{Classification report for character recognition model}
-		\label{fig:characters_classification_report}
-	\end{subfigure}
-	\caption{Classification reports}
-	\label{fig:classification_reports}
-\end{figure}
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		& precision & recall & f1-score & support \\
+		\hline
+		0 & 0.89 & 0.86 & 0.87 & 8550 \\
+		\hline
+		1 & 0.96 & 0.98 & 0.97 & 9000 \\
+		\hline
+		2 & 0.93 & 0.99 & 0.96 & 6300 \\
+		\hline
+		3 & 0.82 & 0.84 & 0.83 & 6300 \\
+		\hline
+		4 & 0.98 & 0.98 & 0.98 & 7650 \\
+		\hline
+		5 & 0.98 & 0.96 & 0.97 & 7800 \\
+		\hline
+		6 & 0.99 & 0.99 & 0.99 & 7800 \\
+		\hline
+		7 & 0.91 & 0.89 & 0.90 & 7800 \\
+		\hline
+		8 & 1.00 & 0.99 & 1.00 & 7650 \\
+		\hline
+		9 & 0.99 & 0.97 & 0.98 & 7050 \\
+		\hline
+		10 & 0.99 & 1.00 & 1.00 & 8400 \\
+		\hline
+		11 & 0.90 & 0.93 & 0.91 & 6900 \\
+		\hline
+		12 & 0.97 & 0.99 & 0.98 & 6150 \\
+		\hline
+		13 & 0.91 & 0.87 & 0.89 & 7650 \\
+		\hline
+		accuracy & - & - & 0.95 & 105000 \\
+		\hline
+		macro avg & 0.94 & 0.95 & 0.95 & 105000 \\
+		\hline
+	\end{tabular}
+	\caption{Words classification report}
+	\label{tab:words_classification_report}
+\end{table}
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		& precision & recall & f1-score & support \\
+		\hline
+		0 & 1.00 & 0.96 & 0.98 & 8400 \\
+		\hline
+		1 & 1.00 & 0.98 & 0.99 & 6900 \\
+		\hline
+		2 & 0.95 & 0.89 & 0.92 & 9300 \\
+		\hline
+		3 & 0.91 & 0.89 & 0.90 & 7200 \\
+		\hline
+		4 & 0.83 & 0.98 & 0.90 & 6900 \\
+		\hline
+		5 & 0.97 & 1.00 & 0.99 & 6750 \\
+		\hline
+		6 & 1.00 & 1.00 & 1.00 & 8850 \\
+		\hline
+		7 & 1.000 & 1.00 & 1.00 & 6600 \\
+		\hline
+		8 & 0.94 & 0.96 & 0.95 & 9150 \\
+		\hline
+		9 & 0.95 & 0.93 & 0.94 & 7800 \\
+		\hline
+		10 & 0.96 & 0.99 & 0.97 & 7800 \\
+		\hline
+		11 & 0.95 & 1.00 & 0.97 & 6750 \\
+		\hline
+		12 & 1.00 & 0.99 & 0.99 & 8100 \\
+		\hline
+		13 & 0.99 & 0.93 & 0.96 & 7500 \\
+		\hline
+		14 & 0.93 & 0.96 & 0.94 & 7500 \\
+		\hline
+		15 & 1.00 & 1.00 & 1.00 & 5850 \\
+		\hline
+		16 & 1.00 & 1.00 & 1.00 & 7500 \\
+		\hline
+		17 & 0.85 & 0.86 & 0.85 & 7950 \\
+		\hline
+		18 & 0.91 & 0.82 & 0.86 & 7650 \\
+		\hline
+		19 & 0.93 & 0.91 & 0.92 & 7350 \\
+		\hline
+		20 & 0.86 & 0.91 & 0.88 & 8100 \\
+		\hline
+		21 & 0.87 & 0.83 & 0.85 & 6600 \\
+		\hline
+		22 & 1.00 & 1.00 & 1.00 & 6450 \\
+		\hline
+		23 & 0.97 & 0.99 & 0.98 & 7200 \\
+		\hline
+		24 & 0.99 & 0.99 & 0.99 & 7950 \\
+		\hline
+		25 & 0.98 & 0.97 & 0.97 & 6900 \\
+		\hline
+		accuracy & - & - & 0.95 & 195000 \\
+		\hline
+		macro avg & 0.95 & 0.95 & 0.95 & 195000 \\
+		\hline
+	\end{tabular}
+	\caption{Characters classification report}
+	\label{tab:characters_classification_report}
+\end{table}

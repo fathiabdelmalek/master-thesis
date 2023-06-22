@@ -5,3 +5,5 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces Summary of the ASL-Sensor-Dataglove Dataset\relax }}{22}{table.caption.15}%
 \contentsline {table}{\numberline {3.2}{\ignorespaces Selected Columns in the "ASL-Sensor-Dataglove" Dataset\relax }}{22}{table.caption.16}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Words classification report\relax }}{27}{table.caption.20}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Characters classification report\relax }}{28}{table.caption.21}%

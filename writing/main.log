@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.5.7)  19 JUN 2023 01:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.5.7)  23 JUN 2023 00:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -519,7 +519,7 @@ or `english'. on input line 143.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./includes/title.tex
-<./images/univ-tebessa.jpg, id=213, 183.68625pt x 277.035pt>
+<./images/univ-tebessa.jpg, id=204, 183.68625pt x 277.035pt>
 File: ./images/univ-tebessa.jpg Graphic file (type jpg)
 <use ./images/univ-tebessa.jpg>
 Package pdftex.def Info: ./images/univ-tebessa.jpg  used on input line 6.
@@ -572,7 +572,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.88 ...Recognition Methods}{12}{subsection.2.3.1}
+l.92 ...anguage Recognition}{13}{subsection.2.3.3}
                                                   % [2
 
 
@@ -615,7 +615,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.168 	\clearpage
+l.169 	\clearpage
                   [2] (./includes/part1.tex [3
 
 
@@ -625,7 +625,7 @@ Chapter 1.
 (./includes/part1/chapter1/section2.tex [4
 
 ] [5]
-<images/AlgerianSignLanguage.jpg, id=394, 337.26pt x 377.41pt>
+<images/AlgerianSignLanguage.jpg, id=384, 337.26pt x 377.41pt>
 File: images/AlgerianSignLanguage.jpg Graphic file (type jpg)
 <use images/AlgerianSignLanguage.jpg>
 Package pdftex.def Info: images/AlgerianSignLanguage.jpg  used on input line 50
@@ -660,12 +660,12 @@ Chapter 3.
 (./includes/part2/section1.tex [16
 
 ]) (./includes/part2/section2.tex [17]
-<images/prototype.png, id=449, 394.97563pt x 233.37187pt>
+<images/prototype.png, id=439, 394.97563pt x 233.37187pt>
 File: images/prototype.png Graphic file (type png)
 <use images/prototype.png>
 Package pdftex.def Info: images/prototype.png  used on input line 18.
 (pdftex.def)             Requested size: 362.37569pt x 214.11003pt.
-<images/esp32.jpg, id=451, 1505.625pt x 1200.485pt>
+<images/esp32.jpg, id=441, 1505.625pt x 1200.485pt>
 File: images/esp32.jpg Graphic file (type jpg)
 <use images/esp32.jpg>
 Package pdftex.def Info: images/esp32.jpg  used on input line 27.
@@ -674,7 +674,7 @@ Package pdftex.def Info: images/esp32.jpg  used on input line 27.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/flex-sensor.jpg, id=453, 973.6375pt x 730.73pt>
+<images/flex-sensor.jpg, id=443, 973.6375pt x 730.73pt>
 File: images/flex-sensor.jpg Graphic file (type jpg)
 <use images/flex-sensor.jpg>
 Package pdftex.def Info: images/flex-sensor.jpg  used on input line 36.
@@ -682,7 +682,7 @@ Package pdftex.def Info: images/flex-sensor.jpg  used on input line 36.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/flex-cases.png, id=456, 819.06pt x 321.2pt>
+<images/flex-cases.png, id=446, 819.06pt x 321.2pt>
 File: images/flex-cases.png Graphic file (type png)
 <use images/flex-cases.png>
 Package pdftex.def Info: images/flex-cases.png  used on input line 44.
@@ -690,7 +690,7 @@ Package pdftex.def Info: images/flex-cases.png  used on input line 44.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/flex-pinout.png, id=459, 1707.37875pt x 831.105pt>
+<images/flex-pinout.png, id=449, 1707.37875pt x 831.105pt>
 File: images/flex-pinout.png Graphic file (type png)
 <use images/flex-pinout.png>
 Package pdftex.def Info: images/flex-pinout.png  used on input line 52.
@@ -699,7 +699,7 @@ Package pdftex.def Info: images/flex-pinout.png  used on input line 52.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/mpu6050.jpg, id=466, 642.4pt x 481.8pt>
+<images/mpu6050.jpg, id=456, 642.4pt x 481.8pt>
 File: images/mpu6050.jpg Graphic file (type jpg)
 <use images/mpu6050.jpg>
 Package pdftex.def Info: images/mpu6050.jpg  used on input line 61.
@@ -707,7 +707,7 @@ Package pdftex.def Info: images/mpu6050.jpg  used on input line 61.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/mpu6050-pinout.jpg, id=467, 451.6875pt x 237.88875pt>
+<images/mpu6050-pinout.jpg, id=457, 451.6875pt x 237.88875pt>
 File: images/mpu6050-pinout.jpg Graphic file (type jpg)
 <use images/mpu6050-pinout.jpg>
 Package pdftex.def Info: images/mpu6050-pinout.jpg  used on input line 69.
@@ -721,22 +721,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [20 <./images/flex-cases.png> <./images/flex-pinout.png>] [21 <./images/mpu6050
 .jpg> <./images/mpu6050-pinout.jpg>]) (./includes/part2/section4.tex [22]
-<images/model_words.png, id=492, 226.8475pt x 486.81876pt>
+<images/model_words.png, id=482, 226.8475pt x 486.81876pt>
 File: images/model_words.png Graphic file (type png)
 <use images/model_words.png>
 Package pdftex.def Info: images/model_words.png  used on input line 21.
 (pdftex.def)             Requested size: 90.5922pt x 194.41206pt.
-<images/model_characters.png, id=493, 226.8475pt x 486.81876pt>
+<images/model_characters.png, id=483, 226.8475pt x 486.81876pt>
 File: images/model_characters.png Graphic file (type png)
 <use images/model_characters.png>
 Package pdftex.def Info: images/model_characters.png  used on input line 26.
 (pdftex.def)             Requested size: 90.5922pt x 194.41206pt.
-<images/tf_model_words.png, id=495, 255.95625pt x 579.16376pt>
+<images/tf_model_words.png, id=485, 255.95625pt x 579.16376pt>
 File: images/tf_model_words.png Graphic file (type png)
 <use images/tf_model_words.png>
 Package pdftex.def Info: images/tf_model_words.png  used on input line 38.
 (pdftex.def)             Requested size: 90.5922pt x 204.98154pt.
-<images/tf_model_characters.png, id=496, 255.95625pt x 579.16376pt>
+<images/tf_model_characters.png, id=486, 255.95625pt x 579.16376pt>
 File: images/tf_model_characters.png Graphic file (type png)
 <use images/tf_model_characters.png>
 Package pdftex.def Info: images/tf_model_characters.png  used on input line 43.
@@ -749,31 +749,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [23 <./images/model_words.png> <./images/model_characters.png>] [24 <./images/t
 f_model_words.png> <./images/tf_model_characters.png>])
-(./includes/part2/section6.tex [25] [26]
-<images/confusion_matrix_words.png, id=542, 581.7735pt x 638.8668pt>
+(./includes/part2/section6.tex [25]
+
+LaTeX Warning: Reference `fig:words_classification_report' on page 26 undefined
+ on input line 10.
+
+[26]
+<images/confusion_matrix_words.png, id=531, 581.7735pt x 638.8668pt>
 File: images/confusion_matrix_words.png Graphic file (type png)
 <use images/confusion_matrix_words.png>
 Package pdftex.def Info: images/confusion_matrix_words.png  used on input line 
 28.
 (pdftex.def)             Requested size: 271.7835pt x 298.46399pt.
-<images/confusion_matrix_characters.png, id=543, 581.7735pt x 602.0091pt>
+<images/confusion_matrix_characters.png, id=532, 581.7735pt x 602.0091pt>
 File: images/confusion_matrix_characters.png Graphic file (type png)
 <use images/confusion_matrix_characters.png>
 Package pdftex.def Info: images/confusion_matrix_characters.png  used on input 
 line 33.
 (pdftex.def)             Requested size: 271.7835pt x 281.24492pt.
-<images/classification_report_words.png, id=544, 583.17876pt x 451.6875pt>
-File: images/classification_report_words.png Graphic file (type png)
-<use images/classification_report_words.png>
-Package pdftex.def Info: images/classification_report_words.png  used on input 
-line 43.
-(pdftex.def)             Requested size: 317.07614pt x 245.5893pt.
-<images/classification_report_characters.png, id=545, 589.20125pt x 714.67pt>
-File: images/classification_report_characters.png Graphic file (type png)
-<use images/classification_report_characters.png>
-Package pdftex.def Info: images/classification_report_characters.png  used on i
-nput line 48.
-(pdftex.def)             Requested size: 317.07614pt x 384.59654pt.
 ) (./includes/part2/section7.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -781,13 +774,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)) [27] [28 <./images/confusion_matrix_words.png> <./images/confusion_matrix_ch
-aracters.png>] [29 <./images/classification_report_words.png> <./images/classif
-ication_report_characters.png>] (./includes/general-conclusion.tex) [30
+[27])) [28] [29 <./images/confusion_matrix_words.png> <./images/confusion_matri
+x_characters.png>] (./includes/general-conclusion.tex) [30
 
 
-]
-(./main.bbl
+] (./main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--7
 []\OT1/cmr/m/n/10 ``African sign lnaguages re-source cen-ter - al-ge-ria.''  []
 $\OT1/cmtt/m/n/10 https : / /
@@ -824,14 +815,17 @@ Underfull \hbox (badness 2334) in paragraph at lines 32--34
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B471B1195EAD03617B04FEFD5819F8D7;9654.
+(rerunfilecheck)             Checksum: DE4C78B622833ABEE1720299EAEAD70D;9453.
  ) 
 Here is how much of TeX's memory you used:
- 19060 strings out of 478126
- 413313 string characters out of 5842811
- 1862793 words of memory out of 6000000
- 38720 multiletter control sequences out of 15000+600000
+ 19025 strings out of 478126
+ 412091 string characters out of 5842811
+ 1880793 words of memory out of 6000000
+ 38690 multiletter control sequences out of 15000+600000
  529017 words of font info for 88 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  72i,12n,84p,1186b,601s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -851,10 +845,10 @@ msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (41 pages, 2543379 bytes).
+Output written on main.pdf (41 pages, 2456346 bytes).
 PDF statistics:
- 685 PDF objects out of 1000 (max. 8388607)
- 572 compressed objects within 6 object streams
- 128 named destinations out of 1000 (max. 500000)
- 502 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 669 PDF objects out of 1000 (max. 8388607)
+ 560 compressed objects within 6 object streams
+ 125 named destinations out of 1000 (max. 500000)
+ 476 words of extra memory for PDF output out of 10000 (max. 10000000)
 
