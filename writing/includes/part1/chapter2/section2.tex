@@ -1,19 +1,21 @@
 \section{Datasets for Training and Evaluation}
 \paragraph{}
-In the context of \ac{slr}, synthesis refers to the process of generating natural and expressive \ac{sl} gestures from textual or spoken input. Synthesis plays a vital role in bridging the communication gap between \ac{sl} users and non-signers by providing a means for converting spoken or written language into \ac{sl}.
-\subsection{Text-to-Sign Synthesis Methods}
+Datasets are essential for training and evaluating \ac{slr} systems. These datasets are used to train \ac{slr} systems to recognize signs and to evaluate the accuracy of \ac{slr} systems.
 \paragraph{}
-Text-to-sign synthesis methods focus on converting written text into \ac{sl} gestures. These methods involve linguistic analysis of the input text to determine the appropriate sign vocabulary and grammatical structure. Various techniques, such as rule-based systems, statistical models, and \ac{ml} algorithms, have been employed in text-to-sign synthesis.
-\paragraph{}
-Rule-based systems utilize predefined rules and linguistic knowledge to map words or phrases to corresponding signs. These systems typically rely on manually crafted linguistic resources, such as sign dictionaries and grammatical rules, to generate \ac{sl} sequences.
-\paragraph{}
-Statistical models, such as \ac{hmm} and \ac{crf}, have been used to learn the statistical relationships between textual input and \ac{sl} output. These models are trained on annotated corpora of text-sign pairs, allowing them to capture the patterns and dependencies between words and signs.
-\paragraph{}
-\ac{ml} algorithms, including \ac{ann} and \ac{dl} models, have shown promising results in text-to-sign synthesis. These models can learn the mapping between text and \ac{sl} directly from data, leveraging large-scale annotated datasets to improve the quality and naturalness of generated \ac{sl} gestures.
-\subsection{Speech-to-Sign Synthesis Methods}
-\paragraph{}
-Speech-to-sign synthesis methods aim to convert spoken language into \ac{sl} gestures. These methods involve audio analysis and processing techniques to extract relevant features from the input speech signals. The extracted features are then mapped to corresponding \ac{sl} gestures using statistical models or \ac{ml} algorithms.
-\paragraph{}
-Speech recognition algorithms, such as hidden \ac{hmm}s and \ac{dnn}s, are often used to transcribe spoken language into textual representations. The resulting text can then be processed using text-to-sign synthesis methods to generate \ac{sl} gestures.
-\paragraph{}
-Multimodal approaches, combining audio and visual information, have also been explored in speech-to-sign synthesis. These approaches leverage audiovisual recordings of \ac{sl} performances to learn the mapping between speech and \ac{sl} gestures. By incorporating both acoustic and visual features, these methods can capture the nuances of spoken language and produce more accurate and natural \ac{sl} outputs.
+There are a number of different datasets available. But the majority of them fall under one of the following three types.:
+\begin{itemize}
+	\item \textbf{Image-based datasets:} consist of static images capturing sign language gestures or symbols. These datasets are often derived from larger video datasets or captured explicitly for image-based recognition tasks.
+	\item \textbf{Video-based datasets:} contain continuous sequences of sign language gestures or sentences. These datasets provide a more comprehensive representation of sign language and allow for temporal analysis.
+	\item \textbf{Sensor-based datasets:} leverage various sensing modalities, such as gloves with sensors, depth cameras, or inertial measurement units (IMUs). These datasets capture the movements and positions of the signer's hands and body, enabling fine-grained analysis of sign language.
+\end{itemize}
+\begin{table}[ht]
+	\centering
+	\caption{WER and CER of different SLR datasets}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Dataset & WER & CER \\ \hline
+		ASL-MNIST & 17.2\% & 10.5\% \\ \hline
+		BosphorusSign22k & 13.1\% & 8.2\% \\ \hline
+		K-RSL & 14.2\% & 8.9\% \\ \hline
+	\end{tabular}
+\end{table}
