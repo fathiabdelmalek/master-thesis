@@ -62,9 +62,9 @@
 \contentsline {section}{\numberline {2}Datasets for Training and Evaluation}{10}{section.2.2}%
 \contentsline {paragraph}{}{10}{section.2.2}%
 \contentsline {paragraph}{}{10}{section.2.2}%
-\contentsline {section}{\numberline {3}Data Acquisition Methods}{11}{section.2.3}%
-\contentsline {section}{\numberline {4}Methods of Sign Language Recognition}{11}{section.2.4}%
-\contentsline {section}{\numberline {5}Conclusion}{12}{section.2.5}%
+\contentsline {paragraph}{}{11}{section.2.2}%
+\contentsline {section}{\numberline {3}Methods of Sign Language Recognition}{11}{section.2.3}%
+\contentsline {section}{\numberline {4}Conclusion}{12}{section.2.4}%
 \contentsline {part}{II\hspace {1em}Contribution}{13}{part.2}%
 \contentsline {chapter}{\numberline {3}Conception of TAKALEM gloves}{14}{chapter.3}%
 \contentsline {section}{\numberline {1}Introduction}{14}{section.3.1}%
