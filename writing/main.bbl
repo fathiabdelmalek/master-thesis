@@ -15,10 +15,42 @@
 \newblock
   \url{https://www.tutorialspoint.com/esp32_for_iot/interfacing_esp32_with_mpu6050.htm}.
 
-\bibitem{5perc}
+\bibitem{state_of_the_art}
 A.~Sahoo, G.~Mishra, and K.~Ravulakollu, ``Sign language recognition: State of
   the art,'' {\em ARPN Journal of Engineering and Applied Sciences}, vol.~9, 02
   2014.
+
+\bibitem{ref-article}
+M.~A. Faisal, F.~F. Abir, M.~U. Ahmed, and M.~A. Ahad, ``Exploiting domain
+  transformation and deep learning for hand gesture recognition using a
+  low-cost dataglove,'' {\em Scientific Reports}, vol.~12, no.~1, pp.~1--15,
+  2022.
+
+\bibitem{fingerspelling}
+``Lifeprint fingurespell library.''
+
+\bibitem{wu2018american}
+J.~K. Wu, A.~Gotmare, G.~Huang, P.~Manohar, and R.~K. Prabhakar, ``American
+  sign language fingerspelling classification using convolutional neural
+  networks,'' in {\em Proceedings of the IEEE International Conference on
+  Acoustics, Speech, and Signal Processing (ICASSP)}, 2018.
+
+\bibitem{baker2010sign}
+S.~K. Baker, M.~Metzler, and R.~E. Brennan, ``Sign language research and
+  application: Linguistic and pedagogical implications,'' in {\em Proceedings
+  of the Workshop on the Representation and Processing of Sign Languages:
+  Beyond the Manual Channel}, 2010.
+
+\bibitem{lu2008database}
+H.~Lu, C.~Neidle, and S.~Sclaroff, ``A database and computational techniques
+  for the analysis of the phonetic structure of american sign language,'' {\em
+  Computer Vision and Image Understanding}, vol.~110, no.~3, pp.~225--243,
+  2008.
+
+\bibitem{starner1995real}
+T.~Starner and A.~Pentland, ``Real-time american sign language recognition from
+  video using hidden markov models,'' in {\em Proceedings of the IEEE Computer
+  Society Conference on Computer Vision and Pattern Recognition}, 1995.
 
 \bibitem{li2011framework}
 J.~Li, G.~Zhao, and M.~Pietikäinen, ``A framework for sign language
@@ -42,12 +74,6 @@ S.~Lanesman, {\em Algerian Jewish Sign Language: its emergence and survival}.
 
 \bibitem{chalenges}
 H.~Abdelouafi, ``Challenges of deaf education in algeria.''
-
-\bibitem{ref-article}
-M.~A. Faisal, F.~F. Abir, M.~U. Ahmed, and M.~A. Ahad, ``Exploiting domain
-  transformation and deep learning for hand gesture recognition using a
-  low-cost dataglove,'' {\em Scientific Reports}, vol.~12, no.~1, pp.~1--15,
-  2022.
 
 \bibitem{mpu}
 ``Mpu6050-components101.''
