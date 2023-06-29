@@ -1,53 +1,70 @@
-This is BibTeX, Version 0.99d (TeX Live 2022)
+This is BibTeX, Version 0.99d (TeX Live 2022/CVE-2023-32700 patched)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: ieeetr.bst
 Database file #1: includes/references.bib
 Warning--entry type for "teaching" isn't style-file defined
---line 18 of file includes/references.bib
+--line 28 of file includes/references.bib
 Warning--entry type for "chalenges" isn't style-file defined
---line 25 of file includes/references.bib
+--line 35 of file includes/references.bib
+Warning--entry type for "wiki" isn't style-file defined
+--line 42 of file includes/references.bib
+Warning--entry type for "asp_img" isn't style-file defined
+--line 47 of file includes/references.bib
+Warning--entry type for "ethnologue" isn't style-file defined
+--line 51 of file includes/references.bib
+Warning--entry type for "flex" isn't style-file defined
+--line 55 of file includes/references.bib
+Warning--entry type for "mpu" isn't style-file defined
+--line 59 of file includes/references.bib
+Warning--entry type for "mpu-pinout" isn't style-file defined
+--line 63 of file includes/references.bib
+I was expecting a `,' or a `}'---line 69 of file includes/references.bib
+ :  
+ :  note = {https://www.lifeprint.com/asl101/fingerspelling/index.htm}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--empty publisher in sara
 Warning--empty year in sara
-You've used 10 entries,
+You've used 12 entries,
             1876 wiz_defined-function locations,
-            515 strings with 4628 characters,
-and the built_in function-call counts, 1220 in all, are:
-= -- 112
-> -- 33
+            529 strings with 5001 characters,
+and the built_in function-call counts, 1874 in all, are:
+= -- 178
+> -- 58
 < -- 0
-+ -- 17
-- -- 7
-* -- 47
-:= -- 147
-add.period$ -- 8
-call.type$ -- 10
-change.case$ -- 9
++ -- 26
+- -- 14
+* -- 98
+:= -- 238
+add.period$ -- 10
+call.type$ -- 12
+change.case$ -- 11
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 49
-empty$ -- 179
-format.name$ -- 7
-if$ -- 324
+cite$ -- 14
+duplicate$ -- 81
+empty$ -- 237
+format.name$ -- 14
+if$ -- 488
 int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 3
-newline$ -- 39
-num.names$ -- 4
-pop$ -- 74
+int.to.str$ -- 12
+missing$ -- 5
+newline$ -- 45
+num.names$ -- 6
+pop$ -- 76
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 37
+skip$ -- 62
 stack$ -- 0
-substring$ -- 0
-swap$ -- 2
+substring$ -- 51
+swap$ -- 18
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 4
-width$ -- 12
-write$ -- 71
-(There were 4 warnings)
+while$ -- 10
+width$ -- 14
+write$ -- 93
+(There was 1 error message)

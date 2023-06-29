@@ -1,31 +1,28 @@
 \section{Methods of \ac{slr}}
 \paragraph{}
-There are a number of different methods that have been used for sign language recognition. Some of the most commonly used methods include:
+Sign language recognition (SLR) involves the development and application of various methods and techniques to accurately interpret and understand sign language gestures. Over the years, several approaches have been explored in SLR research, employing different algorithms and models to recognize and classify sign language gestures. This section provides an overview of some commonly employed methods in SLR.
 
-* **Handcrafted features:** These methods use hand-crafted features to represent sign language videos. The features are then used to train a classifier to recognize signs.
+\subsection{Support Vector Machines (SVM)}
+\paragraph{}
+Support Vector Machines (SVM) are widely used in SLR due to their ability to handle high-dimensional data and their effectiveness in classification tasks. SVMs aim to find an optimal hyperplane that separates different sign language gestures in a high-dimensional feature space. By mapping input gestures to this feature space, SVMs can accurately classify new gestures based on their position relative to the hyperplane. SVMs have been successfully applied to both image-based and video-based SLR tasks, achieving good recognition accuracy.
 
-\begin{itemize}
-	\item Example of a handcrafted feature: the number of fingers that are extended in a sign.
-\end{itemize}
+\subsection{Hidden Markov Models (HMM)}
+\paragraph{}
+Hidden Markov Models (HMM) have been extensively used in SLR, especially for temporal analysis of sign language gestures. HMMs are probabilistic models that represent sign language gestures as sequences of hidden states and observable outputs. They capture the temporal dynamics and dependencies between consecutive frames or observations in sign language videos. HMM-based SLR systems use training data to estimate the model parameters and then apply the Viterbi algorithm or other decoding techniques to recognize and classify sign language gestures.
 
-* **Hidden Markov models (HMMs):** HMMs are a statistical model that can be used to represent the temporal dynamics of sign language videos. HMMs have been used successfully for SLR.
+\subsection{Fuzzy Sets}
+\paragraph{}
+Fuzzy sets theory has been employed in SLR to handle the inherent ambiguity and uncertainty present in sign language recognition. Fuzzy sets allow for gradual membership of gestures in different classes, providing a more flexible and robust representation. Fuzzy logic-based systems in SLR often involve defining membership functions and fuzzy rules to capture the variability and imprecision of sign language gestures. These systems can handle variations in hand shape, movement, and position, improving the recognition accuracy.
 
-\begin{itemize}
-	\item Example of an HMM: an HMM that models the sequence of handshapes, locations, and movements in a sign.
-\end{itemize}
+\subsection{Neural Networks}
+\paragraph{}
+Neural networks have gained significant attention in SLR due to their ability to learn complex patterns and relationships in data. Different types of neural networks, such as multilayer perceptrons (MLPs), recurrent neural networks (RNNs), and convolutional neural networks (CNNs), have been employed in SLR tasks. Neural network-based SLR systems often require large amounts of annotated training data to effectively learn the mapping between input gestures and their corresponding classes. With appropriate training, neural networks can achieve high recognition accuracy and handle variations in sign language gestures.
 
-* **Convolutional neural networks (CNNs):** CNNs are a type of deep learning model that can be used to extract features from sign language videos. CNNs have been shown to be very effective for SLR.
+\subsection{Deep Neural Networks (DNN)}
+\paragraph{}
+Deep neural networks (DNN) have shown remarkable performance in SLR by leveraging multiple layers of neurons to extract hierarchical representations of sign language gestures. DNN architectures, such as deep feedforward networks, recurrent neural networks, and convolutional neural networks, have been employed in SLR to capture spatial and temporal dependencies in sign language data. Deep learning techniques, such as pre-training, transfer learning, and data augmentation, have also been applied to enhance the performance of DNN-based SLR systems.
+\paragraph{}
+Other methods and techniques, such as decision trees, rule-based systems, and dynamic time warping, have also been explored in the context of SLR. Each method has its own strengths and limitations, and their suitability depends on the specific requirements of the SLR task and available data.
+\paragraph{}
+It is worth noting that the choice of SLR method often depends on the characteristics of the dataset, the complexity of the sign language gestures, and the available computational resources. Researchers continue to explore and develop novel methods and hybrid approaches to improve the accuracy and efficiency of SLR systems.
 
-\begin{itemize}
-	\item Example of a CNN: a CNN that is trained to extract features from the spatial dimensions of a sign language video.
-\end{itemize}
-
-* **Recurrent neural networks (RNNs):** RNNs are another type of deep learning model that can be used to represent the temporal dynamics of sign language videos. RNNs have been shown to be effective for SLR.
-
-\begin{itemize}
-	\item Example of an RNN: an RNN that is trained to predict the next handshape in a sign, given the previous handshapes.
-\end{itemize}
-
-The choice of method will depend on the specific application of the SLR system. For example, if the SLR system is being developed for use with a small dataset, then a handcrafted features approach might be a good choice. However, if the SLR system is being developed for use with a large dataset, then a deep learning approach might be a better choice.
-
-The accuracy of SLR systems has improved significantly in recent years. This improvement is due to the development of new deep learning methods. Deep learning methods have been shown to be very effective for SLR, and they are likely to continue to improve the accuracy of SLR systems in the future.

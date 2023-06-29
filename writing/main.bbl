@@ -1,7 +1,7 @@
 \begin{thebibliography}{10}
 
 \bibitem{asp_img}
-``African sign lnaguages resource center - algeria.''
+``Profiles of african sign languages and deaf culture - algeria.''
 \newblock
   \url{https://africansignlanguagesresourcecenter.com/profiles-of-african-sign-languages-and-deaf-culture-54-countries/algeria/}.
 
@@ -20,6 +20,11 @@ A.~Sahoo, G.~Mishra, and K.~Ravulakollu, ``Sign language recognition: State of
   the art,'' {\em ARPN Journal of Engineering and Applied Sciences}, vol.~9, 02
   2014.
 
+\bibitem{li2011framework}
+J.~Li, G.~Zhao, and M.~Pietikäinen, ``A framework for sign language
+  recognition using sub-units,'' {\em Pattern Recognition Letters}, vol.~32,
+  no.~8, pp.~1157--1163, 2011.
+
 \bibitem{ethnologue}
 ``Algerian sign language - ethnologue.''
 \newblock \url{https://www.ethnologue.com/25/language/asp/}.
@@ -37,6 +42,12 @@ S.~Lanesman, {\em Algerian Jewish Sign Language: its emergence and survival}.
 
 \bibitem{chalenges}
 H.~Abdelouafi, ``Challenges of deaf education in algeria.''
+
+\bibitem{ref-article}
+M.~A. Faisal, F.~F. Abir, M.~U. Ahmed, and M.~A. Ahad, ``Exploiting domain
+  transformation and deep learning for hand gesture recognition using a
+  low-cost dataglove,'' {\em Scientific Reports}, vol.~12, no.~1, pp.~1--15,
+  2022.
 
 \bibitem{mpu}
 ``Mpu6050-components101.''

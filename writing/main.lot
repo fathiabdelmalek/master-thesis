@@ -2,9 +2,9 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {1.1}{\ignorespaces Major sign languages of the world "\cite {5perc}\relax }}{5}{table.caption.6}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Standard datasets for \ac {sl} "\cite {5perc}\relax }}{11}{table.caption.8}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Standard datasets for \ac {sl} "\cite {5perc}-\cite {li2011framework}\relax }}{11}{table.caption.8}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Summary of the ASL-Sensor-Dataglove Dataset\relax }}{20}{table.caption.16}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Selected Columns in the "ASL-Sensor-Dataglove" Dataset\relax }}{20}{table.caption.17}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Words classification report\relax }}{25}{table.caption.21}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces Characters classification report\relax }}{26}{table.caption.22}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Summary of the ASL-Sensor-Dataglove Dataset\relax }}{21}{table.caption.16}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Selected Columns in the "ASL-Sensor-Dataglove" Dataset\relax }}{21}{table.caption.17}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Words classification report\relax }}{26}{table.caption.21}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Characters classification report\relax }}{27}{table.caption.22}%
