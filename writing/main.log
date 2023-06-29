@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.5.7)  26 JUN 2023 20:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.5.7)  29 JUN 2023 02:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -519,7 +519,7 @@ or `english'. on input line 143.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./includes/title.tex
-<./images/univ-tebessa.jpg, id=167, 183.68625pt x 277.035pt>
+<./images/univ-tebessa.jpg, id=163, 183.68625pt x 277.035pt>
 File: ./images/univ-tebessa.jpg Graphic file (type jpg)
 <use ./images/univ-tebessa.jpg>
 Package pdftex.def Info: ./images/univ-tebessa.jpg  used on input line 6.
@@ -572,7 +572,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.88 ...ne {2.2}Flex sensor}{16}{subsection.3.2.2}
+l.92 ...erline {2.3}MPU6050}{17}{subsection.3.2.3}
                                                   % [2
 
 
@@ -619,7 +619,7 @@ Chapter 1.
 (./includes/part1/chapter1/section2.tex [4
 
 ] [5]
-<images/AlgerianSignLanguage.jpg, id=339, 337.26pt x 377.41pt>
+<images/AlgerianSignLanguage.jpg, id=334, 337.26pt x 377.41pt>
 File: images/AlgerianSignLanguage.jpg Graphic file (type jpg)
 <use images/AlgerianSignLanguage.jpg>
 Package pdftex.def Info: images/AlgerianSignLanguage.jpg  used on input line 54
@@ -644,8 +644,8 @@ Chapter 2.
 (./includes/part1/chapter2/section2.tex [10
 
 ]
-Overfull \hbox (26.69969pt too wide) in paragraph at lines 16--41
- [][] 
+Underfull \hbox (badness 7944) in paragraph at lines 25--25
+[]\OT1/cmr/m/n/10 American Sign Lan-guage Lin-guis-tic Re-search
  []
 
 ) (./includes/part1/chapter2/section3.tex [11])
@@ -657,12 +657,12 @@ Chapter 3.
 (./includes/part2/section1.tex [14
 
 ]) (./includes/part2/section2.tex [15]
-<images/prototype.png, id=386, 366.36874pt x 200.75pt>
+<images/prototype.png, id=382, 366.36874pt x 200.75pt>
 File: images/prototype.png Graphic file (type png)
 <use images/prototype.png>
 Package pdftex.def Info: images/prototype.png  used on input line 18.
 (pdftex.def)             Requested size: 362.37569pt x 198.57462pt.
-<images/esp32.jpg, id=388, 1505.625pt x 1200.485pt>
+<images/esp32.jpg, id=384, 1505.625pt x 1200.485pt>
 File: images/esp32.jpg Graphic file (type jpg)
 <use images/esp32.jpg>
 Package pdftex.def Info: images/esp32.jpg  used on input line 27.
@@ -671,7 +671,7 @@ Package pdftex.def Info: images/esp32.jpg  used on input line 27.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/flex-sensor.jpg, id=390, 973.6375pt x 730.73pt>
+<images/flex-sensor.jpg, id=386, 973.6375pt x 730.73pt>
 File: images/flex-sensor.jpg Graphic file (type jpg)
 <use images/flex-sensor.jpg>
 Package pdftex.def Info: images/flex-sensor.jpg  used on input line 36.
@@ -679,7 +679,7 @@ Package pdftex.def Info: images/flex-sensor.jpg  used on input line 36.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/flex-cases.png, id=393, 819.06pt x 321.2pt>
+<images/flex-cases.png, id=389, 819.06pt x 321.2pt>
 File: images/flex-cases.png Graphic file (type png)
 <use images/flex-cases.png>
 Package pdftex.def Info: images/flex-cases.png  used on input line 44.
@@ -687,7 +687,7 @@ Package pdftex.def Info: images/flex-cases.png  used on input line 44.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/flex-pinout.png, id=396, 1707.37875pt x 831.105pt>
+<images/flex-pinout.png, id=392, 1707.37875pt x 831.105pt>
 File: images/flex-pinout.png Graphic file (type png)
 <use images/flex-pinout.png>
 Package pdftex.def Info: images/flex-pinout.png  used on input line 52.
@@ -696,7 +696,7 @@ Package pdftex.def Info: images/flex-pinout.png  used on input line 52.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/mpu6050.jpg, id=404, 642.4pt x 481.8pt>
+<images/mpu6050.jpg, id=400, 642.4pt x 481.8pt>
 File: images/mpu6050.jpg Graphic file (type jpg)
 <use images/mpu6050.jpg>
 Package pdftex.def Info: images/mpu6050.jpg  used on input line 61.
@@ -704,7 +704,7 @@ Package pdftex.def Info: images/mpu6050.jpg  used on input line 61.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/mpu6050-pinout.jpg, id=405, 451.6875pt x 237.88875pt>
+<images/mpu6050-pinout.jpg, id=401, 451.6875pt x 237.88875pt>
 File: images/mpu6050-pinout.jpg Graphic file (type jpg)
 <use images/mpu6050-pinout.jpg>
 Package pdftex.def Info: images/mpu6050-pinout.jpg  used on input line 69.
@@ -716,22 +716,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [18 <./images/flex-cases.png> <./images/flex-pinout.png>] [19 <./images/mpu6050
 .jpg> <./images/mpu6050-pinout.jpg>]) (./includes/part2/section4.tex [20]
-<images/model_words.png, id=429, 226.8475pt x 486.81876pt>
+<images/model_words.png, id=425, 226.8475pt x 486.81876pt>
 File: images/model_words.png Graphic file (type png)
 <use images/model_words.png>
 Package pdftex.def Info: images/model_words.png  used on input line 21.
 (pdftex.def)             Requested size: 90.5922pt x 194.41206pt.
-<images/model_characters.png, id=430, 226.8475pt x 486.81876pt>
+<images/model_characters.png, id=426, 226.8475pt x 486.81876pt>
 File: images/model_characters.png Graphic file (type png)
 <use images/model_characters.png>
 Package pdftex.def Info: images/model_characters.png  used on input line 26.
 (pdftex.def)             Requested size: 90.5922pt x 194.41206pt.
-<images/tf_model_words.png, id=432, 255.95625pt x 579.16376pt>
+<images/tf_model_words.png, id=428, 255.95625pt x 579.16376pt>
 File: images/tf_model_words.png Graphic file (type png)
 <use images/tf_model_words.png>
 Package pdftex.def Info: images/tf_model_words.png  used on input line 38.
 (pdftex.def)             Requested size: 90.5922pt x 204.98154pt.
-<images/tf_model_characters.png, id=433, 255.95625pt x 579.16376pt>
+<images/tf_model_characters.png, id=429, 255.95625pt x 579.16376pt>
 File: images/tf_model_characters.png Graphic file (type png)
 <use images/tf_model_characters.png>
 Package pdftex.def Info: images/tf_model_characters.png  used on input line 43.
@@ -750,13 +750,13 @@ LaTeX Warning: Reference `fig:words_classification_report' on page 24 undefined
  on input line 10.
 
 [24]
-<images/confusion_matrix_words.png, id=480, 581.7735pt x 638.8668pt>
+<images/confusion_matrix_words.png, id=476, 581.7735pt x 638.8668pt>
 File: images/confusion_matrix_words.png Graphic file (type png)
 <use images/confusion_matrix_words.png>
 Package pdftex.def Info: images/confusion_matrix_words.png  used on input line 
 28.
 (pdftex.def)             Requested size: 271.7835pt x 298.46399pt.
-<images/confusion_matrix_characters.png, id=481, 581.7735pt x 602.0091pt>
+<images/confusion_matrix_characters.png, id=477, 581.7735pt x 602.0091pt>
 File: images/confusion_matrix_characters.png Graphic file (type png)
 <use images/confusion_matrix_characters.png>
 Package pdftex.def Info: images/confusion_matrix_characters.png  used on input 
@@ -813,47 +813,37 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 8D21C06539395E561E13070DBF9278CF;7094
-(rerunfilecheck)             After:  5D985175FA43DDA43FF885DFE4574765;6913.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: C185949107AE006361526E40D51333A6;6797.
  ) 
 Here is how much of TeX's memory you used:
  18993 strings out of 478126
- 411138 string characters out of 5842811
+ 411163 string characters out of 5842811
  1880793 words of memory out of 6000000
- 38670 multiletter control sequences out of 15000+600000
+ 38671 multiletter control sequences out of 15000+600000
  529014 words of font info for 88 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  72i,12n,84p,1186b,601s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{section.2.5} has been referenced but does not exist
-, replaced by a fixed one
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/
-share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (38 pages, 2329733 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/us
+r/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (38 pages, 2330172 bytes).
 PDF statistics:
- 617 PDF objects out of 1000 (max. 8388607)
- 510 compressed objects within 6 object streams
- 115 named destinations out of 1000 (max. 500000)
- 404 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 612 PDF objects out of 1000 (max. 8388607)
+ 505 compressed objects within 6 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 396 words of extra memory for PDF output out of 10000 (max. 10000000)
 

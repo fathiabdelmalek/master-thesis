@@ -59,11 +59,12 @@
 \contentsline {paragraph}{}{10}{section.2.1}%
 \contentsline {paragraph}{}{10}{section.2.1}%
 \contentsline {paragraph}{}{10}{section.2.1}%
-\contentsline {section}{\numberline {2}Datasets for Training and Evaluation}{10}{section.2.2}%
+\contentsline {section}{\numberline {2}Datasets for training and evaluation}{10}{section.2.2}%
 \contentsline {paragraph}{}{10}{section.2.2}%
 \contentsline {paragraph}{}{10}{section.2.2}%
 \contentsline {paragraph}{}{11}{section.2.2}%
-\contentsline {section}{\numberline {3}Methods of Sign Language Recognition}{11}{section.2.3}%
+\contentsline {section}{\numberline {3}Methods of \ac {slr}}{11}{section.2.3}%
+\contentsline {paragraph}{}{11}{section.2.3}%
 \contentsline {section}{\numberline {4}Conclusion}{12}{section.2.4}%
 \contentsline {part}{II\hspace {1em}Contribution}{13}{part.2}%
 \contentsline {chapter}{\numberline {3}Conception of TAKALEM gloves}{14}{chapter.3}%

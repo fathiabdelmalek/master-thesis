@@ -1,4 +1,4 @@
-\section{Datasets for Training and Evaluation}
+\section{Datasets for training and evaluation}
 \paragraph{}
 Datasets are essential for training and evaluating \ac{slr} systems. These datasets are used to train \ac{slr} systems to recognize signs and to evaluate the accuracy of \ac{slr} systems.
 \paragraph{}
@@ -9,33 +9,40 @@ There are a number of different datasets available. But the majority of them fal
 	\item \textbf{Sensor-based datasets:} leverage various sensing modalities, such as gloves with sensors, depth cameras, or inertial measurement units (IMUs). These datasets capture the movements and positions of the signer's hands and body, enabling fine-grained analysis of sign language.
 \end{itemize}
 \paragraph{}
-Here is a table with the most popular used datasets:
+In table \ref{tab:standard-datasets}, we will have a look at the most popular used datasets:
 \begin{table}[h]
 	\centering
 	\caption{Standard datasets for \ac{sl} "\cite{5perc}}
-	\begin{tabular}{|c|c|}
+	\label{tab:standard-datasets}
+	\begin{tabular}{|p{0.5\textwidth}|c|c|}
 		\hline
-		Dataset & Sign language\\
+		Dataset & Sign language & Type\\
 		\hline
-		ASL-MNIST & ASL \\
+		ASL-MNIST & ASL & Image-based \\
 		\hline
-		Lifeprint Fingurespell Library & ASL \\
+		Lifeprint Fingurespell Library & ASL & Image-based \\
 		\hline
-		American Sign Language Linguistic Research Project with transcription using SignStream & ASL \\
+		American Sign Language Linguistic Research Project with transcription using SignStream & ASL & Video-based \\
 		\hline
-		ASL Lexicon Video Dataset & ASL \\
+		ASL Lexicon Video Dataset & ASL & Video-based \\
 		\hline
-		eNTERFACE & ASL \\
+		eNTERFACE & ASL & Video-based \\
 		\hline
-		RWTH-BOSTON-104 Database & ASL \\
+		RWTH-BOSTON-104 Database & ASL & Video-based \\
 		\hline
-		CAS-PEAL & CSL \\
+		CAS-PEAL & CSL & Video-based \\
 		\hline
-		PETS 2002 & PSL \\
+		PETS 2002 & PSL & Video-based \\
 		\hline
-		BosphorusSign22k & TSM \\
+		BosphorusSign22k & TSM & Video-based \\
 		\hline
-		K-RSL & K-RSL \\
+		K-RSL & K-RSL & Video-based \\
+		\hline
+		MSRAction3D & ASL & Sensor-based \\
+		\hline
+		DVS\_Sign and DVS\_Sign\_v2e & ASL & Sensor-based \\
+		\hline
+		DU-ASL-DATA-GLOVE-DB & ASL & Sensor-based \\
 		\hline
 	\end{tabular}
 \end{table}
