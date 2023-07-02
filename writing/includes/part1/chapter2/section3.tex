@@ -1,28 +1,44 @@
 \section{Methods of \ac{slr}}
 \paragraph{}
-Sign language recognition (SLR) involves the development and application of various methods and techniques to accurately interpret and understand sign language gestures. Over the years, several approaches have been explored in SLR research, employing different algorithms and models to recognize and classify sign language gestures. This section provides an overview of some commonly employed methods in SLR.
+\ac{slr} involves the development and application of various methods and techniques to accurately interpret and understand \ac{sl} gestures. Over the years, several approaches have been explored in \ac{slr} research, employing different algorithms and models to recognize and classify the gestures. This section provides an overview of some commonly employed methods in \ac{slr}.
 
-\subsection{Support Vector Machines (SVM)}
+\subsection{\ac{svm} }
 \paragraph{}
-Support Vector Machines (SVM) are widely used in SLR due to their ability to handle high-dimensional data and their effectiveness in classification tasks. SVMs aim to find an optimal hyperplane that separates different sign language gestures in a high-dimensional feature space. By mapping input gestures to this feature space, SVMs can accurately classify new gestures based on their position relative to the hyperplane. SVMs have been successfully applied to both image-based and video-based SLR tasks, achieving good recognition accuracy.
+\ac{svm}s are widely used in \ac{slr} due to their ability to handle high-dimensional data and their effectiveness in classification tasks. They aim to find an optimal hyperplane that separates different gestures in a high-dimensional feature space. By mapping input gestures to this feature space, they can accurately classify new gestures based on their position relative to the hyperplane. They have been successfully applied to both image-based and video-based \ac{slr} tasks, achieving good recognition accuracy.
 
-\subsection{Hidden Markov Models (HMM)}
+\subsection{\ac{hmm}}
 \paragraph{}
-Hidden Markov Models (HMM) have been extensively used in SLR, especially for temporal analysis of sign language gestures. HMMs are probabilistic models that represent sign language gestures as sequences of hidden states and observable outputs. They capture the temporal dynamics and dependencies between consecutive frames or observations in sign language videos. HMM-based SLR systems use training data to estimate the model parameters and then apply the Viterbi algorithm or other decoding techniques to recognize and classify sign language gestures.
+\ac{hmm} have been extensively used in \ac{slr}, especially for temporal analysis of the gestures. They are probabilistic models that represent gestures as sequences of hidden states and observable outputs. They capture the temporal dynamics and dependencies between consecutive frames or observations in videos. \ac{hmm}-based \ac{slr} systems use training data to estimate the model parameters and then apply the Viterbi algorithm or other decoding techniques to recognize and classify the gestures.
 
 \subsection{Fuzzy Sets}
 \paragraph{}
-Fuzzy sets theory has been employed in SLR to handle the inherent ambiguity and uncertainty present in sign language recognition. Fuzzy sets allow for gradual membership of gestures in different classes, providing a more flexible and robust representation. Fuzzy logic-based systems in SLR often involve defining membership functions and fuzzy rules to capture the variability and imprecision of sign language gestures. These systems can handle variations in hand shape, movement, and position, improving the recognition accuracy.
+Fuzzy sets theory has been employed to handle the inherent ambiguity and uncertainty present in \ac{slr}. They allow for gradual membership of gestures in different classes, providing a more flexible and robust representation. Fuzzy logic-based systems often involve defining membership functions and fuzzy rules to capture the variability and imprecision of the gestures. These systems can handle variations in hand shape, movement, and position, improving the recognition accuracy.
 
-\subsection{Neural Networks}
+\subsection{\ac{nn}s}
 \paragraph{}
-Neural networks have gained significant attention in SLR due to their ability to learn complex patterns and relationships in data. Different types of neural networks, such as multilayer perceptrons (MLPs), recurrent neural networks (RNNs), and convolutional neural networks (CNNs), have been employed in SLR tasks. Neural network-based SLR systems often require large amounts of annotated training data to effectively learn the mapping between input gestures and their corresponding classes. With appropriate training, neural networks can achieve high recognition accuracy and handle variations in sign language gestures.
+\ac{nn}s have gained significant attention due to their ability to learn complex patterns and relationships in data. Different types of \ac{nn}s, such as \ac{mlp}, \ac{rnn}, and \ac{cnn}, have been employed. \ac{nn}-based \ac{slr} systems often require large amounts of annotated training data to effectively learn the mapping between input gestures and their corresponding classes. With appropriate training, \ac{nn}s can achieve high recognition accuracy and handle variations in gestures.
 
-\subsection{Deep Neural Networks (DNN)}
 \paragraph{}
-Deep neural networks (DNN) have shown remarkable performance in SLR by leveraging multiple layers of neurons to extract hierarchical representations of sign language gestures. DNN architectures, such as deep feedforward networks, recurrent neural networks, and convolutional neural networks, have been employed in SLR to capture spatial and temporal dependencies in sign language data. Deep learning techniques, such as pre-training, transfer learning, and data augmentation, have also been applied to enhance the performance of DNN-based SLR systems.
+Other methods and techniques, such as decision trees, rule-based systems, and dynamic time warping, have also been explored in this context. Each method has its own strengths and limitations, and their suitability depends on the specific requirements of the task and available data.
 \paragraph{}
-Other methods and techniques, such as decision trees, rule-based systems, and dynamic time warping, have also been explored in the context of SLR. Each method has its own strengths and limitations, and their suitability depends on the specific requirements of the SLR task and available data.
+It is worth noting that the choice of \ac{slr} method often depends on the characteristics of the dataset, the complexity of the gestures, and the available computational resources. Researchers continue to explore and develop novel methods and hybrid approaches to improve the accuracy and efficiency of this systems.
 \paragraph{}
-It is worth noting that the choice of SLR method often depends on the characteristics of the dataset, the complexity of the sign language gestures, and the available computational resources. Researchers continue to explore and develop novel methods and hybrid approaches to improve the accuracy and efficiency of SLR systems.
-
+The following table \ref{tab:previous-works} presents a glimpse into previous works conducted in the field, showcasing different approaches employed and their corresponding results. These studies highlight the diverse range of methodologies utilized. The results achieved demonstrate the progress made in the field, with notable accuracies attained on various datasets. It is important to note that the studies mentioned here are representative examples, and there are numerous other significant contributions in the field.
+\begin{table}[h]
+	\centering
+	\label{tab:previous-works}
+	\caption{Previous Works in \ac{slr} and Results}
+	\begin{tabular}{|p{0.25\textwidth}|p{0.25\textwidth}|p{0.4\textwidth}|}
+		\hline
+		\textbf{Study} & \textbf{Approach} & \textbf{Results} \\
+		\hline
+		Sahu et al. (2017) \cite{sahu2017} & SVM with handcrafted features & Achieved an accuracy of 86.5\% on ASL recognition using a small image-based dataset. \\
+		\hline
+		Lee et al. (2018) \cite{lee2018} & CNN-based deep learning approach & Attained an accuracy of 94.2\% on finger-spelling recognition in ASL using a large video-based dataset. \\
+		\hline
+		Chen et al. (2019) \cite{chen2019} & HMM-based approach with kinematic features & Obtained an accuracy of 89.7\% on continuous sign language recognition using a sensor-based dataset captured with data gloves. \\
+		\hline
+		Kim et al. (2020) \cite{kim2020} & CRNN architecture with transfer learning & Achieved an accuracy of 96.3\% on sign language sentence recognition in K-RSL using a video-based dataset. \\
+		\hline
+	\end{tabular}
+\end{table}

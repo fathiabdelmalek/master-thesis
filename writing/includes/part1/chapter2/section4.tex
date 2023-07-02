@@ -1,7 +1,29 @@
-\section{Conclusion}
+\section{Previous works}
+\paragraph{}
+In this section, we provide an overview of some notable previous works in the field, highlighting their key contributions and approaches.
 
-Sign language recognition is a challenging task, but it has made significant progress in recent years. Deep learning methods have shown to be very effective for SLR, and they are likely to continue to improve the accuracy of SLR systems in the future.
+\subsection{Early Approaches}
+\paragraph{}
+Early works in \ac{slr} primarily focused on image-based recognition using handcrafted features and traditional \ac{ml} algorithms. Researchers employed techniques such as edge detection, contour analysis, and template matching to extract relevant features from the images. Classifiers like \ac{knn}, decision trees, and \ac{svm} were commonly used for classification. These approaches laid the foundation for SLR research and provided initial insights into the challenges and possibilities of recognizing sign language gestures.
 
-There are a number of challenges that still need to be addressed in SLR. One challenge is the variability of sign language production. Another challenge is the complexity of sign language grammar. Finally, there is a lack of large-scale annotated datasets for SLR.
+\subsection{Temporal Analysis}
+\paragraph{}
+As SLR progressed, researchers recognized the importance of temporal information in sign language gestures. Hidden Markov Models (HMMs) gained prominence in SLR due to their ability to model sequential data. HMM-based approaches captured the dynamic nature of sign language by considering the temporal dependencies between consecutive frames or observations. This led to improved recognition accuracy and the ability to handle continuous sign language sentences.
 
-Despite these challenges, there is a lot of potential for SLR. SLR systems can be used to improve communication between deaf and hearing people, and they can also be used for education and translation. As more research is conducted on SLR, it is likely that these systems will become more accurate and widely used.
+\subsection{Deep Learning Paradigm}
+\paragraph{}
+The advent of deep learning revolutionized the field of SLR. Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) emerged as powerful tools for feature learning and sequence modeling, respectively. CNNs enabled automatic feature extraction from sign language images, while RNNs effectively captured the temporal dependencies in sign language sequences. The combination of CNNs and RNNs, known as Convolutional Recurrent Neural Networks (CRNNs), further enhanced the performance of SLR systems.
+
+\subsection{Large-Scale Datasets}
+\paragraph{}
+The availability of large-scale sign language datasets played a crucial role in advancing SLR research. Datasets like the American Sign Language Lexicon Video Dataset (ASLLVD), the RWTH-BOSTON-104 Database, and the BosphorusSign22k provided extensive training and evaluation resources. These datasets facilitated the development of more accurate and robust SLR models by enabling researchers to train their algorithms on diverse sign language samples.
+
+\subsection{Sensor-Based Approaches}
+\paragraph{}
+In addition to image and video-based datasets, sensor-based approaches have gained attention in SLR. Data gloves, depth cameras, and inertial measurement units (IMUs) have been utilized to capture the movements and positions of the signer's hands and body. This fine-grained sensor data enables detailed analysis of sign language gestures and opens new possibilities for SLR research.
+
+\subsection{Challenges and Future Directions}
+\paragraph{}
+While significant progress has been made in SLR, several challenges remain. Variability in sign language gestures, limited availability of annotated datasets, and the need for real-time recognition are among the key challenges faced by researchers. Future directions in SLR include exploring multimodal approaches that combine visual and sensor-based data, addressing the domain adaptation problem to make SLR models more robust across different environments, and leveraging transfer learning techniques to reduce the reliance on large amounts of annotated data.
+\paragraph{}
+The works and advancements discussed in this section have collectively contributed to the development of accurate and efficient SLR systems. They serve as a foundation for ongoing research and inspire further innovations in the field of sign language recognition.
