@@ -1,0 +1,11 @@
+\acswitchoff 
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces Major sign languages of the world "\cite {state_of_the_art}\relax }}{5}{table.caption.6}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Standard datasets for \ac {sl} "\cite {state_of_the_art, ref-article, fingerspelling, wu2018american, baker2010sign, lu2008database, starner1995real, li2011framework}\relax }}{11}{table.caption.8}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Previous Works in \ac {slr} and Results\relax }}{13}{table.caption.9}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Summary of the ASL-Sensor-Dataglove Dataset\relax }}{21}{table.caption.17}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Selected Columns in the "ASL-Sensor-Dataglove" Dataset\relax }}{21}{table.caption.18}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Words classification report\relax }}{26}{table.caption.22}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Characters classification report\relax }}{27}{table.caption.23}%
