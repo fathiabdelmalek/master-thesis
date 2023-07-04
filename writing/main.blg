@@ -15,45 +15,50 @@ Warning--entry type for "chalenges" isn't style-file defined
 Warning--I didn't find a database entry for "5perc"
 Warning--empty publisher in sara
 Warning--empty year in sara
-You've used 18 entries,
+Too many commas in name 1 of "Athitsos, V., Wang, H. & Stefan, A" for entry 5995718
+while executing---line 969 of file ieeetr.bst
+Too many commas in name 1 of "Athitsos, V., Wang, H. & Stefan, A" for entry 5995718
+while executing---line 969 of file ieeetr.bst
+Warning--empty booktitle in 5995718
+You've used 19 entries,
             1876 wiz_defined-function locations,
-            559 strings with 6241 characters,
-and the built_in function-call counts, 3210 in all, are:
-= -- 289
-> -- 114
+            563 strings with 6341 characters,
+and the built_in function-call counts, 3550 in all, are:
+= -- 327
+> -- 118
 < -- 0
-+ -- 47
-- -- 29
-* -- 184
-:= -- 417
-add.period$ -- 15
-call.type$ -- 18
-change.case$ -- 17
++ -- 49
+- -- 30
+* -- 193
+:= -- 450
+add.period$ -- 16
+call.type$ -- 19
+change.case$ -- 18
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 162
-empty$ -- 394
-format.name$ -- 29
-if$ -- 822
+cite$ -- 22
+duplicate$ -- 192
+empty$ -- 426
+format.name$ -- 30
+if$ -- 916
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 10
-newline$ -- 63
-num.names$ -- 11
-pop$ -- 114
+int.to.str$ -- 19
+missing$ -- 11
+newline$ -- 66
+num.names$ -- 12
+pop$ -- 123
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 107
+skip$ -- 135
 stack$ -- 0
-substring$ -- 107
-swap$ -- 39
+substring$ -- 125
+swap$ -- 57
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 19
-width$ -- 20
-write$ -- 142
-(There was 1 error message)
+warning$ -- 3
+while$ -- 21
+width$ -- 21
+write$ -- 150
+(There were 3 error messages)
