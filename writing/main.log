@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.5.7)  5 JUL 2023 00:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.5.7)  5 JUL 2023 15:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -394,6 +394,16 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@olf=\skip62
 \f@nch@O@orf=\skip63
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen177
+\ar@mcellbox=\box55
+\extrarowheight=\dimen178
+\NC@list=\toks26
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box56
+)
 \c@g@acro@sl@int=\count302
 \c@g@acro@asp@int=\count303
 \c@g@acro@ajs@int=\count304
@@ -402,53 +412,56 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \c@g@acro@bsl@int=\count307
 \c@g@acro@jsl@int=\count308
 \c@g@acro@slr@int=\count309
-\c@g@acro@ai@int=\count310
-\c@g@acro@ml@int=\count311
-\c@g@acro@knn@int=\count312
-\c@g@acro@dtw@int=\count313
-\c@g@acro@hsbn@int=\count314
-\c@g@acro@dl@int=\count315
-\c@g@acro@nn@int=\count316
-\c@g@acro@ann@int=\count317
-\c@g@acro@mlp@int=\count318
-\c@g@acro@dnn@int=\count319
-\c@g@acro@cnn@int=\count320
-\c@g@acro@rnn@int=\count321
-\c@g@acro@lstm@int=\count322
-\c@g@acro@svm@int=\count323
-\c@g@acro@hmm@int=\count324
-\c@g@acro@nlp@int=\count325
-\c@g@acro@crf@int=\count326
-\c@g@acro@vr@int=\count327
-\c@g@acro@ar@int=\count328
-\c@g@acro@imu@int=\count329
-\c@g@acro@mems@int=\count330
-\c@g@acro@dmp@int=\count331
-\c@g@acro@soc@int=\count332
-\c@g@acro@iot@int=\count333
+\c@g@acro@slt@int=\count310
+\c@g@acro@ai@int=\count311
+\c@g@acro@ml@int=\count312
+\c@g@acro@knn@int=\count313
+\c@g@acro@dtw@int=\count314
+\c@g@acro@hsbn@int=\count315
+\c@g@acro@dl@int=\count316
+\c@g@acro@nn@int=\count317
+\c@g@acro@ann@int=\count318
+\c@g@acro@mlp@int=\count319
+\c@g@acro@dnn@int=\count320
+\c@g@acro@cnn@int=\count321
+\c@g@acro@tcn@int=\count322
+\c@g@acro@ctc@int=\count323
+\c@g@acro@rnn@int=\count324
+\c@g@acro@lstm@int=\count325
+\c@g@acro@svm@int=\count326
+\c@g@acro@hmm@int=\count327
+\c@g@acro@nlp@int=\count328
+\c@g@acro@crf@int=\count329
+\c@g@acro@vr@int=\count330
+\c@g@acro@ar@int=\count331
+\c@g@acro@imu@int=\count332
+\c@g@acro@mems@int=\count333
+\c@g@acro@dmp@int=\count334
+\c@g@acro@soc@int=\count335
+\c@g@acro@iot@int=\count336
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 159.
+h' as default language. on input line 173.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -486,17 +499,17 @@ LaTeX Font Info:    ... okay on input line 159.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count334
-\scratchdimen=\dimen177
-\scratchbox=\box55
-\nofMPsegments=\count335
-\nofMParguments=\count336
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count337
-\MPscratchDim=\dimen178
-\MPnumerator=\count338
-\makeMPintoPDFobject=\count339
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count337
+\scratchdimen=\dimen179
+\scratchbox=\box57
+\nofMPsegments=\count338
+\nofMParguments=\count339
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count340
+\MPscratchDim=\dimen180
+\MPnumerator=\count341
+\makeMPintoPDFobject=\count342
+\everyMPtoPDFconversion=\toks28
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -506,7 +519,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 159.
+Package hyperref Info: Link coloring OFF on input line 173.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
@@ -519,7 +532,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 159.
+or `english'. on input line 173.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./includes/title.tex
@@ -593,7 +606,15 @@ been already used, duplicate ignored
 l.14 \end{abstract}
                     [1
 
-]) (./includes/general-introduction.tex
+]) (./includes/acknowledgements.tex)
+pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.196 	\clearpage
+                  [2
+
+] (./includes/general-introduction.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -607,7 +628,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.185 	\clearpage
+l.201 	\clearpage
                   [2] (./includes/part1.tex [3
 
 
@@ -621,14 +642,14 @@ Chapter 1.
 LaTeX Warning: Citation `5perc' on page 5 undefined on input line 10.
 
 [5]
-<images/AlgerianSignLanguage.jpg, id=379, 337.26pt x 377.41pt>
+<images/AlgerianSignLanguage.jpg, id=384, 337.26pt x 377.41pt>
 File: images/AlgerianSignLanguage.jpg Graphic file (type jpg)
 <use images/AlgerianSignLanguage.jpg>
-Package pdftex.def Info: images/AlgerianSignLanguage.jpg  used on input line 54
+Package pdftex.def Info: images/AlgerianSignLanguage.jpg  used on input line 56
 .
 (pdftex.def)             Requested size: 362.37569pt x 405.52356pt.
 ) (./includes/part1/chapter1/section3.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1817) has occurred while \output is active []
 
  [6 <./images/AlgerianSignLanguage.jpg>] [7]) (./includes/part1/chapter1/sectio
 n4.tex
@@ -646,22 +667,22 @@ Chapter 2.
 
 ]
 Underfull \hbox (badness 7944) in paragraph at lines 26--26
-[]\OT1/cmr/m/n/10 American Sign Lan-guage Lin-guis-tic Re-search
+[]|\OT1/cmr/m/n/10 American Sign Lan-guage Lin-guis-tic Re-search
  []
 
 ) (./includes/part1/chapter2/section3.tex [11]
-Underfull \hbox (badness 2409) in paragraph at lines 35--35
-[]\OT1/cmr/m/n/10 Lifeprint Fin-gure-spell
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]|\OT1/cmr/m/n/10 Pu, J., et al.
  []
 
 
-Underfull \hbox (badness 3302) in paragraph at lines 37--37
-[]\OT1/cmr/m/n/10 Athitsos et al.
+Underfull \hbox (badness 1466) in paragraph at lines 37--37
+[]|\OT1/cmr/m/n/10 Guo Dan, et al.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-[]\OT1/cmr/m/n/10 BoostMap em-
+Overfull \hbox (8.0391pt too wide) in paragraph at lines 31--42
+ [][] 
  []
 
 ) (./includes/part1/chapter2/section4.tex [12])
@@ -673,29 +694,29 @@ Chapter 3.
 (./includes/part2/section1.tex [15
 
 ]) (./includes/part2/section2.tex [16]
-<images/prototype.png, id=453, 366.36874pt x 200.75pt>
+<images/prototype.png, id=462, 366.36874pt x 200.75pt>
 File: images/prototype.png Graphic file (type png)
 <use images/prototype.png>
 Package pdftex.def Info: images/prototype.png  used on input line 18.
 (pdftex.def)             Requested size: 362.37569pt x 198.57462pt.
-<images/esp32.jpg, id=455, 1505.625pt x 1200.485pt>
+<images/esp32.jpg, id=464, 1505.625pt x 1200.485pt>
 File: images/esp32.jpg Graphic file (type jpg)
 <use images/esp32.jpg>
 Package pdftex.def Info: images/esp32.jpg  used on input line 27.
 (pdftex.def)             Requested size: 271.7835pt x 216.70079pt.
-<images/flex-sensor.jpg, id=457, 973.6375pt x 730.73pt>
-File: images/flex-sensor.jpg Graphic file (type jpg)
-<use images/flex-sensor.jpg>
-Package pdftex.def Info: images/flex-sensor.jpg  used on input line 36.
-(pdftex.def)             Requested size: 271.7835pt x 203.97859pt.
+<images/flex-sensor.png, id=466, 579.16376pt x 434.62375pt>
+File: images/flex-sensor.png Graphic file (type png)
+<use images/flex-sensor.png>
+Package pdftex.def Info: images/flex-sensor.png  used on input line 36.
+(pdftex.def)             Requested size: 271.7835pt x 203.95485pt.
 
 [17 <./images/prototype.png> <./images/esp32.jpg>]
-<images/flex-cases.png, id=465, 819.06pt x 321.2pt>
+<images/flex-cases.png, id=474, 819.06pt x 321.2pt>
 File: images/flex-cases.png Graphic file (type png)
 <use images/flex-cases.png>
 Package pdftex.def Info: images/flex-cases.png  used on input line 44.
 (pdftex.def)             Requested size: 271.7835pt x 106.58446pt.
-<images/flex-pinout.png, id=468, 1707.37875pt x 831.105pt>
+<images/flex-pinout.png, id=477, 1707.37875pt x 831.105pt>
 File: images/flex-pinout.png Graphic file (type png)
 <use images/flex-pinout.png>
 Package pdftex.def Info: images/flex-pinout.png  used on input line 52.
@@ -704,13 +725,13 @@ Package pdftex.def Info: images/flex-pinout.png  used on input line 52.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/mpu6050.jpg, id=470, 642.4pt x 481.8pt>
-File: images/mpu6050.jpg Graphic file (type jpg)
-<use images/mpu6050.jpg>
-Package pdftex.def Info: images/mpu6050.jpg  used on input line 61.
-(pdftex.def)             Requested size: 271.7835pt x 203.83965pt.
-[18 <./images/flex-sensor.jpg> <./images/flex-cases.png>]
-<images/mpu6050-pinout.jpg, id=476, 451.6875pt x 237.88875pt>
+<images/mpu6050.png, id=479, 579.16376pt x 434.62375pt>
+File: images/mpu6050.png Graphic file (type png)
+<use images/mpu6050.png>
+Package pdftex.def Info: images/mpu6050.png  used on input line 61.
+(pdftex.def)             Requested size: 271.7835pt x 203.95485pt.
+[18 <./images/flex-sensor.png> <./images/flex-cases.png>]
+<images/mpu6050-pinout.jpg, id=486, 451.6875pt x 237.88875pt>
 File: images/mpu6050-pinout.jpg Graphic file (type jpg)
 <use images/mpu6050-pinout.jpg>
 Package pdftex.def Info: images/mpu6050-pinout.jpg  used on input line 69.
@@ -720,24 +741,24 @@ Package pdftex.def Info: images/mpu6050-pinout.jpg  used on input line 69.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19 <./images/flex-pinout.png> <./images/mpu6050.jpg>])
+[19 <./images/flex-pinout.png> <./images/mpu6050.png>])
 (./includes/part2/section4.tex [20 <./images/mpu6050-pinout.jpg>] [21]
-<images/model_words.png, id=496, 226.8475pt x 486.81876pt>
+<images/model_words.png, id=507, 226.8475pt x 486.81876pt>
 File: images/model_words.png Graphic file (type png)
 <use images/model_words.png>
 Package pdftex.def Info: images/model_words.png  used on input line 21.
 (pdftex.def)             Requested size: 90.5922pt x 194.41206pt.
-<images/model_characters.png, id=497, 226.8475pt x 486.81876pt>
+<images/model_characters.png, id=508, 226.8475pt x 486.81876pt>
 File: images/model_characters.png Graphic file (type png)
 <use images/model_characters.png>
 Package pdftex.def Info: images/model_characters.png  used on input line 26.
 (pdftex.def)             Requested size: 90.5922pt x 194.41206pt.
-<images/tf_model_words.png, id=499, 255.95625pt x 579.16376pt>
+<images/tf_model_words.png, id=510, 255.95625pt x 579.16376pt>
 File: images/tf_model_words.png Graphic file (type png)
 <use images/tf_model_words.png>
 Package pdftex.def Info: images/tf_model_words.png  used on input line 38.
 (pdftex.def)             Requested size: 90.5922pt x 204.98154pt.
-<images/tf_model_characters.png, id=500, 255.95625pt x 579.16376pt>
+<images/tf_model_characters.png, id=511, 255.95625pt x 579.16376pt>
 File: images/tf_model_characters.png Graphic file (type png)
 <use images/tf_model_characters.png>
 Package pdftex.def Info: images/tf_model_characters.png  used on input line 43.
@@ -760,13 +781,13 @@ LaTeX Warning: Reference `fig:words_classification_report' on page 25 undefined
  on input line 10.
 
 [25]
-<images/confusion_matrix_words.png, id=545, 581.7735pt x 638.8668pt>
+<images/confusion_matrix_words.png, id=556, 581.7735pt x 638.8668pt>
 File: images/confusion_matrix_words.png Graphic file (type png)
 <use images/confusion_matrix_words.png>
 Package pdftex.def Info: images/confusion_matrix_words.png  used on input line 
 28.
 (pdftex.def)             Requested size: 271.7835pt x 298.46399pt.
-<images/confusion_matrix_characters.png, id=546, 581.7735pt x 602.0091pt>
+<images/confusion_matrix_characters.png, id=557, 581.7735pt x 602.0091pt>
 File: images/confusion_matrix_characters.png Graphic file (type png)
 <use images/confusion_matrix_characters.png>
 Package pdftex.def Info: images/confusion_matrix_characters.png  used on input 
@@ -811,7 +832,7 @@ s : / / www . tutorialspoint . com / esp32 _ for _ iot /
 
 
 ]
-Underfull \hbox (badness 2334) in paragraph at lines 69--71
+Underfull \hbox (badness 2334) in paragraph at lines 74--76
 []\OT1/cmr/m/n/10 ``Algerian sign lan-guage - wikipedia.''  []$\OT1/cmtt/m/n/10
  https : / / en . wikipedia . org / wiki / Algerian _ Sign _
  []
@@ -827,13 +848,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 78BCD9D8A48D0C9F5901E3D7D2ECD0CC;7375.
  ) 
 Here is how much of TeX's memory you used:
- 19407 strings out of 478126
- 426939 string characters out of 5842811
- 1880793 words of memory out of 6000000
- 39064 multiletter control sequences out of 15000+600000
- 530221 words of font info for 92 fonts, out of 8000000 for 9000
+ 19762 strings out of 478126
+ 439422 string characters out of 5842811
+ 1875793 words of memory out of 6000000
+ 39411 multiletter control sequences out of 15000+600000
+ 531125 words of font info for 95 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,12n,84p,1186b,604s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,84p,1186b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/us
 r/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texli
@@ -850,10 +871,10 @@ msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (41 pages, 2341997 bytes).
+Output written on main.pdf (42 pages, 2479254 bytes).
 PDF statistics:
- 689 PDF objects out of 1000 (max. 8388607)
- 572 compressed objects within 6 object streams
- 133 named destinations out of 1000 (max. 500000)
+ 700 PDF objects out of 1000 (max. 8388607)
+ 579 compressed objects within 6 object streams
+ 135 named destinations out of 1000 (max. 500000)
  436 words of extra memory for PDF output out of 10000 (max. 10000000)
 

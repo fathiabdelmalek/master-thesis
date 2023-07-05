@@ -12,53 +12,58 @@ Warning--entry type for "teaching" isn't style-file defined
 --line 75 of file includes/references.bib
 Warning--entry type for "chalenges" isn't style-file defined
 --line 96 of file includes/references.bib
+You're missing a field name---line 108 of file includes/references.bib
+ : 
+ : % author={Kshirsagar, Ketki P. and Doye, Dharmpal},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 118 of file includes/references.bib
+ : 
+ : % author={Athitsos, V., Wang, H. & Stefan, A},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "5perc"
 Warning--empty publisher in sara
 Warning--empty year in sara
-Too many commas in name 1 of "Athitsos, V., Wang, H. & Stefan, A" for entry 5995718
-while executing---line 969 of file ieeetr.bst
-Too many commas in name 1 of "Athitsos, V., Wang, H. & Stefan, A" for entry 5995718
-while executing---line 969 of file ieeetr.bst
-Warning--empty booktitle in 5995718
-You've used 19 entries,
+You've used 21 entries,
             1876 wiz_defined-function locations,
-            563 strings with 6341 characters,
-and the built_in function-call counts, 3550 in all, are:
-= -- 327
-> -- 118
+            578 strings with 6896 characters,
+and the built_in function-call counts, 4127 in all, are:
+= -- 373
+> -- 159
 < -- 0
-+ -- 49
-- -- 30
-* -- 193
-:= -- 450
-add.period$ -- 16
-call.type$ -- 19
-change.case$ -- 18
++ -- 63
+- -- 42
+* -- 252
+:= -- 545
+add.period$ -- 18
+call.type$ -- 21
+change.case$ -- 20
 chr.to.int$ -- 0
-cite$ -- 22
-duplicate$ -- 192
-empty$ -- 426
-format.name$ -- 30
-if$ -- 916
+cite$ -- 23
+duplicate$ -- 211
+empty$ -- 483
+format.name$ -- 42
+if$ -- 1040
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 11
-newline$ -- 66
-num.names$ -- 12
-pop$ -- 123
+int.to.str$ -- 21
+missing$ -- 13
+newline$ -- 72
+num.names$ -- 14
+pop$ -- 131
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 135
+skip$ -- 134
 stack$ -- 0
-substring$ -- 125
-swap$ -- 57
+substring$ -- 170
+swap$ -- 56
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 21
-width$ -- 21
-write$ -- 150
+warning$ -- 2
+while$ -- 29
+width$ -- 23
+write$ -- 169
 (There were 3 error messages)

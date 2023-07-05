@@ -19,7 +19,7 @@
 Fuzzy sets theory has been employed to handle the inherent ambiguity and uncertainty present in \ac{slr}. They allow for gradual membership of gestures in different classes, providing a more flexible and robust representation. Fuzzy logic-based systems often involve defining membership functions and fuzzy rules to capture the variability and imprecision of the gestures. These systems can handle variations in hand shape, movement, and position, improving the recognition accuracy.
 
 \paragraph{}
-Other methods and techniques, such as decision trees, rule-based systems, and \ac{dtw}, have also been explored in this context. Each method has its own strengths and limitations, and their suitability depends on the specific requirements of the task and available data.
+Other methods and techniques, such as decision trees, rule-based systems, and \ac{dtw}, \ac{tcn}, have also been explored in this context. Each method has its own strengths and limitations, and their suitability depends on the specific requirements of the task and available data.
 \paragraph{}
 It is worth noting that the choice of \ac{slr} method often depends on the characteristics of the dataset, the complexity of the gestures, and the available computational resources. Researchers continue to explore and develop novel methods and hybrid approaches to improve the accuracy and efficiency of this systems.
 \paragraph{}
@@ -28,14 +28,15 @@ The table \ref{tab:previous-works} presents a glimpse into the latest works cond
 	\centering
 	\caption{Previous Works in \ac{slr} and Results}
 	\label{tab:previous-works}
-	\begin{tabular}{|p{0.16\textwidth}|p{0.12\textwidth}|p{0.22\textwidth}|p{0.16\textwidth}|p{0.12\textwidth}|}
+	\begin{tabular}{|p{0.18\textwidth}|p{0.14\textwidth}|p{0.24\textwidth}|p{0.18\textwidth}|M{0.14\textwidth}|}
 		\hline
 		\textbf{Study} & \textbf{Sign lang} & \textbf{Dataset used} & \textbf{Approach} & \textbf{Results} \\
 		\hline
-		Kshirsagar et al. (2010) \cite{5656963} & ASL & Lifeprint Fingurespell Library & \ac{dtw} & 82.97\% \\
+		Pu, J., et al. (2017) \cite{fang2017deepasl} & ASL & Custom dataset & HB-RNN & more than 92\% accuracy	\\
 		\hline
-		Athitsos et al.  (2010) \cite{5995718}& ASL & ASLLCD & BoostMap embedding & 33.1\% \\
+		Guo Dan, et al. (2019) \cite{guo2019dense} & Various & Various &  \ac{tcn} & 44.7\% WER \\
 		\hline
-		Munib et al. & ASL
+		Renz et al. (2021) \cite{renz2021sign} & Various & Various & \ac{tcn} & - \\
+		\hline
 	\end{tabular}
 \end{table}

@@ -57,6 +57,11 @@ J.~Li, G.~Zhao, and M.~Pietikäinen, ``A framework for sign language
   recognition using sub-units,'' {\em Pattern Recognition Letters}, vol.~32,
   no.~8, pp.~1157--1163, 2011.
 
+\bibitem{ozdemir2020bosphorussign22k}
+O.~{\"O}zdemir, A.~A. K{\i}nd{\i}ro{\u{g}}lu, N.~C. Camg{\"o}z, and L.~Akarun,
+  ``Bosphorussign22k sign language recognition dataset,'' {\em arXiv preprint
+  arXiv:2004.01283}, 2020.
+
 \bibitem{ethnologue}
 ``Algerian sign language - ethnologue.''
 \newblock \url{https://www.ethnologue.com/25/language/asp/}.
@@ -75,14 +80,20 @@ S.~Lanesman, {\em Algerian Jewish Sign Language: its emergence and survival}.
 \bibitem{chalenges}
 H.~Abdelouafi, ``Challenges of deaf education in algeria.''
 
-\bibitem{5656963}
-K.~P. Kshirsagar and D.~Doye, ``Object based key frame selection for hand
-  gesture recognition,'' in {\em 2010 International Conference on Advances in
-  Recent Technologies in Communication and Computing}, pp.~181--185, 2010.
+\bibitem{renz2021sign}
+K.~Renz, N.~C. Stache, S.~Albanie, and G.~Varol, ``Sign language segmentation
+  with temporal convolutional networks,'' in {\em ICASSP 2021-2021 IEEE
+  International Conference on Acoustics, Speech and Signal Processing
+  (ICASSP)}, pp.~2135--2139, IEEE, 2021.
 
-\bibitem{5995718}
-W.~H. . S.~A. Athitsos, V., ``A database-based framework for gesture
-  recognition,'' p.~511–526, 2010.
+\bibitem{guo2019dense}
+D.~Guo, S.~Wang, Q.~Tian, and M.~Wang, ``Dense temporal convolution network for
+  sign language translation.,'' in {\em IJCAI}, pp.~744--750, 2019.
+
+\bibitem{fang2017deepasl}
+B.~Fang, J.~Co, and M.~Zhang, ``Deepasl: Enabling ubiquitous and non-intrusive
+  word and sentence-level sign language translation,'' in {\em Proceedings of
+  the 15th ACM conference on embedded network sensor systems}, pp.~1--13, 2017.
 
 \bibitem{mpu}
 ``Mpu6050-components101.''
