@@ -12,58 +12,48 @@ Warning--entry type for "teaching" isn't style-file defined
 --line 75 of file includes/references.bib
 Warning--entry type for "chalenges" isn't style-file defined
 --line 96 of file includes/references.bib
-You're missing a field name---line 108 of file includes/references.bib
- : 
- : % author={Kshirsagar, Ketki P. and Doye, Dharmpal},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 118 of file includes/references.bib
- : 
- : % author={Athitsos, V., Wang, H. & Stefan, A},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "5perc"
 Warning--empty publisher in sara
 Warning--empty year in sara
-You've used 21 entries,
+You've used 27 entries,
             1876 wiz_defined-function locations,
-            578 strings with 6896 characters,
-and the built_in function-call counts, 4127 in all, are:
-= -- 373
-> -- 159
+            615 strings with 8360 characters,
+and the built_in function-call counts, 6028 in all, are:
+= -- 560
+> -- 237
 < -- 0
-+ -- 63
-- -- 42
-* -- 252
-:= -- 545
-add.period$ -- 18
-call.type$ -- 21
-change.case$ -- 20
++ -- 91
+- -- 64
+* -- 386
+:= -- 802
+add.period$ -- 24
+call.type$ -- 27
+change.case$ -- 26
 chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 211
-empty$ -- 483
-format.name$ -- 42
-if$ -- 1040
+cite$ -- 29
+duplicate$ -- 318
+empty$ -- 659
+format.name$ -- 64
+if$ -- 1511
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 13
-newline$ -- 72
-num.names$ -- 14
-pop$ -- 131
+int.to.str$ -- 27
+missing$ -- 19
+newline$ -- 90
+num.names$ -- 20
+pop$ -- 155
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 134
+skip$ -- 213
 stack$ -- 0
-substring$ -- 170
-swap$ -- 56
+substring$ -- 290
+swap$ -- 104
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 29
-width$ -- 23
-write$ -- 169
-(There were 3 error messages)
+while$ -- 49
+width$ -- 29
+write$ -- 231
+(There was 1 error message)

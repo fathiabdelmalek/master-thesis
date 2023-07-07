@@ -80,20 +80,55 @@ S.~Lanesman, {\em Algerian Jewish Sign Language: its emergence and survival}.
 \bibitem{chalenges}
 H.~Abdelouafi, ``Challenges of deaf education in algeria.''
 
+\bibitem{mapari2016american}
+R.~B. Mapari and G.~Kharat, ``American static signs recognition using leap
+  motion sensor,'' in {\em Proceedings of the Second International Conference
+  on Information and Communication Technology for Competitive Strategies},
+  pp.~1--5, 2016.
+
+\bibitem{khelil2016hand}
+B.~Khelil, H.~Amiri, T.~Chen, F.~Kamm{\"u}ller, I.~Nemli, and C.~Probst, ``Hand
+  gesture recognition using leap motion controller for recognition of arabic
+  sign language,'' in {\em 3rd International conference ACECS}, vol.~16,
+  pp.~233--238, 2016.
+
+\bibitem{chong2018american}
+T.-W. Chong and B.-G. Lee, ``American sign language recognition using leap
+  motion controller with machine learning approach,'' {\em Sensors}, vol.~18,
+  no.~10, p.~3554, 2018.
+
+\bibitem{fang2017deepasl}
+B.~Fang, J.~Co, and M.~Zhang, ``Deepasl: Enabling ubiquitous and non-intrusive
+  word and sentence-level sign language translation,'' in {\em Proceedings of
+  the 15th ACM conference on embedded network sensor systems}, pp.~1--13, 2017.
+
+\bibitem{guo2019dense}
+D.~Guo, S.~Wang, Q.~Tian, and M.~Wang, ``Dense temporal convolution network for
+  sign language translation.,'' in {\em IJCAI}, pp.~744--750, 2019.
+
+\bibitem{yu2019exploration}
+Y.~Yu, X.~Chen, S.~Cao, X.~Zhang, and X.~Chen, ``Exploration of chinese sign
+  language recognition using wearable sensors based on deep belief net,'' {\em
+  IEEE journal of biomedical and health informatics}, vol.~24, no.~5,
+  pp.~1310--1320, 2019.
+
 \bibitem{renz2021sign}
 K.~Renz, N.~C. Stache, S.~Albanie, and G.~Varol, ``Sign language segmentation
   with temporal convolutional networks,'' in {\em ICASSP 2021-2021 IEEE
   International Conference on Acoustics, Speech and Signal Processing
   (ICASSP)}, pp.~2135--2139, IEEE, 2021.
 
-\bibitem{guo2019dense}
-D.~Guo, S.~Wang, Q.~Tian, and M.~Wang, ``Dense temporal convolution network for
-  sign language translation.,'' in {\em IJCAI}, pp.~744--750, 2019.
+\bibitem{faisal2021sensor}
+M.~A.~A. Faisal, F.~F. Abir, and M.~U. Ahmed, ``Sensor dataglove for real-time
+  static and dynamic hand gesture recognition,'' in {\em 2021 Joint 10th
+  International Conference on Informatics, Electronics \& Vision (ICIEV) and
+  2021 5th International Conference on Imaging, Vision \& Pattern Recognition
+  (icIVPR)}, pp.~1--7, IEEE, 2021.
 
-\bibitem{fang2017deepasl}
-B.~Fang, J.~Co, and M.~Zhang, ``Deepasl: Enabling ubiquitous and non-intrusive
-  word and sentence-level sign language translation,'' in {\em Proceedings of
-  the 15th ACM conference on embedded network sensor systems}, pp.~1--13, 2017.
+\bibitem{wen2021ai}
+F.~Wen, Z.~Zhang, T.~He, and C.~Lee, ``Ai enabled sign language recognition and
+  vr space bidirectional communication using triboelectric smart glove,'' {\em
+  Nature communications}, vol.~12, no.~1, p.~5378, 2021.
 
 \bibitem{mpu}
 ``Mpu6050-components101.''

@@ -3,13 +3,13 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Algerian Sign Language "\cite {asp_img}\relax }}{6}{figure.caption.7}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces TAKALEM Gloves components architecture\relax }}{17}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces ESP32 WROOM\relax }}{17}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Flex sensor\relax }}{18}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Flex sensor cases "\cite {flex}\relax }}{18}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Flex sensor pin out\relax }}{19}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces MPU6050\relax }}{19}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces MPU6050 pin out "\cite {mpu-pinout}\relax }}{20}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces The trained model\relax }}{22}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces The trained model after converted to tflite model\relax }}{23}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Confusion matrices\relax }}{28}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces TAKALEM Gloves components architecture\relax }}{18}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces ESP32 WROOM\relax }}{18}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Flex sensor\relax }}{19}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Flex sensor cases "\cite {flex}\relax }}{19}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Flex sensor pin out\relax }}{20}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces MPU6050\relax }}{20}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces MPU6050 pin out "\cite {mpu-pinout}\relax }}{21}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces The trained model\relax }}{23}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces The trained model after converted to tflite model\relax }}{24}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Confusion matrices\relax }}{29}{figure.caption.21}%

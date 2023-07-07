@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.5.7)  5 JUL 2023 15:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.5.7)  7 JUL 2023 23:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -665,58 +665,65 @@ Chapter 2.
 (./includes/part1/chapter2/section1.tex)
 (./includes/part1/chapter2/section2.tex [10
 
-]
-Underfull \hbox (badness 7944) in paragraph at lines 26--26
-[]|\OT1/cmr/m/n/10 American Sign Lan-guage Lin-guis-tic Re-search
- []
-
-) (./includes/part1/chapter2/section3.tex [11]
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-[]|\OT1/cmr/m/n/10 Pu, J., et al.
+])
+(./includes/part1/chapter2/section3.tex [11]
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+[]|\OT1/cmr/m/n/10 99.53% ac-cu-racy for
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 37--37
-[]|\OT1/cmr/m/n/10 Guo Dan, et al.
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+\OT1/cmr/m/n/10 static ges-tures and
  []
 
 
-Overfull \hbox (8.0391pt too wide) in paragraph at lines 31--42
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+[]|\OT1/cmr/m/n/10 97.35% ac-cu-racy for
+ []
+
+
+Underfull \hbox (badness 3019) in paragraph at lines 53--54
+\OT1/cmr/m/n/10 static and 84.42% for
+ []
+
+
+Overfull \hbox (40.94557pt too wide) in paragraph at lines 31--56
  [][] 
  []
 
 ) (./includes/part1/chapter2/section4.tex [12])
-(./includes/part1/chapter2/section5.tex))) [13] (./includes/part2.tex [14
+(./includes/part1/chapter2/section5.tex))) [13] [14] (./includes/part2.tex
+[15
 
 
 ]
 Chapter 3.
-(./includes/part2/section1.tex [15
+(./includes/part2/section1.tex [16
 
-]) (./includes/part2/section2.tex [16]
-<images/prototype.png, id=462, 366.36874pt x 200.75pt>
+]) (./includes/part2/section2.tex [17]
+<images/prototype.png, id=479, 366.36874pt x 200.75pt>
 File: images/prototype.png Graphic file (type png)
 <use images/prototype.png>
 Package pdftex.def Info: images/prototype.png  used on input line 18.
 (pdftex.def)             Requested size: 362.37569pt x 198.57462pt.
-<images/esp32.jpg, id=464, 1505.625pt x 1200.485pt>
+<images/esp32.jpg, id=481, 1505.625pt x 1200.485pt>
 File: images/esp32.jpg Graphic file (type jpg)
 <use images/esp32.jpg>
 Package pdftex.def Info: images/esp32.jpg  used on input line 27.
 (pdftex.def)             Requested size: 271.7835pt x 216.70079pt.
-<images/flex-sensor.png, id=466, 579.16376pt x 434.62375pt>
+<images/flex-sensor.png, id=483, 579.16376pt x 434.62375pt>
 File: images/flex-sensor.png Graphic file (type png)
 <use images/flex-sensor.png>
 Package pdftex.def Info: images/flex-sensor.png  used on input line 36.
 (pdftex.def)             Requested size: 271.7835pt x 203.95485pt.
 
-[17 <./images/prototype.png> <./images/esp32.jpg>]
-<images/flex-cases.png, id=474, 819.06pt x 321.2pt>
+[18 <./images/prototype.png> <./images/esp32.jpg>]
+<images/flex-cases.png, id=491, 819.06pt x 321.2pt>
 File: images/flex-cases.png Graphic file (type png)
 <use images/flex-cases.png>
 Package pdftex.def Info: images/flex-cases.png  used on input line 44.
 (pdftex.def)             Requested size: 271.7835pt x 106.58446pt.
-<images/flex-pinout.png, id=477, 1707.37875pt x 831.105pt>
+<images/flex-pinout.png, id=494, 1707.37875pt x 831.105pt>
 File: images/flex-pinout.png Graphic file (type png)
 <use images/flex-pinout.png>
 Package pdftex.def Info: images/flex-pinout.png  used on input line 52.
@@ -725,13 +732,13 @@ Package pdftex.def Info: images/flex-pinout.png  used on input line 52.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/mpu6050.png, id=479, 579.16376pt x 434.62375pt>
+<images/mpu6050.png, id=496, 579.16376pt x 434.62375pt>
 File: images/mpu6050.png Graphic file (type png)
 <use images/mpu6050.png>
 Package pdftex.def Info: images/mpu6050.png  used on input line 61.
 (pdftex.def)             Requested size: 271.7835pt x 203.95485pt.
-[18 <./images/flex-sensor.png> <./images/flex-cases.png>]
-<images/mpu6050-pinout.jpg, id=486, 451.6875pt x 237.88875pt>
+[19 <./images/flex-sensor.png> <./images/flex-cases.png>]
+<images/mpu6050-pinout.jpg, id=503, 451.6875pt x 237.88875pt>
 File: images/mpu6050-pinout.jpg Graphic file (type jpg)
 <use images/mpu6050-pinout.jpg>
 Package pdftex.def Info: images/mpu6050-pinout.jpg  used on input line 69.
@@ -741,24 +748,24 @@ Package pdftex.def Info: images/mpu6050-pinout.jpg  used on input line 69.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19 <./images/flex-pinout.png> <./images/mpu6050.png>])
-(./includes/part2/section4.tex [20 <./images/mpu6050-pinout.jpg>] [21]
-<images/model_words.png, id=507, 226.8475pt x 486.81876pt>
+[20 <./images/flex-pinout.png> <./images/mpu6050.png>])
+(./includes/part2/section4.tex [21 <./images/mpu6050-pinout.jpg>] [22]
+<images/model_words.png, id=524, 226.8475pt x 486.81876pt>
 File: images/model_words.png Graphic file (type png)
 <use images/model_words.png>
 Package pdftex.def Info: images/model_words.png  used on input line 21.
 (pdftex.def)             Requested size: 90.5922pt x 194.41206pt.
-<images/model_characters.png, id=508, 226.8475pt x 486.81876pt>
+<images/model_characters.png, id=525, 226.8475pt x 486.81876pt>
 File: images/model_characters.png Graphic file (type png)
 <use images/model_characters.png>
 Package pdftex.def Info: images/model_characters.png  used on input line 26.
 (pdftex.def)             Requested size: 90.5922pt x 194.41206pt.
-<images/tf_model_words.png, id=510, 255.95625pt x 579.16376pt>
+<images/tf_model_words.png, id=527, 255.95625pt x 579.16376pt>
 File: images/tf_model_words.png Graphic file (type png)
 <use images/tf_model_words.png>
 Package pdftex.def Info: images/tf_model_words.png  used on input line 38.
 (pdftex.def)             Requested size: 90.5922pt x 204.98154pt.
-<images/tf_model_characters.png, id=511, 255.95625pt x 579.16376pt>
+<images/tf_model_characters.png, id=528, 255.95625pt x 579.16376pt>
 File: images/tf_model_characters.png Graphic file (type png)
 <use images/tf_model_characters.png>
 Package pdftex.def Info: images/tf_model_characters.png  used on input line 43.
@@ -772,22 +779,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 2237) has occurred while \output is active []
 
- [22 <./images/model_words.png> <./images/model_characters.png>] [23 <./images/
+ [23 <./images/model_words.png> <./images/model_characters.png>] [24 <./images/
 tf_model_words.png> <./images/tf_model_characters.png>]) (./includes/part2/sect
 ion6.tex
-[24]
+[25]
 
-LaTeX Warning: Reference `fig:words_classification_report' on page 25 undefined
+LaTeX Warning: Reference `fig:words_classification_report' on page 26 undefined
  on input line 10.
 
-[25]
-<images/confusion_matrix_words.png, id=556, 581.7735pt x 638.8668pt>
+[26]
+<images/confusion_matrix_words.png, id=574, 581.7735pt x 638.8668pt>
 File: images/confusion_matrix_words.png Graphic file (type png)
 <use images/confusion_matrix_words.png>
 Package pdftex.def Info: images/confusion_matrix_words.png  used on input line 
 28.
 (pdftex.def)             Requested size: 271.7835pt x 298.46399pt.
-<images/confusion_matrix_characters.png, id=557, 581.7735pt x 602.0091pt>
+<images/confusion_matrix_characters.png, id=575, 581.7735pt x 602.0091pt>
 File: images/confusion_matrix_characters.png Graphic file (type png)
 <use images/confusion_matrix_characters.png>
 Package pdftex.def Info: images/confusion_matrix_characters.png  used on input 
@@ -800,8 +807,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[26])) [27] [28 <./images/confusion_matrix_words.png> <./images/confusion_matri
-x_characters.png>] (./includes/general-conclusion.tex) [29
+[27])) [28] [29 <./images/confusion_matrix_words.png> <./images/confusion_matri
+x_characters.png>] (./includes/general-conclusion.tex) [30
 
 
 ] (./main.bbl
@@ -828,7 +835,7 @@ Underfull \hbox (badness 6047) in paragraph at lines 14--17
 s : / / www . tutorialspoint . com / esp32 _ for _ iot /
  []
 
-[30
+[31
 
 
 ]
@@ -837,7 +844,7 @@ Underfull \hbox (badness 2334) in paragraph at lines 74--76
  https : / / en . wikipedia . org / wiki / Algerian _ Sign _
  []
 
-) [31] (./main.aux)
+[32]) [33] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -848,13 +855,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 78BCD9D8A48D0C9F5901E3D7D2ECD0CC;7375.
  ) 
 Here is how much of TeX's memory you used:
- 19762 strings out of 478126
- 439422 string characters out of 5842811
- 1875793 words of memory out of 6000000
- 39411 multiletter control sequences out of 15000+600000
- 531125 words of font info for 95 fonts, out of 8000000 for 9000
+ 19779 strings out of 478126
+ 439735 string characters out of 5842811
+ 1874793 words of memory out of 6000000
+ 39420 multiletter control sequences out of 15000+600000
+ 531127 words of font info for 95 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,12n,84p,1186b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,84p,1186b,608s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/us
 r/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texli
@@ -871,10 +878,10 @@ msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (42 pages, 2479254 bytes).
+Output written on main.pdf (44 pages, 2482613 bytes).
 PDF statistics:
- 700 PDF objects out of 1000 (max. 8388607)
- 579 compressed objects within 6 object streams
- 135 named destinations out of 1000 (max. 500000)
+ 723 PDF objects out of 1000 (max. 8388607)
+ 600 compressed objects within 6 object streams
+ 143 named destinations out of 1000 (max. 500000)
  436 words of extra memory for PDF output out of 10000 (max. 10000000)
 
