@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.5.7)  7 JUL 2023 23:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.5.7)  8 JUL 2023 15:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -440,28 +440,28 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \c@g@acro@soc@int=\count335
 \c@g@acro@iot@int=\count336
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 173.
+h' as default language. on input line 172.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -519,7 +519,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 173.
+Package hyperref Info: Link coloring OFF on input line 172.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
@@ -532,7 +532,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 173.
+or `english'. on input line 172.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./includes/title.tex
@@ -572,33 +572,10 @@ LaTeX Font Info:    No file T1LobsterTwo-LF.fd. on input line 33.
 LaTeX Font Warning: Font shape `T1/LobsterTwo-LF/bx/it' undefined
 (Font)              using `T1/cmr/m/n' instead on input line 33.
 
-[1]) (./main.toc [2
+[1]) (./includes/acknowledgements.tex) [2
 
 
-
-])
-\tf@toc=\write4
-\openout4 = `main.toc'.
-
- [3] (./main.lof)
-\tf@lof=\write5
-\openout5 = `main.lof'.
-
- [4
-
-
-] (./main.lot)
-\tf@lot=\write6
-\openout6 = `main.lot'.
-
- [5
-
-
-] [6
-
-
-] [7]
-(./includes/abstract.tex
+] (./includes/abstract_en.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -606,13 +583,36 @@ been already used, duplicate ignored
 l.14 \end{abstract}
                     [1
 
-]) (./includes/acknowledgements.tex)
+])
 pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.196 	\clearpage
+l.193 	\clearpage
                   [2
+
+
+] [3] (./main.toc [4
+
+
+])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [5] (./main.lof)
+\tf@lof=\write5
+\openout5 = `main.lof'.
+
+ [6
+
+
+] (./main.lot)
+\tf@lot=\write6
+\openout6 = `main.lot'.
+
+
+[7
+
 
 ] (./includes/general-introduction.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
@@ -628,7 +628,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.201 	\clearpage
+l.204 	\clearpage
                   [2] (./includes/part1.tex [3
 
 
@@ -666,32 +666,8 @@ Chapter 2.
 (./includes/part1/chapter2/section2.tex [10
 
 ])
-(./includes/part1/chapter2/section3.tex [11]
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-[]|\OT1/cmr/m/n/10 99.53% ac-cu-racy for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-\OT1/cmr/m/n/10 static ges-tures and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-[]|\OT1/cmr/m/n/10 97.35% ac-cu-racy for
- []
-
-
-Underfull \hbox (badness 3019) in paragraph at lines 53--54
-\OT1/cmr/m/n/10 static and 84.42% for
- []
-
-
-Overfull \hbox (40.94557pt too wide) in paragraph at lines 31--56
- [][] 
- []
-
-) (./includes/part1/chapter2/section4.tex [12])
+(./includes/part1/chapter2/section3.tex [11])
+(./includes/part1/chapter2/section4.tex [12])
 (./includes/part1/chapter2/section5.tex))) [13] [14] (./includes/part2.tex
 [15
 
@@ -855,10 +831,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 78BCD9D8A48D0C9F5901E3D7D2ECD0CC;7375.
  ) 
 Here is how much of TeX's memory you used:
- 19779 strings out of 478126
- 439735 string characters out of 5842811
- 1874793 words of memory out of 6000000
- 39420 multiletter control sequences out of 15000+600000
+ 19776 strings out of 478126
+ 439622 string characters out of 5842811
+ 1875793 words of memory out of 6000000
+ 39416 multiletter control sequences out of 15000+600000
  531127 words of font info for 95 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  72i,12n,84p,1186b,608s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -878,7 +854,7 @@ msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (44 pages, 2482613 bytes).
+Output written on main.pdf (44 pages, 2483364 bytes).
 PDF statistics:
  723 PDF objects out of 1000 (max. 8388607)
  600 compressed objects within 6 object streams

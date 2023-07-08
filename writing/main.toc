@@ -1,6 +1,6 @@
 \acswitchoff 
-\contentsline {paragraph}{}{i}{chapter*.4}%
-\contentsline {paragraph}{}{ii}{chapter*.4}%
+\contentsline {paragraph}{}{ii}{Doc-Start}%
+\contentsline {paragraph}{}{i}{Doc-Start}%
 \contentsline {chapter}{General Introduction}{1}{chapter*.4}%
 \contentsline {paragraph}{}{1}{chapter*.5}%
 \contentsline {paragraph}{}{1}{chapter*.5}%
@@ -151,9 +151,5 @@
 \contentsline {paragraph}{}{27}{subsection.3.6.2}%
 \contentsline {section}{\numberline {7}Conclusion}{27}{section.3.7}%
 \contentsline {paragraph}{}{27}{section.3.7}%
-\contentsline {paragraph}{}{27}{section.3.7}%
-\contentsline {paragraph}{}{27}{section.3.7}%
-\contentsline {paragraph}{}{28}{section.3.7}%
-\contentsline {paragraph}{}{28}{section.3.7}%
 \contentsline {chapter}{General Conclusion}{30}{section.3.7}%
 \contentsline {paragraph}{}{30}{chapter*.24}%

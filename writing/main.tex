@@ -28,7 +28,6 @@
 \author{Fathi Abdelmalek}
 \date{\today}
 
-
 \DeclareAcronym{sl}{
 	short={SL},
 	long={Sign language}
@@ -182,17 +181,21 @@
 	\pagenumbering{roman}
 	\input{includes/dedication.tex}
 	\clearpage
+	\input{includes/acknowledgements}
+	\clearpage
+	\input{includes/abstract_en.tex}
+	\clearpage
+	%\input{includes/abstract_ar.tex}
+	%\clearpage
+	%\input{includes/abstract_fr.tex}
+	%\clearpage
+	\printacronyms
+	\clearpage
 	\tableofcontents
 	\clearpage
 	\listoffigures
 	\clearpage
 	\listoftables
-	\clearpage
-	\printacronyms
-	\clearpage
-	\input{includes/abstract.tex}
-	\clearpage
-	\input{includes/acknowledgements}
 	\clearpage
 	\pagenumbering{arabic}
 	\pagestyle{fancy}
