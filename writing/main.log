@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.5.7)  8 JUL 2023 15:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.5.7)  16 JUL 2023 22:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -404,6 +404,12 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \backup@length=\skip65
 \ar@cellbox=\box56
 )
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less.
+(fancyhdr)                Please consider using the `twoside' option on input l
+ine 17.
+
 \c@g@acro@sl@int=\count302
 \c@g@acro@asp@int=\count303
 \c@g@acro@ajs@int=\count304
@@ -441,7 +447,7 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \c@g@acro@iot@int=\count336
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 172.
- (./main.aux)
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 172.
@@ -470,7 +476,7 @@ LaTeX Font Info:    ... okay on input line 172.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
+* modes: 
 * h-part:(L,W,R)=(86.72377pt, 452.9679pt, 57.81621pt)
 * v-part:(T,H,B)=(86.72377pt, 700.50687pt, 57.81621pt)
 * \paperwidth=597.50787pt
@@ -478,13 +484,13 @@ LaTeX Font Info:    ... okay on input line 172.
 * \textwidth=452.9679pt
 * \textheight=700.50687pt
 * \oddsidemargin=14.45378pt
-* \evensidemargin=-14.45378pt
+* \evensidemargin=14.45378pt
 * \topmargin=-22.54622pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=121.0pt
+* \marginparwidth=65.0pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
@@ -492,8 +498,8 @@ LaTeX Font Info:    ... okay on input line 172.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -536,31 +542,51 @@ or `english'. on input line 172.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./includes/title.tex
-<./images/univ-tebessa.jpg, id=183, 183.68625pt x 277.035pt>
-File: ./images/univ-tebessa.jpg Graphic file (type jpg)
-<use ./images/univ-tebessa.jpg>
-Package pdftex.def Info: ./images/univ-tebessa.jpg  used on input line 6.
-(pdftex.def)             Requested size: 113.24197pt x 170.79611pt.
+<./images/incubator.png, id=183, 94.9365pt x 90.009pt>
+File: ./images/incubator.png Graphic file (type png)
+<use ./images/incubator.png>
+Package pdftex.def Info: ./images/incubator.png  used on input line 2.
+(pdftex.def)             Requested size: 67.94241pt x 64.4191pt.
+<./images/title.png, id=185, 522.95375pt x 129.48375pt>
+File: ./images/title.png Graphic file (type png)
+<use ./images/title.png>
+Package pdftex.def Info: ./images/title.png  used on input line 3.
+(pdftex.def)             Requested size: 294.42636pt x 72.90158pt.
+<./images/university.png, id=186, 81.7965pt x 113.004pt>
+File: ./images/university.png Graphic file (type png)
+<use ./images/university.png>
+Package pdftex.def Info: ./images/university.png  used on input line 4.
+(pdftex.def)             Requested size: 45.29955pt x 62.58347pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 10.
+(Font)              using `OT1/cmr/bx/n' instead on input line 13.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+Underfull \hbox (badness 10000) in paragraph at lines 38--41
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/univ-tebessa.jpg>
-]) [2]
-(./includes/dedication.tex
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/incubator.png> <.
+/images/title.png> <./images/university.png>])
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.180 	\newpage
+                [1] (./includes/dedication.tex
 Underfull \hbox (badness 10000) in paragraph at lines 13--13
 []\OT1/cmr/bx/n/14.4 Dedication|
  []
@@ -583,27 +609,41 @@ been already used, duplicate ignored
 l.14 \end{abstract}
                     [1
 
+]) (./includes/abstract_fr.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 \end{abstract}
+                    [1
+
 ])
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.193 	\clearpage
+                  [1
+
+
+]
 pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.193 	\clearpage
-                  [2
-
-
-] [3] (./main.toc [4
+                  [2] (./main.toc [3
 
 
 ])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [5] (./main.lof)
+ [4] (./main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [6
+ [5
 
 
 ] (./main.lot)
@@ -611,7 +651,7 @@ l.193 	\clearpage
 \openout6 = `main.lot'.
 
 
-[7
+[6
 
 
 ] (./includes/general-introduction.tex
@@ -623,13 +663,7 @@ l.15
       [1
 
 
-])
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.204 	\clearpage
-                  [2] (./includes/part1.tex [3
+]) [2] (./includes/part1.tex [3
 
 
 ] (./includes/part1/chapter1.tex
@@ -642,18 +676,14 @@ Chapter 1.
 LaTeX Warning: Citation `5perc' on page 5 undefined on input line 10.
 
 [5]
-<images/AlgerianSignLanguage.jpg, id=384, 337.26pt x 377.41pt>
+<images/AlgerianSignLanguage.jpg, id=393, 337.26pt x 377.41pt>
 File: images/AlgerianSignLanguage.jpg Graphic file (type jpg)
 <use images/AlgerianSignLanguage.jpg>
 Package pdftex.def Info: images/AlgerianSignLanguage.jpg  used on input line 56
 .
 (pdftex.def)             Requested size: 362.37569pt x 405.52356pt.
-) (./includes/part1/chapter1/section3.tex
-Underfull \vbox (badness 1817) has occurred while \output is active []
-
- [6 <./images/AlgerianSignLanguage.jpg>] [7]) (./includes/part1/chapter1/sectio
-n4.tex
-[8]
+) (./includes/part1/chapter1/section3.tex [6 <./images/AlgerianSignLanguage.jpg
+>] [7]) (./includes/part1/chapter1/section4.tex [8]
 Overfull \hbox (2.03188pt too wide) in paragraph at lines 13--14
 [] \OT1/cmr/m/n/10 More-over, DL[] mod-els of-ten de-mand sig-nif-i-cant com-pu
 -ta-tional re-sources, in-clud-ing high-performance
@@ -677,29 +707,29 @@ Chapter 3.
 (./includes/part2/section1.tex [16
 
 ]) (./includes/part2/section2.tex [17]
-<images/prototype.png, id=479, 366.36874pt x 200.75pt>
+<images/prototype.png, id=488, 366.36874pt x 200.75pt>
 File: images/prototype.png Graphic file (type png)
 <use images/prototype.png>
 Package pdftex.def Info: images/prototype.png  used on input line 18.
 (pdftex.def)             Requested size: 362.37569pt x 198.57462pt.
-<images/esp32.jpg, id=481, 1505.625pt x 1200.485pt>
+<images/esp32.jpg, id=489, 1505.625pt x 1200.485pt>
 File: images/esp32.jpg Graphic file (type jpg)
 <use images/esp32.jpg>
 Package pdftex.def Info: images/esp32.jpg  used on input line 27.
 (pdftex.def)             Requested size: 271.7835pt x 216.70079pt.
-<images/flex-sensor.png, id=483, 579.16376pt x 434.62375pt>
+<images/flex-sensor.png, id=491, 579.16376pt x 434.62375pt>
 File: images/flex-sensor.png Graphic file (type png)
 <use images/flex-sensor.png>
 Package pdftex.def Info: images/flex-sensor.png  used on input line 36.
 (pdftex.def)             Requested size: 271.7835pt x 203.95485pt.
 
 [18 <./images/prototype.png> <./images/esp32.jpg>]
-<images/flex-cases.png, id=491, 819.06pt x 321.2pt>
+<images/flex-cases.png, id=499, 819.06pt x 321.2pt>
 File: images/flex-cases.png Graphic file (type png)
 <use images/flex-cases.png>
 Package pdftex.def Info: images/flex-cases.png  used on input line 44.
 (pdftex.def)             Requested size: 271.7835pt x 106.58446pt.
-<images/flex-pinout.png, id=494, 1707.37875pt x 831.105pt>
+<images/flex-pinout.png, id=502, 1707.37875pt x 831.105pt>
 File: images/flex-pinout.png Graphic file (type png)
 <use images/flex-pinout.png>
 Package pdftex.def Info: images/flex-pinout.png  used on input line 52.
@@ -708,13 +738,13 @@ Package pdftex.def Info: images/flex-pinout.png  used on input line 52.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/mpu6050.png, id=496, 579.16376pt x 434.62375pt>
+<images/mpu6050.png, id=504, 579.16376pt x 434.62375pt>
 File: images/mpu6050.png Graphic file (type png)
 <use images/mpu6050.png>
 Package pdftex.def Info: images/mpu6050.png  used on input line 61.
 (pdftex.def)             Requested size: 271.7835pt x 203.95485pt.
 [19 <./images/flex-sensor.png> <./images/flex-cases.png>]
-<images/mpu6050-pinout.jpg, id=503, 451.6875pt x 237.88875pt>
+<images/mpu6050-pinout.jpg, id=512, 451.6875pt x 237.88875pt>
 File: images/mpu6050-pinout.jpg Graphic file (type jpg)
 <use images/mpu6050-pinout.jpg>
 Package pdftex.def Info: images/mpu6050-pinout.jpg  used on input line 69.
@@ -726,22 +756,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [20 <./images/flex-pinout.png> <./images/mpu6050.png>])
 (./includes/part2/section4.tex [21 <./images/mpu6050-pinout.jpg>] [22]
-<images/model_words.png, id=524, 226.8475pt x 486.81876pt>
+<images/model_words.png, id=532, 226.8475pt x 486.81876pt>
 File: images/model_words.png Graphic file (type png)
 <use images/model_words.png>
 Package pdftex.def Info: images/model_words.png  used on input line 21.
 (pdftex.def)             Requested size: 90.5922pt x 194.41206pt.
-<images/model_characters.png, id=525, 226.8475pt x 486.81876pt>
+<images/model_characters.png, id=533, 226.8475pt x 486.81876pt>
 File: images/model_characters.png Graphic file (type png)
 <use images/model_characters.png>
 Package pdftex.def Info: images/model_characters.png  used on input line 26.
 (pdftex.def)             Requested size: 90.5922pt x 194.41206pt.
-<images/tf_model_words.png, id=527, 255.95625pt x 579.16376pt>
+<images/tf_model_words.png, id=535, 255.95625pt x 579.16376pt>
 File: images/tf_model_words.png Graphic file (type png)
 <use images/tf_model_words.png>
 Package pdftex.def Info: images/tf_model_words.png  used on input line 38.
 (pdftex.def)             Requested size: 90.5922pt x 204.98154pt.
-<images/tf_model_characters.png, id=528, 255.95625pt x 579.16376pt>
+<images/tf_model_characters.png, id=536, 255.95625pt x 579.16376pt>
 File: images/tf_model_characters.png Graphic file (type png)
 <use images/tf_model_characters.png>
 Package pdftex.def Info: images/tf_model_characters.png  used on input line 43.
@@ -752,25 +782,21 @@ Package pdftex.def Info: images/tf_model_characters.png  used on input line 43.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 2237) has occurred while \output is active []
-
- [23 <./images/model_words.png> <./images/model_characters.png>] [24 <./images/
-tf_model_words.png> <./images/tf_model_characters.png>]) (./includes/part2/sect
-ion6.tex
-[25]
+[23 <./images/model_words.png> <./images/model_characters.png>] [24 <./images/t
+f_model_words.png> <./images/tf_model_characters.png>])
+(./includes/part2/section6.tex [25]
 
 LaTeX Warning: Reference `fig:words_classification_report' on page 26 undefined
  on input line 10.
 
 [26]
-<images/confusion_matrix_words.png, id=574, 581.7735pt x 638.8668pt>
+<images/confusion_matrix_words.png, id=582, 581.7735pt x 638.8668pt>
 File: images/confusion_matrix_words.png Graphic file (type png)
 <use images/confusion_matrix_words.png>
 Package pdftex.def Info: images/confusion_matrix_words.png  used on input line 
 28.
 (pdftex.def)             Requested size: 271.7835pt x 298.46399pt.
-<images/confusion_matrix_characters.png, id=575, 581.7735pt x 602.0091pt>
+<images/confusion_matrix_characters.png, id=583, 581.7735pt x 602.0091pt>
 File: images/confusion_matrix_characters.png Graphic file (type png)
 <use images/confusion_matrix_characters.png>
 Package pdftex.def Info: images/confusion_matrix_characters.png  used on input 
@@ -831,13 +857,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 78BCD9D8A48D0C9F5901E3D7D2ECD0CC;7375.
  ) 
 Here is how much of TeX's memory you used:
- 19776 strings out of 478126
- 439622 string characters out of 5842811
+ 19806 strings out of 478126
+ 440193 string characters out of 5842811
  1875793 words of memory out of 6000000
- 39416 multiletter control sequences out of 15000+600000
- 531127 words of font info for 95 fonts, out of 8000000 for 9000
+ 39441 multiletter control sequences out of 15000+600000
+ 532722 words of font info for 101 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,12n,84p,1186b,608s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,84p,1249b,608s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/us
 r/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texli
@@ -848,16 +874,17 @@ onts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (44 pages, 2483364 bytes).
+/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (45 pages, 2612015 bytes).
 PDF statistics:
- 723 PDF objects out of 1000 (max. 8388607)
- 600 compressed objects within 6 object streams
- 143 named destinations out of 1000 (max. 500000)
- 436 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 736 PDF objects out of 1000 (max. 8388607)
+ 604 compressed objects within 7 object streams
+ 142 named destinations out of 1000 (max. 500000)
+ 446 words of extra memory for PDF output out of 10000 (max. 10000000)
 

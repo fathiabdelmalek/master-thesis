@@ -1,6 +1,7 @@
 \acswitchoff 
 \contentsline {paragraph}{}{ii}{Doc-Start}%
 \contentsline {paragraph}{}{i}{Doc-Start}%
+\contentsline {paragraph}{}{i}{Doc-Start}%
 \contentsline {chapter}{General Introduction}{1}{chapter*.4}%
 \contentsline {paragraph}{}{1}{chapter*.5}%
 \contentsline {paragraph}{}{1}{chapter*.5}%
