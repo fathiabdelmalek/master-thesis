@@ -1,5 +1,37 @@
-\section{Challenges and Future Directions}
+\section{Synthesis}
 \paragraph{}
-While significant progress has been made in the field of \ac{slr}, several challenges remain. Variability in \ac{sl}s, limited availability of annotated datasets, and the need for real-time recognition are among the key challenges faced by researchers. Future directions in \ac{slr} include exploring multimodal approaches that combine visual and sensor-based data, addressing the domain adaptation problem to make \ac{slr} models more robust across different environments, and leveraging transfer learning techniques to reduce the reliance on large amounts of annotated data.
+Other methods and techniques, such as decision trees, rule-based systems, and \ac{dtw}, \ac{tcn}, have also been explored in this context. Each method has its own strengths and limitations, and their suitability depends on the specific requirements of the task and available data.
 \paragraph{}
-The works and advancements discussed in this section have collectively contributed to the development of accurate and efficient \ac{slr} systems. They serve as a foundation for ongoing research and inspire further innovations in the field.
+It is worth noting that the choice of \ac{slr} method often depends on the characteristics of the dataset, the complexity of the gestures, and the available computational resources. Researchers continue to explore and develop novel methods and hybrid approaches to improve the accuracy and efficiency of this systems.
+\paragraph{}
+The table \ref{tab:previous-works} presents a glimpse into the latest works conducted in the field, showcasing different approaches employed and their corresponding results. These studies highlight the diverse range of methodologies utilized. The results demonstrate the progress made in the field, with notable accuracies, each one was attained on custom dataset made by the researchers. It is important to note that the studies mentioned here are representative examples, and there are numerous other significant contributions in the field.
+\begin{table}[h]
+	\centering
+	\caption{Previous Works in \ac{slr} and Results}
+	\label{tab:previous-works}
+	\begin{tabular}{|p{0.26\textwidth}|p{0.18\textwidth}|p{0.18\textwidth}|p{0.26\textwidth}|}
+		\hline
+		\textbf{Study} & \textbf{Sign lang} & \textbf{Approach} & \textbf{Results} \\
+		\hline
+		Mapari et al. (2016)\cite{mapari2016american} & \ac{asl} & \ac{mlp} & 90\% accuracy \\
+		\hline
+		Khelil et al. (2016) \cite{khelil2016hand} & ArSL & \ac{svm} & 91.3\% accuracy \\
+		\hline
+		Chong et al. (2018) \cite{chong2018american} & Custom dataset & DNN & 88.79\% accuracy \\
+		\hline
+		Pu, J., et al. (2017) \cite{fang2017deepasl} & Custom dataset & HB-RNN & more than 92\% accuracy	\\
+		\hline
+		Guo Dan, et al. (2019) \cite{guo2019dense} & Various &  \ac{tcn} & 44.7\% WER \\
+		\hline
+		Yu et al (2019) \cite{yu2019exploration} & CSL & \ac{cnn} and \ac{lstm} & 95.1\% and 88.2\% accuracy (user-dependent) \\
+		\hline
+		Renz et al. (2021) \cite{renz2021sign} & Various & \ac{tcn} & - \\
+		\hline
+		Faisal et al (2021) \cite{faisal2021sensor} & \ac{asl} & KNN & 99.53\% accuracy for static gestures and 98.64\% for dynamic \\
+		\hline
+		Wen et al (2021) \cite{wen2021ai} & \ac{asl} &  \ac{cnn} & 88.67\% accuracy \\
+		\hline
+		Faisal et al (2022) \cite{ref-article} & \ac{asl} & \ac{cnn} & 97.35\% accuracy for static and 84.42\% for dynamic \\
+		\hline
+	\end{tabular}
+\end{table}

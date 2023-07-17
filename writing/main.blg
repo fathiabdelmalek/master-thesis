@@ -15,45 +15,45 @@ Warning--entry type for "chalenges" isn't style-file defined
 Warning--I didn't find a database entry for "5perc"
 Warning--empty publisher in sara
 Warning--empty year in sara
-You've used 27 entries,
+You've used 38 entries,
             1876 wiz_defined-function locations,
-            615 strings with 8360 characters,
-and the built_in function-call counts, 6028 in all, are:
-= -- 560
-> -- 237
+            676 strings with 10325 characters,
+and the built_in function-call counts, 9053 in all, are:
+= -- 865
+> -- 348
 < -- 0
-+ -- 91
-- -- 64
-* -- 386
-:= -- 802
-add.period$ -- 24
-call.type$ -- 27
-change.case$ -- 26
++ -- 132
+- -- 94
+* -- 572
+:= -- 1203
+add.period$ -- 38
+call.type$ -- 38
+change.case$ -- 34
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 318
-empty$ -- 659
-format.name$ -- 64
-if$ -- 1511
+cite$ -- 40
+duplicate$ -- 495
+empty$ -- 954
+format.name$ -- 94
+if$ -- 2274
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 19
-newline$ -- 90
-num.names$ -- 20
-pop$ -- 155
+int.to.str$ -- 38
+missing$ -- 33
+newline$ -- 126
+num.names$ -- 31
+pop$ -- 204
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 213
+skip$ -- 333
 stack$ -- 0
-substring$ -- 290
-swap$ -- 104
+substring$ -- 470
+swap$ -- 181
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 49
-width$ -- 29
-write$ -- 231
+while$ -- 75
+width$ -- 40
+write$ -- 338
 (There was 1 error message)

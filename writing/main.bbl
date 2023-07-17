@@ -80,6 +80,60 @@ S.~Lanesman, {\em Algerian Jewish Sign Language: its emergence and survival}.
 \bibitem{chalenges}
 H.~Abdelouafi, ``Challenges of deaf education in algeria.''
 
+\bibitem{kumar2016sign}
+A.~Kumar, K.~Thankachan, and M.~M. Dominic, ``Sign language recognition,'' in
+  {\em 2016 3rd international conference on recent advances in information
+  technology (RAIT)}, pp.~422--428, IEEE, 2016.
+
+\bibitem{rastgoo2021sign}
+R.~Rastgoo, K.~Kiani, and S.~Escalera, ``Sign language recognition: A deep
+  survey,'' {\em Expert Systems with Applications}, vol.~164, p.~113794, 2021.
+
+\bibitem{bantupalli2018american}
+K.~Bantupalli and Y.~Xie, ``American sign language recognition using deep
+  learning and computer vision,'' in {\em 2018 IEEE International Conference on
+  Big Data (Big Data)}, pp.~4896--4899, IEEE, 2018.
+
+\bibitem{stewart1998sign}
+D.~A. Stewart, J.~Schein, and B.~Cartwright, ``Sign language interpreting:
+  Exploring its art and science,'' {\em Psychology}, vol.~71, p.~74, 1998.
+
+\bibitem{huang2018attention}
+J.~Huang, W.~Zhou, H.~Li, and W.~Li, ``Attention-based 3d-cnns for
+  large-vocabulary sign language recognition,'' {\em IEEE Transactions on
+  Circuits and Systems for Video Technology}, vol.~29, no.~9, pp.~2822--2832,
+  2018.
+
+\bibitem{jepsen2015sign}
+J.~B. Jepsen, G.~De~Clerck, S.~Lutalo-Kiingi, and W.~B. McGregor, {\em Sign
+  languages of the world: A comparative handbook}.
+\newblock Walter de Gruyter GmbH \& Co KG, 2015.
+
+\bibitem{semino2016routledge}
+E.~Semino and Z.~Demj{\'e}n, {\em The Routledge handbook of metaphor and
+  language}.
+\newblock Taylor \& Francis, 2016.
+
+\bibitem{azar2020trajectory}
+S.~G. Azar and H.~Seyedarabi, ``Trajectory-based recognition of dynamic persian
+  sign language using hidden markov model,'' {\em Computer Speech \& Language},
+  vol.~61, p.~101053, 2020.
+
+\bibitem{graves2013speech}
+A.~Graves, A.-r. Mohamed, and G.~Hinton, ``Speech recognition with deep
+  recurrent neural networks,'' in {\em 2013 IEEE international conference on
+  acoustics, speech and signal processing}, pp.~6645--6649, Ieee, 2013.
+
+\bibitem{vapnik1996support}
+V.~Vapnik, S.~Golowich, and A.~Smola, ``Support vector method for function
+  approximation, regression estimation and signal processing,'' {\em Advances
+  in neural information processing systems}, vol.~9, 1996.
+
+\bibitem{bezdek2013pattern}
+J.~C. Bezdek, {\em Pattern recognition with fuzzy objective function
+  algorithms}.
+\newblock Springer Science \& Business Media, 2013.
+
 \bibitem{mapari2016american}
 R.~B. Mapari and G.~Kharat, ``American static signs recognition using leap
   motion sensor,'' in {\em Proceedings of the Second International Conference

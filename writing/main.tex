@@ -1,7 +1,8 @@
-\documentclass[]{report}
+\documentclass{report}
 \usepackage[a4paper,left=1.2in,right=0.8in,top=1.2in,bottom=0.8in]{geometry}
 \linespread{1.5}
 \usepackage{graphicx}
+\usepackage{adjustbox}
 \usepackage{hyperref}
 \usepackage{inputenc}
 \usepackage{acro}
@@ -172,7 +173,9 @@
 \begin{document}
 	\pagestyle{plain}
 	\makeatletter
+	\newgeometry{left=0.6in,right=0.6in,top=0.6in,bottom=0.6in}
 	\input{includes/title.tex}
+	\restoregeometry
 	\makeatother
 	\newpage
 	\thispagestyle{empty}
@@ -185,8 +188,8 @@
 	\clearpage
 	\input{includes/abstract_en.tex}
 	\clearpage
-	%\input{includes/abstract_ar.tex}
-	%\clearpage
+	\input{includes/abstract_ar.tex}
+	\clearpage
 	\input{includes/abstract_fr.tex}
 	\clearpage
 	\printacronyms
