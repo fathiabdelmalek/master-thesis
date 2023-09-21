@@ -3,6 +3,8 @@
 #include "ModelInterpreter.h"
 #include "models.h"
 
+#define led 2
+
 String words_labels[] = {"bad", "deaf", "fine", "good", "goodbye", "hello", 
 "hungry", "me", "no", "please", "sorry", "thankyou", "yes", "you"};
 String characters_labels[] = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", 
@@ -11,6 +13,7 @@ String characters_labels[] = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j",
 ModelInterpreter* mi;
 
 void setup() {
+  pinMode(led, OUTPUT);
   Serial.begin(115200);
   connectToMPU();
   // connectToWiFi();
@@ -19,6 +22,10 @@ void setup() {
 }
 
 void loop() {
+  digitalWrite(led, HIGH);
+  delay(500);
+  digitalWrite(led, LOW);
+  delay(500);
   Serial.println("Begin reading data");
   float** data = getData();
   Serial.println("Done reading data");
