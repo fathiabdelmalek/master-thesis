@@ -1,34 +1,19 @@
 #include <WiFi.h>
+#include <WiFiAP.h>
 #include <HTTPClient.h>
 
 #define WIFI_TIMEOUT 20000
-// #define SSID "idoom"
-// #define PASSWORD "0672631822f"
-// #define SERVER_URL "http://192.168.1.21:5000/"
-#define SSID "D-Link_DAP-1360"
-#define PASSWORD ""
-#define SERVER_URL "http://172.16.7.53:5000/"
+#define SSID "ESP32-Fathi"
+#define PASSWORD "fathi2001"
+#define SERVER_URL "http://192.168.4.2:5000/"
 
+WiFiServer server(80);
 
-void connectToWiFi() {
-  Serial.print("Connecting to WiFi");
-  WiFi.begin(SSID, PASSWORD);
-
-  unsigned long start_time = millis();
-
-  while ((WiFi.status() != WL_CONNECTED) && (millis() - start_time < WIFI_TIMEOUT)) {
-    delay(100);
-    Serial.print(".");
-  }
-  Serial.println();
-
-  if (WiFi.status() != WL_CONNECTED) {
-    Serial.println("Failed to connect to WiFi");
-    Serial.println(WiFi.status());
-    return;
-  }
-  Serial.println("Connected to WiFi");
-  Serial.println(WiFi.localIP());
+void createServer() {
+  WiFi.softAP(SSID, PASSWORD);
+  Serial.print("AP IP Address: ");
+  Serial.println(WiFi.softAPIP());
+  server.begin();
 }
 
 void sendJson(String word) {

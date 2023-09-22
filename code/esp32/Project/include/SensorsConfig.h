@@ -16,11 +16,13 @@ Adafruit_MPU6050 mpu;
 
 bool connectToMPU() {
   Wire.begin(21, 22);
+  Serial.print("Connect to MPU6050");
 
   if (!mpu.begin()) {
     Serial.println("Failed to find MPU6050 chip");
     while (1) {
       delay(10);
+      Serial.print(".");
     }
   }
 

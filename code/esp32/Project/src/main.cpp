@@ -1,5 +1,5 @@
 #include "SensorsConfig.h"
-// #include "ServerConfig.h"
+#include "ServerConfig.h"
 #include "ModelInterpreter.h"
 #include "models.h"
 
@@ -16,7 +16,7 @@ void setup() {
   pinMode(led, OUTPUT);
   Serial.begin(115200);
   connectToMPU();
-  // connectToWiFi();
+  createServer();
   mi = new ModelInterpreter(words_tflite);
   // mi = new ModelInterpreter(characters_tflite);
 }
@@ -33,14 +33,17 @@ void loop() {
   if (!mi->predict()) {
     Serial.println("Failed to predict");
     return;
-  }    
+  }
+
   String word = words_labels[mi->getPrediction()];
   Serial.print("Predicted word: ");
   Serial.println(word);
+  sendJson(word);
   // String character = characters_labels[mi->getPrediction()];
   // Serial.print("Predicted character: ");
   // Serial.println(character);
-  // sendJson(word);
+  // sendJson(character);
+
   for (int i = 0; i < 150; i++) {
     delete[] data[i];
   }
