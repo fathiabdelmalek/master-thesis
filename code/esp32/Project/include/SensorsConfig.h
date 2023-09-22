@@ -5,23 +5,26 @@
 #define MAX_ 1200
 #define MIN_ 4095
 
-#define FLEX1_PIN 32
-#define FLEX2_PIN 33
-#define FLEX3_PIN 34
-#define FLEX4_PIN 35
-#define FLEX5_PIN 36
+#define SDA 21
+#define SCL 22
+
+#define FLEX1_PIN 36
+#define FLEX2_PIN 34
+#define FLEX3_PIN 35
+#define FLEX4_PIN 32
+#define FLEX5_PIN 33
 
 Adafruit_MPU6050 mpu;
 
 
 bool connectToMPU() {
-  Wire.begin(21, 22);
-  Serial.print("Connect to MPU6050");
+  Wire.begin(SDA, SCL);
+  Serial.println("Connect to MPU6050");
 
   if (!mpu.begin()) {
     Serial.println("Failed to find MPU6050 chip");
     while (1) {
-      delay(10);
+      delay(200);
       Serial.print(".");
     }
   }
@@ -41,16 +44,11 @@ float** getData() {
     if (!mpu.getEvent(&a, &g, &temp)) {
       Serial.println("Error, can't read mpu6050 data");
     }
-    // data[i][0] = map(analogRead(FLEX1_PIN), MAX_, MIN_, 0, 90);
-    // data[i][1] = map(analogRead(FLEX2_PIN), MAX_, MIN_, 0, 90);
-    // data[i][2] = map(analogRead(FLEX3_PIN), MAX_, MIN_, 0, 90);
-    // data[i][3] = map(analogRead(FLEX4_PIN), MAX_, MIN_, 0, 90);
-    // data[i][4] = map(analogRead(FLEX5_PIN), MAX_, MIN_, 0, 90);
-    data[i][0] = 0;
-    data[i][1] = 0;
-    data[i][2] = 0;
-    data[i][3] = 0;
-    data[i][4] = 0;
+    data[i][0] = map(analogRead(FLEX1_PIN), MAX_, MIN_, 0, 90);
+    data[i][1] = map(analogRead(FLEX2_PIN), MAX_, MIN_, 0, 90);
+    data[i][2] = map(analogRead(FLEX3_PIN), MAX_, MIN_, 0, 90);
+    data[i][3] = map(analogRead(FLEX4_PIN), MAX_, MIN_, 0, 90);
+    data[i][4] = map(analogRead(FLEX5_PIN), MAX_, MIN_, 0, 90);
     data[i][5] = g.gyro.x;
     data[i][6] = g.gyro.y;
     data[i][7] = g.gyro.z;
