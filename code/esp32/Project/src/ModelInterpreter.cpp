@@ -5,7 +5,7 @@
 #include "tensorflow/lite/micro/micro_interpreter.h"
 #include "tensorflow/lite/schema/schema_generated.h"
 
-constexpr int kTensorArenaSize = 46200;
+constexpr int kTensorArenaSize = 50000;
 
 
 ModelInterpreter::ModelInterpreter(const void* buf) {
@@ -18,10 +18,11 @@ ModelInterpreter::ModelInterpreter(const void* buf) {
     return;
   }
 
-  resolver = new tflite::MicroMutableOpResolver<3>();
+  resolver = new tflite::MicroMutableOpResolver<4>();
+  resolver->AddUnidirectionalSequenceLSTM();
+  resolver->AddTanh();
   resolver->AddFullyConnected();
   resolver->AddSoftmax();
-  resolver->AddUnidirectionalSequenceLSTM();
 
   tensor_arena = (uint8_t *)malloc(kTensorArenaSize);
   if (!tensor_arena) {

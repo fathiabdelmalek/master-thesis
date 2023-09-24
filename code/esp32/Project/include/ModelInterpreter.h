@@ -18,7 +18,7 @@ private:
   const tflite::Model* model;
   tflite::ErrorReporter* error_reporter;
   tflite::MicroInterpreter* interpreter;
-  tflite::MicroMutableOpResolver<3>* resolver;
+  tflite::MicroMutableOpResolver<4>* resolver;
   TfLiteTensor* input;
   TfLiteTensor* output;
   bool predicted;
