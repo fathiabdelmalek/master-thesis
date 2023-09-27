@@ -13,7 +13,7 @@
 \contentsline {paragraph}{}{2}{chapter*.6}%
 \contentsline {paragraph}{}{2}{chapter*.6}%
 \contentsline {part}{I\hspace {1em}State of the art}{3}{part.1}%
-\contentsline {chapter}{\numberline {1}Sign languages and sign language recognition}{4}{chapter.1}%
+\contentsline {chapter}{\numberline {1}Sign languages recognition}{4}{chapter.1}%
 \contentsline {section}{\numberline {1}Introduction}{4}{section.1.1}%
 \contentsline {paragraph}{}{4}{section.1.1}%
 \contentsline {paragraph}{}{4}{section.1.1}%
@@ -21,7 +21,7 @@
 \contentsline {section}{\numberline {2}Sign languages}{4}{section.1.2}%
 \contentsline {paragraph}{}{4}{section.1.2}%
 \contentsline {paragraph}{}{4}{section.1.2}%
-\contentsline {paragraph}{}{5}{section.1.2}%
+\contentsline {paragraph}{}{4}{section.1.2}%
 \contentsline {subsection}{\numberline {2.1}Most sign languages used in the world}{5}{subsection.1.2.1}%
 \contentsline {paragraph}{}{5}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {2.2}Sign languages in Algeria}{5}{subsection.1.2.2}%
