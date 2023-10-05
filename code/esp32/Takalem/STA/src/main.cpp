@@ -1,4 +1,3 @@
-#include <Arduino.h>
 #include "ServerConfig.h"
 
 #define led 2
@@ -13,6 +12,6 @@ void loop() {
   digitalWrite(led, HIGH);
   delay(100);
   digitalWrite(led, LOW);
-  delay(100);
-  sendJson("Data");
+  delay(500);
+  // sendJson("Data");
 }

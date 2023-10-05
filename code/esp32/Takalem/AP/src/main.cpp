@@ -1,4 +1,3 @@
-#include <Arduino.h>
 #include "ServerConfig.h"
 
 #define led 2

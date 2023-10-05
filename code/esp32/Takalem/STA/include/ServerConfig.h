@@ -1,13 +1,14 @@
 #include <WiFi.h>
-#include <HTTPClient.h>
 #include <esp_now.h>
 
 #define WIFI_TIMEOUT 20000
 #define SSID "esp32"
 #define PASSWORD "12345678"
 
+uint8_t esp_address[] = {0x70, 0xB8, 0xF6, 0x5B, 0xFE, 0x44};
+
 void connectToWiFi() {
-  Serial.print("Connecting to WiFi");
+  Serial.print("\n[*] Connecting to WiFi");
   WiFi.begin(SSID, PASSWORD);
 
   unsigned long start_time = millis();
@@ -16,15 +17,16 @@ void connectToWiFi() {
     delay(100);
     Serial.print(".");
   }
-  Serial.println();
 
   if (WiFi.status() != WL_CONNECTED) {
-    Serial.println("Failed to connect to WiFi");
+    Serial.println("\n[-] Failed to connect to WiFi");
     Serial.println(WiFi.status());
     return;
   }
-  Serial.println("Connected to WiFi");
+  Serial.println("\n[+] Connected to WiFi");
   Serial.println(WiFi.localIP());
+  Serial.print("ESP MAC Address: ");
+  Serial.println(WiFi.macAddress());
 }
 
 void sendJson(String word) {
