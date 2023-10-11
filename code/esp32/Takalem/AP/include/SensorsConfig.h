@@ -36,32 +36,22 @@ bool connectToMPU() {
   return true;
 }
 
-float** getData() {
-  float** data = new float*[150];
-  for (int i = 0; i < 150; i++) {
-    data[i] = new float[11];
-    sensors_event_t a, g, temp;
-    if (!mpu.getEvent(&a, &g, &temp)) {
-      Serial.println("Error, can't read mpu6050 data");
-    }
-    data[i][0] = map(analogRead(FLEX1_PIN), MAX_, MIN_, 0, 90);
-    data[i][1] = map(analogRead(FLEX2_PIN), MAX_, MIN_, 0, 90);
-    data[i][2] = map(analogRead(FLEX3_PIN), MAX_, MIN_, 0, 90);
-    data[i][3] = map(analogRead(FLEX4_PIN), MAX_, MIN_, 0, 90);
-    data[i][4] = map(analogRead(FLEX5_PIN), MAX_, MIN_, 0, 90);
-    // data[i][5] = g.gyro.x;
-    // data[i][6] = g.gyro.y;
-    // data[i][7] = g.gyro.z;
-    // data[i][8] = a.acceleration.x;
-    // data[i][9] = a.acceleration.y;
-    // data[i][10] = a.acceleration.z;
-    data[i][5] = 0.1;
-    data[i][6] = 0.9;
-    data[i][7] = 0.1;
-    data[i][8] = 0.9;
-    data[i][9] = 0.2;
-    data[i][10] = 0.2;
-    delay(10);
+float* getData() {
+  float* data = new float[11];
+  sensors_event_t a, g, temp;
+  if (!mpu.getEvent(&a, &g, &temp)) {
+    Serial.println("Error, can't read mpu6050 data");
   }
+  data[0] = map(analogRead(FLEX1_PIN), MAX_, MIN_, 0, 90);
+  data[1] = map(analogRead(FLEX2_PIN), MAX_, MIN_, 0, 90);
+  data[2] = map(analogRead(FLEX3_PIN), MAX_, MIN_, 0, 90);
+  data[3] = map(analogRead(FLEX4_PIN), MAX_, MIN_, 0, 90);
+  data[4] = map(analogRead(FLEX5_PIN), MAX_, MIN_, 0, 90);
+  data[5] = g.gyro.x;
+  data[6] = g.gyro.y;
+  data[7] = g.gyro.z;
+  data[8] = a.acceleration.x;
+  data[9] = a.acceleration.y;
+  data[10] = a.acceleration.z;
   return data;
 }

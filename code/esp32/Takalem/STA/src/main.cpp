@@ -7,12 +7,7 @@ void setup() {
 }
 
 void loop() {
-  Serial.println("Begin reading data");
-  float** data = getData();
-  Serial.println("Done reading data");
+  float *data = getData();
   sendSensorData(data);
-
-
-  // sendData();
   delay(1000);
 }

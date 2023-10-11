@@ -18,27 +18,38 @@ void setup() {
 }
 
 void loop() {
-  updateDisplay();
-  delay(1000);
-  // Serial.println("Begin reading data");
-  // float** data = getData();
-  // Serial.println("Done reading data");
-  // mi->setInput(data);
-  // if (!mi->predict()) {
-  //   Serial.println("Failed to predict");
-  //   return;
-  // }
+  // updateDisplay();
 
-  // String word = words_labels[mi->getPrediction()];
-  // Serial.print("Predicted word: ");
-  // Serial.println(word);
+  Serial.println("Begin reading data");
+  float** self_data = new float*[150];
+  for (int i = 0; i < 150; i++) {
+    self_data[i] = getData();
+    delay(10);
+  }
+  float** received_data = new float*[150];
+  for (int i = 0; i < 150; i++) {
+    received_data[i] = getReceivedData();
+    delay(10);
+  }
+  Serial.println("Done reading data");
+  mi->setInput(received_data);
+  if (!mi->predict()) {
+    Serial.println("Failed to predict");
+    return;
+  }
+
+  String word = words_labels[mi->getPrediction()];
+  Serial.print("Predicted word: ");
+  Serial.println(word);
   
-  // // String character = characters_labels[mi->getPrediction()];
-  // // Serial.print("Predicted character: ");
-  // // Serial.println(character);
+  // String character = characters_labels[mi->getPrediction()];
+  // Serial.print("Predicted character: ");
+  // Serial.println(character);
 
-  // for (int i = 0; i < 150; i++) {
-  //   delete[] data[i];
-  // }
-  // delete[] data;
+  for (int i = 0; i < 150; i++) {
+    delete[] self_data[i];
+    delete[] received_data[i];
+  }
+  delete[] self_data;
+  delete[] received_data;
 }
