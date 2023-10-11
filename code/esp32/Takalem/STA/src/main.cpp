@@ -1,17 +1,18 @@
-#include "ServerConfig.h"
-
-#define led 2
+#include "STAConfig.h"
+#include "SensorsConfig.h"
 
 void setup() {
   Serial.begin(115200);
-  pinMode(led, OUTPUT);
-  connectToWiFi();
+  InitESPNow();
 }
 
 void loop() {
-  digitalWrite(led, HIGH);
-  delay(100);
-  digitalWrite(led, LOW);
-  delay(500);
-  // sendJson("Data");
+  Serial.println("Begin reading data");
+  float** data = getData();
+  Serial.println("Done reading data");
+  sendSensorData(data);
+
+
+  // sendData();
+  delay(1000);
 }
