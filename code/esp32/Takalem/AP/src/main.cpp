@@ -32,7 +32,8 @@ void loop() {
     delay(10);
   }
   Serial.println("Done reading data");
-  mi->setInput(received_data);
+  mi->setInput(self_data);
+  // mi->setInput(received_data);
   if (!mi->predict()) {
     Serial.println("Failed to predict");
     return;
@@ -41,7 +42,7 @@ void loop() {
   String word = words_labels[mi->getPrediction()];
   Serial.print("Predicted word: ");
   Serial.println(word);
-  
+
   // String character = characters_labels[mi->getPrediction()];
   // Serial.print("Predicted character: ");
   // Serial.println(character);
