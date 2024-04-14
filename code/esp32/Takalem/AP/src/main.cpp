@@ -1,3 +1,4 @@
+#include <Arduino.h>
 #include "APConfig.h"
 #include "SensorsConfig.h"
 #include "ModelInterpreter.h"
@@ -33,7 +34,7 @@ void loop() {
   }
   Serial.println("Done reading data");
   mi->setInput(self_data);
-  // mi->setInput(received_data);
+  // // mi->setInput(received_data);
   if (!mi->predict()) {
     Serial.println("Failed to predict");
     return;
